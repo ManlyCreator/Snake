@@ -1,0 +1,9 @@
+/home/rami/CProjects/LightingWebGL/cglm/build/CMakeFiles/cglm.dir
+/home/rami/CProjects/LightingWebGL/cglm/build/CMakeFiles/package.dir
+/home/rami/CProjects/LightingWebGL/cglm/build/CMakeFiles/package_source.dir
+/home/rami/CProjects/LightingWebGL/cglm/build/CMakeFiles/edit_cache.dir
+/home/rami/CProjects/LightingWebGL/cglm/build/CMakeFiles/rebuild_cache.dir
+/home/rami/CProjects/LightingWebGL/cglm/build/CMakeFiles/list_install_components.dir
+/home/rami/CProjects/LightingWebGL/cglm/build/CMakeFiles/install.dir
+/home/rami/CProjects/LightingWebGL/cglm/build/CMakeFiles/install/local.dir
+/home/rami/CProjects/LightingWebGL/cglm/build/CMakeFiles/install/strip.dir

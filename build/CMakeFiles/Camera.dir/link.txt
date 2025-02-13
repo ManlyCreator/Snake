@@ -1,0 +1,2 @@
+/home/rami/emsdk/upstream/emscripten/emar qc libCamera.a CMakeFiles/Camera.dir/src/camera.cpp.o
+/home/rami/emsdk/upstream/emscripten/emranlib libCamera.a

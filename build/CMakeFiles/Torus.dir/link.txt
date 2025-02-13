@@ -1,0 +1,2 @@
+/home/rami/emsdk/upstream/emscripten/emar qc libTorus.a CMakeFiles/Torus.dir/src/torus.cpp.o
+/home/rami/emsdk/upstream/emscripten/emranlib libTorus.a

@@ -1,0 +1,2 @@
+/home/rami/emsdk/upstream/emscripten/emar qc libCube.a CMakeFiles/Cube.dir/src/cube.cpp.o
+/home/rami/emsdk/upstream/emscripten/emranlib libCube.a
