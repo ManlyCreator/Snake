@@ -19,10 +19,10 @@ Torus torusInit(int rings, int stacks, float insideRadius, float ringRadius, vec
   torus.numNormals = 0;
   torus.numIndices = 0;
 
-  torus.vertices = malloc((rings + 1) * (stacks + 1) * 3 * sizeof(float));
-  torus.textureCoordinates = malloc((rings + 1) * (stacks + 1) * 2 * sizeof(float));
-  torus.normals = malloc((rings + 1) * (stacks + 1) * 3 * sizeof(float));
-  torus.indices = malloc(rings * stacks * 6 * sizeof(unsigned));
+  torus.vertices = new float[(rings + 1) * (stacks + 1) * 3 * sizeof(float)];
+  torus.textureCoordinates = new float[(rings + 1) * (stacks + 1) * 2 * sizeof(float)];
+  torus.normals = new float[(rings + 1) * (stacks + 1) * 3 * sizeof(float)];
+  torus.indices = new unsigned[rings * stacks * 6 * sizeof(unsigned)];
 
   for (int i = 0; i <= rings; i++) {
     insideAngle = i * insideAngleStep;

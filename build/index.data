@@ -1,0 +1,76 @@
+#version 300 es
+precision highp float;
+
+uniform vec3 objectColor;
+
+out vec4 fragCol;
+
+void main(void) {
+  fragCol = vec4(objectColor, 1.0f);
+}
+#version 300 es
+precision highp float;
+
+uniform mat4 projection;
+uniform mat4 view;
+uniform mat4 model;
+
+layout (location = 0) in vec3 pos;
+
+void main(void) {
+  gl_Position = projection * view * model * vec4(pos, 1.0f);
+}
+#version 300 es
+precision highp float;
+
+uniform vec3 objectColor;
+uniform vec3 lightColor;
+uniform vec3 lightPos;
+uniform int textureFlag;
+
+in vec4 outCol;
+in vec2 texCoords;
+in vec3 fragPos;
+in vec3 normalFragPos;
+
+out vec4 fragCol;
+
+void main(void) {
+  // Ambient
+  float ambientStrength = 0.5f;
+  vec3 ambientLight = lightColor * ambientStrength;
+
+  // Diffuse
+  vec3 norm = normalize(normalFragPos);
+  vec3 lightDir = normalize(lightPos - fragPos);
+  float diffuseStrength = max(dot(norm, lightDir), 0.0f);
+  vec3 diffuseLight = diffuseStrength * lightColor;
+
+  vec3 finalLight = (ambientLight + diffuseLight) * objectColor;
+
+  fragCol = vec4(finalLight, 1.0f);
+}
+#version 300 es
+precision highp float;
+
+uniform mat4 projection;
+uniform mat4 view;
+uniform mat4 model;
+uniform float currentTime;
+
+layout (location = 0) in vec3 pos;
+layout (location = 1) in vec2 inTexCoords;
+layout (location = 2) in vec3 normalPos;
+
+out vec4 outCol;
+out vec2 texCoords;
+out vec3 fragPos;
+out vec3 normalFragPos;
+
+void main(void) {
+  gl_Position = projection * view * model * vec4(pos, 1.0f);
+  outCol = vec4(pos, 1.0f) * 0.5f + vec4(0.5f, 0.5f, 0.5f, 1.0f);
+  texCoords = inTexCoords;
+  fragPos = vec3(model * vec4(pos, 1.0f));
+  normalFragPos = normalPos;
+}

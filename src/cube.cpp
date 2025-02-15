@@ -1,6 +1,5 @@
 #include "cube.h"
 #include "shape.h"
-#include <string.h>
 
 Cube cubeInit(vec3 color, Shader *shader) {
   Cube cube;
@@ -147,13 +146,10 @@ Cube cubeInit(vec3 color, Shader *shader) {
   cube.numNormals = sizeof(normals) / sizeof(normals[0]);
   cube.numIndices = 0;
 
-  cube.vertices = malloc(sizeof(vertices));
-  cube.textureCoordinates = malloc(sizeof(textureCoords));
-  cube.normals = malloc(sizeof(normals));
+  cube.vertices = vertices;
+  cube.textureCoordinates = textureCoords;
+  cube.normals = normals;
   cube.indices = NULL;
-  memcpy(cube.vertices, vertices, sizeof(vertices));
-  memcpy(cube.textureCoordinates, textureCoords, sizeof(textureCoords));
-  memcpy(cube.normals, normals, sizeof(textureCoords));
   glm_vec3_copy(color, cube.color);
 
   shapeSetData(&cube);

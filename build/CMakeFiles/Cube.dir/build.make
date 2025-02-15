@@ -74,15 +74,15 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: CMakeFiles/Cube.dir/includes_CXX.rsp
 CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp
 CMakeFiles/Cube.dir/src/cube.cpp.o: CMakeFiles/Cube.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cube.dir/src/cube.cpp.o"
-	/home/rami/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cube.dir/src/cube.cpp.o -MF CMakeFiles/Cube.dir/src/cube.cpp.o.d -o CMakeFiles/Cube.dir/src/cube.cpp.o -c /home/rami/CPP_Projects/Snake/src/cube.cpp
+	em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cube.dir/src/cube.cpp.o -MF CMakeFiles/Cube.dir/src/cube.cpp.o.d -o CMakeFiles/Cube.dir/src/cube.cpp.o -c /home/rami/CPP_Projects/Snake/src/cube.cpp
 
 CMakeFiles/Cube.dir/src/cube.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cube.dir/src/cube.cpp.i"
-	/home/rami/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rami/CPP_Projects/Snake/src/cube.cpp > CMakeFiles/Cube.dir/src/cube.cpp.i
+	em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rami/CPP_Projects/Snake/src/cube.cpp > CMakeFiles/Cube.dir/src/cube.cpp.i
 
 CMakeFiles/Cube.dir/src/cube.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cube.dir/src/cube.cpp.s"
-	/home/rami/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rami/CPP_Projects/Snake/src/cube.cpp -o CMakeFiles/Cube.dir/src/cube.cpp.s
+	em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rami/CPP_Projects/Snake/src/cube.cpp -o CMakeFiles/Cube.dir/src/cube.cpp.s
 
 # Object files for target Cube
 Cube_OBJECTS = \

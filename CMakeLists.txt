@@ -6,10 +6,10 @@ project(Snake)
 
 # Project Settings
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_BUILD_TYPE Debug)
 
 # Sets Compiler
-set(CMAKE_C_COMPILER em++)
+set(CMAKE_CXX_COMPILER em++)
 
 # Compile Executable
 add_executable(index main.cpp)
@@ -35,13 +35,11 @@ create_library(Cube src/cube.cpp Dependencies)
 create_library(Torus src/torus.cpp Dependencies)
 create_library(Camera src/camera.cpp Dependencies)
 
-link_directories(/usr/local/lib/)
-
 # Include Directory
-include_directories(${CMAKE_SOURCE_DIR}/cglm/include/ include/)
+include_directories(/usr/local/include/ include/)
 
 # Creates a PROJECT Macro
 target_compile_definitions(index PUBLIC PROJECT="${PROJECT_NAME}")
 
 # Links Libraries
-target_link_libraries(index PRIVATE glfw3 GL m ${Dependencies} ${CMAKE_SOURCE_DIR}/cglm/build/libcglm.a "-s USE_WEBGL2=1")
+target_link_libraries(index PRIVATE glfw3 glm GL m ${Dependencies})

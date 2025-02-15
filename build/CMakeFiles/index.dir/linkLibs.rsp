@@ -1,1 +1,1 @@
- -lglfw3 -lGL -lm libShader.a libShape.a libCube.a libTorus.a libCamera.a /home/rami/CPP_Projects/Snake/cglm/build/libcglm.a -s USE_WEBGL2=1 
+ -lglfw3 -lglm -lGL -lm libShader.a libShape.a libCube.a libTorus.a libCamera.a 

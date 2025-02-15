@@ -74,15 +74,15 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: CMakeFiles/Shape.dir/includes_CXX.rsp
 CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cpp
 CMakeFiles/Shape.dir/src/shape.cpp.o: CMakeFiles/Shape.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Shape.dir/src/shape.cpp.o"
-	/home/rami/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Shape.dir/src/shape.cpp.o -MF CMakeFiles/Shape.dir/src/shape.cpp.o.d -o CMakeFiles/Shape.dir/src/shape.cpp.o -c /home/rami/CPP_Projects/Snake/src/shape.cpp
+	em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Shape.dir/src/shape.cpp.o -MF CMakeFiles/Shape.dir/src/shape.cpp.o.d -o CMakeFiles/Shape.dir/src/shape.cpp.o -c /home/rami/CPP_Projects/Snake/src/shape.cpp
 
 CMakeFiles/Shape.dir/src/shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Shape.dir/src/shape.cpp.i"
-	/home/rami/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rami/CPP_Projects/Snake/src/shape.cpp > CMakeFiles/Shape.dir/src/shape.cpp.i
+	em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rami/CPP_Projects/Snake/src/shape.cpp > CMakeFiles/Shape.dir/src/shape.cpp.i
 
 CMakeFiles/Shape.dir/src/shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Shape.dir/src/shape.cpp.s"
-	/home/rami/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rami/CPP_Projects/Snake/src/shape.cpp -o CMakeFiles/Shape.dir/src/shape.cpp.s
+	em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rami/CPP_Projects/Snake/src/shape.cpp -o CMakeFiles/Shape.dir/src/shape.cpp.s
 
 # Object files for target Shape
 Shape_OBJECTS = \

@@ -1,17 +1,15 @@
 #include <cstdio>
 #include <iostream>
-#include <stdlib.h>
-#include <string.h>
-#include <string>
 #include <fstream>
 #include <sstream>
+#include <strstream>
 #include "shader.h"
 
-void readFile(std::ifstream *file, std::string *dest);
+std::string readFile(std::ifstream *file);
 int shaderCompilationSuccess(unsigned shader);
 int programLinkSuccess(unsigned program);
 
-int shaderConstruct(Shader *shader, const std::string vsPath, const std::string fsPath) {
+int shaderConstruct(Shader *shader, const char *vsPath, const char *fsPath) {
   unsigned vertexShader, fragmentShader;
   std::string vsSource, fsSource;
   std::ifstream vsFile, fsFile; 
@@ -30,7 +28,9 @@ int shaderConstruct(Shader *shader, const std::string vsPath, const std::string 
     return 0;
   }
 
-  readFile(&vsFile, &vsSource);
+  vsSource = readFile(&vsFile);
+  std::cout << "Vertex Shader:\n" << vsFile.rdbuf();
+  std::cout << "Vertex Source:\n" << vsSource;
   vertexShader = glCreateShader(GL_VERTEX_SHADER);
   glShaderSource(vertexShader, 1, (const char **)&vsSource, NULL);
   glCompileShader(vertexShader);
@@ -40,7 +40,7 @@ int shaderConstruct(Shader *shader, const std::string vsPath, const std::string 
   }
 
   // Fragment Shader Compilation
-  readFile(&fsFile, &fsSource);
+  fsSource = readFile(&fsFile);
   fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
   glShaderSource(fragmentShader, 1, (const char **)&fsSource, NULL);
   glCompileShader(fragmentShader);
@@ -58,8 +58,8 @@ int shaderConstruct(Shader *shader, const std::string vsPath, const std::string 
     return 0;
 
   // Free Memory
-  fclose(vsFile);
-  fclose(fsFile);
+  vsFile.close();
+  fsFile.close();
 
   return 1;
 }
@@ -76,16 +76,18 @@ void shaderSetInt(Shader shader, const char *uniform, int value) {
   glUniform1i(glGetUniformLocation(shader, uniform), value);
 }
 
-void shaderSetVector3f(Shader shader, const char *uniform, vec3 value) {
-  glUniform3f(glGetUniformLocation(shader, uniform), value[0], value[1], value[2]);
+void shaderSetVector3f(Shader shader, const char *uniform, glm::vec3 value) {
+  glUniform3f(glGetUniformLocation(shader, uniform), value.x, value.y, value.z);
 }
 
-void shaderSetMatrix4(Shader shader, const char *uniform, mat4 value) {
-  glUniformMatrix4fv(glGetUniformLocation(shader, uniform), 1, GL_FALSE, (float *)value);
+void shaderSetMatrix4(Shader shader, const char *uniform, glm::mat4 value) {
+  glUniformMatrix4fv(glGetUniformLocation(shader, uniform), 1, GL_FALSE, &value[0][0]);
 }
 
-void readFile(std::ifstream *file, std::string *dest) {
-
+std::string readFile(std::ifstream *file) {
+  std::stringstream stream;
+  stream << file->rdbuf();
+  return stream.str();
 }
 
 int shaderCompilationSuccess(unsigned shader) {

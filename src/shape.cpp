@@ -103,11 +103,11 @@ void shapeDelete(Shape *shape) {
   glDeleteVertexArrays(1, &shape->VAO);
   glDeleteShader(*shape->shader);
   if (shape->vertices)
-    free(shape->vertices);
+    delete [] shape->vertices;
   if (shape->textureCoordinates)
-    free(shape->textureCoordinates);
+    delete [] shape->textureCoordinates;
   if (shape->normals)
-    free(shape->normals);
+    delete [] shape->normals;
   if (shape->indices)
-    free(shape->indices);
+    delete [] shape->indices;
 }

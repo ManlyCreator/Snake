@@ -74,15 +74,15 @@ CMakeFiles/index.dir/main.cpp.o: CMakeFiles/index.dir/includes_CXX.rsp
 CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp
 CMakeFiles/index.dir/main.cpp.o: CMakeFiles/index.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/index.dir/main.cpp.o"
-	/home/rami/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/main.cpp.o -MF CMakeFiles/index.dir/main.cpp.o.d -o CMakeFiles/index.dir/main.cpp.o -c /home/rami/CPP_Projects/Snake/main.cpp
+	em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/index.dir/main.cpp.o -MF CMakeFiles/index.dir/main.cpp.o.d -o CMakeFiles/index.dir/main.cpp.o -c /home/rami/CPP_Projects/Snake/main.cpp
 
 CMakeFiles/index.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/index.dir/main.cpp.i"
-	/home/rami/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rami/CPP_Projects/Snake/main.cpp > CMakeFiles/index.dir/main.cpp.i
+	em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rami/CPP_Projects/Snake/main.cpp > CMakeFiles/index.dir/main.cpp.i
 
 CMakeFiles/index.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/index.dir/main.cpp.s"
-	/home/rami/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rami/CPP_Projects/Snake/main.cpp -o CMakeFiles/index.dir/main.cpp.s
+	em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rami/CPP_Projects/Snake/main.cpp -o CMakeFiles/index.dir/main.cpp.s
 
 # Object files for target index
 index_OBJECTS = \
@@ -98,7 +98,6 @@ index.html: libShape.a
 index.html: libCube.a
 index.html: libTorus.a
 index.html: libCamera.a
-index.html: /home/rami/CPP_Projects/Snake/cglm/build/libcglm.a
 index.html: CMakeFiles/index.dir/linkLibs.rsp
 index.html: CMakeFiles/index.dir/objects1.rsp
 index.html: CMakeFiles/index.dir/link.txt

@@ -1,11 +1,13 @@
-// Standard C Libraries
-#include <stdio.h>
-#include <stdbool.h>
+// Standard C++ Libraries
+#include <glm/ext/matrix_clip_space.hpp>
+#include <glm/ext/matrix_transform.hpp>
+#include <iostream>
 
 // OpenGL Libs
 #include <GLES3/gl3.h>
 #include <GLFW/glfw3.h>
 #include <emscripten.h>
+#include <glm/glm.hpp>
 
 // External Libraries
 #include "camera.h"
@@ -21,10 +23,9 @@ void mainLoop();
 void framebufferSizeCallback(GLFWwindow *window, int width, int height);
 void cursorPosCallback(GLFWwindow *window, double x, double y);
 void processInput(GLFWwindow *window);
-void lookAt(vec3 pos, vec3 target, vec3 up, mat4 lookAtMat);
 
 double currentTime;
-mat4 projection;
+glm::mat4 projection(1.0f);
 
 double lastX, lastY;
 double deltaX, deltaY;
@@ -33,14 +34,14 @@ Camera camera;
 int width, height;
 double timeFactor;
 Shader objectShader, lightShader;
-mat4 view, model;
+glm::mat4 view, model;
 GLFWwindow *window;
 Cube lightSource;
 Torus torus;
-vec3 lightPos = {-5.0f, 10.0f, 0.0f};
-vec3 lightColor = {1.0f, 1.0f, 1.0f};
-vec3 torusColor = {1.0f, 0.5f, 0.31f};
-vec3 torusPositions[] = {
+glm::vec3 lightPos = {-5.0f, 10.0f, 0.0f};
+glm::vec3 lightColor = {1.0f, 1.0f, 1.0f};
+glm::vec3 torusColor = {1.0f, 0.5f, 0.31f};
+glm::vec3 torusPositions[] = {
     { 0.0f,   0.0f,   0.0f}, 
     { 20.0f,  5.0f,  30.0f}, 
     {-10.5f, -2.2f, -20.5f},  
@@ -53,9 +54,10 @@ vec3 torusPositions[] = {
     {-10.3f,  1.0f,  25.5f}  
 };
 
-// TODO: Implement file reading in shader.cpp
+// TODO: Port all CGLM code to GLM code (starting in main)
 
 int main(void) {
+  glm::vec3 vec(1.0f, 0.0f, 0.0f);
   // GLFW
   glfwInit();
   glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -65,7 +67,7 @@ int main(void) {
   window = glfwCreateWindow(WIDTH, HEIGHT, PROJECT, NULL, NULL);
 
   if (window == NULL) {
-    printf("Window creation failed\n");
+    std::cerr << "Window creation failed\n";
     glfwTerminate();
     return -1;
   }
@@ -78,17 +80,14 @@ int main(void) {
   // Shaders
   if (!shaderConstruct(&objectShader, "/shaders/objectVertexShader.glsl", "/shaders/objectFragmentShader.glsl"))
     return -1;
-  printf("Compiled Object Shader\n");
   if (!shaderConstruct(&lightShader, "/shaders/lightCubeVertexShader.glsl", "/shaders/lightCubeFragmentShader.glsl"))
     return -1;
-  printf("Compiled Lighting Shader\n");
   
   // Camera
-  camera = cameraInit((vec3){0.0f, 0.0f, 20.0f}, 0.0f, glm_rad(-90.0f));
+  camera = cameraInit((glm::vec3){0.0f, 0.0f, 20.0f}, 0.0f, glm::radians(-90.0f));
 
   // Transformations
-  glm_mat4_identity(projection);
-  glm_perspective(glm_rad(45.0f), (float)WIDTH / HEIGHT, 0.1f, 200.0f, projection);
+  projection = glm::perspective(glm::radians(45.0f), (float)WIDTH / HEIGHT, 0.1f, 200.0f);
 
   torus = torusInit(50, 50, 2.0f, 1.0f, torusColor, &objectShader);
   lightSource = cubeInit(lightColor, &lightShader);
@@ -131,11 +130,12 @@ void mainLoop() {
   shaderSetVector3f(objectShader, "lightColor", lightColor);
   shaderSetVector3f(objectShader, "lightPos", lightPos);
   for (int i = 0; i < 10; i++) {
-    glm_mat4_identity(model);
-    glm_translate(model, torusPositions[i]);
-    glm_rotate(model, glm_rad(45.0f), (vec3){1.0f, 0.0f, 0.0f});
-    glm_rotate(model, glm_rad(-10.0f + i * 5.0f), (vec3){0.0f, 0.0f, 1.0f});
-    glm_scale(model, (vec3){1.0f, 1.0f, 1.0f});
+    /*glm_mat4_identity(model);*/
+    model = glm::mat4(1.0f);
+    model = glm::translate(model, torusPositions[i]);
+    model = glm::rotate(model, glm::radians(45.0f), (glm::vec3){1.0f, 0.0f, 0.0f});
+    model = glm::rotate(model, glm::radians(-10.0f + i * 5.0f), (glm::vec3){0.0f, 0.0f, 1.0f});
+    model = glm::scale(model, (glm::vec3){1.0f, 1.0f, 1.0f});
     shapeDraw(torus, model);
   }
 
@@ -185,38 +185,4 @@ void processInput(GLFWwindow *window) {
     cameraProcessKeyboard(&camera, RIGHT);
   if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
     cameraProcessKeyboard(&camera, LEFT);
-}
-
-void lookAt(vec3 pos, vec3 target, vec3 up, mat4 lookAtMat) {
-  vec3 negObjectDirection;
-  vec3 objectRight, objectUp;
-  mat4 transformMat;
-
-  // (Negative) Direction Vector
-  glm_vec3_sub(pos,  target, negObjectDirection);
-  glm_vec3_normalize(negObjectDirection);
-
-  // Right Vector
-  glm_vec3_cross(up, negObjectDirection, objectRight);
-  glm_vec3_normalize(objectRight);
-
-  // Up Vector
-  glm_vec3_cross(negObjectDirection, objectRight, objectUp);
-
-  // Rotation Matrix
-  mat4 rotationMat = {
-    {objectRight[0], objectUp[0], negObjectDirection[0], 0.0f},
-    {objectRight[1], objectUp[1], negObjectDirection[1], 0.0f},
-    {objectRight[2], objectUp[2], negObjectDirection[2], 0.0f},
-    {0.0f,           0.0f,        0.0f,         1.0f}
-  };
-
-  // Transformation Matrix
-  glm_mat4_identity(transformMat);
-  transformMat[3][0] = -pos[0];
-  transformMat[3][1] = -pos[1];
-  transformMat[3][2] = -pos[2];
-
-  // LookAt Matrix
-  glm_mat4_mul(rotationMat, transformMat, lookAtMat);
 }

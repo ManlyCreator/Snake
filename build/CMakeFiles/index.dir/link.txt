@@ -1,1 +1,1 @@
-/home/rami/emsdk/upstream/emscripten/em++ -O3 -DNDEBUG -s USE_WEBGL2=1 --preload-file /home/rami/CPP_Projects/Snake/shaders@/shaders --shell-file /home/rami/CPP_Projects/Snake/shellFile.html @CMakeFiles/index.dir/objects1.rsp -o index.html @CMakeFiles/index.dir/linkLibs.rsp
+em++ -g -s USE_WEBGL2=1 --preload-file /home/rami/CPP_Projects/Snake/shaders@/shaders --shell-file /home/rami/CPP_Projects/Snake/shellFile.html @CMakeFiles/index.dir/objects1.rsp -o index.html @CMakeFiles/index.dir/linkLibs.rsp
