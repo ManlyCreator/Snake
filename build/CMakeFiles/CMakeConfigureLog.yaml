@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2"
-      binary: "/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2"
+      source: "/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x"
+      binary: "/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/rami/emsdk/upstream/emscripten/emscan-deps"
       CMAKE_C_FLAGS: ""
@@ -84,20 +84,20 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2'
+        Change Dir: '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a739d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a739d.dir/build.make CMakeFiles/cmTC_a739d.dir/build
-        gmake[1]: Entering directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2'
-        Building C object CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o
-        /home/rami/emsdk/upstream/emscripten/emcc   -v -MD -MT CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
-         /home/rami/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/rami/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o.d -oCMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef4ed/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ef4ed.dir/build.make CMakeFiles/cmTC_ef4ed.dir/build
+        gmake[1]: Entering directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x'
+        Building C object CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o
+        /home/rami/emsdk/upstream/emscripten/emcc   -v -MD -MT CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+         /home/rami/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/rami/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o.d -oCMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         clang version 21.0.0git (https:/github.com/llvm/llvm-project 6dc41a639334b913e762f65410fcd14a722b137f)
         Target: wasm32-unknown-emscripten
         Thread model: posix
         InstalledDir: /home/rami/emsdk/upstream/bin
          (in-process)
-         "/home/rami/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2 -v -fcoverage-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2 -resource-dir /home/rami/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -sys-header-deps -D EMSCRIPTEN -isysroot /home/rami/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/rami/emsdk/upstream/lib/clang/21/include -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fignore-exceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+         "/home/rami/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x -v -fcoverage-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x -resource-dir /home/rami/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -sys-header-deps -D EMSCRIPTEN -isysroot /home/rami/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/rami/emsdk/upstream/lib/clang/21/include -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fignore-exceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-unknown-linux-gnu
         ignoring nonexistent directory "/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"
         #include "..." search starts here:
@@ -107,14 +107,14 @@ events:
          /home/rami/emsdk/upstream/lib/clang/21/include
          /home/rami/emsdk/upstream/emscripten/cache/sysroot/include
         End of search list.
-        Linking C executable cmTC_a739d.js
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a739d.dir/link.txt --verbose=1
-        /home/rami/emsdk/upstream/emscripten/emcc  -v @CMakeFiles/cmTC_a739d.dir/objects1.rsp -o cmTC_a739d.js 
+        Linking C executable cmTC_ef4ed.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef4ed.dir/link.txt --verbose=1
+        /home/rami/emsdk/upstream/emscripten/emcc  -v @CMakeFiles/cmTC_ef4ed.dir/objects1.rsp -o cmTC_ef4ed.js 
          /home/rami/emsdk/upstream/bin/clang --version
-         /home/rami/emsdk/upstream/bin/wasm-ld -o cmTC_a739d.wasm CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/rami/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmpvug48tj7libemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1
-         /home/rami/emsdk/upstream/bin/llvm-objcopy cmTC_a739d.wasm cmTC_a739d.wasm --remove-section=.debug* --remove-section=producers --remove-section=name
-         /home/rami/emsdk/node/20.18.0_64bit/bin/node /home/rami/emsdk/upstream/emscripten/src/compiler.mjs /tmp/tmpobb8j6sn.json
-        gmake[1]: Leaving directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2'
+         /home/rami/emsdk/upstream/bin/wasm-ld -o cmTC_ef4ed.wasm CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/rami/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmpxlaz9nutlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1
+         /home/rami/emsdk/upstream/bin/llvm-objcopy cmTC_ef4ed.wasm cmTC_ef4ed.wasm --remove-section=.debug* --remove-section=producers --remove-section=name
+         /home/rami/emsdk/node/20.18.0_64bit/bin/node /home/rami/emsdk/upstream/emscripten/src/compiler.mjs /tmp/tmpbf0opvip.json
+        gmake[1]: Leaving directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x'
         
       exitCode: 0
   -
@@ -148,20 +148,20 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2']
+        ignore line: [Change Dir: '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a739d/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a739d.dir/build.make CMakeFiles/cmTC_a739d.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2']
-        ignore line: [Building C object CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/home/rami/emsdk/upstream/emscripten/emcc   -v -MD -MT CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
-        ignore line: [ /home/rami/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/rami/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o.d -oCMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef4ed/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ef4ed.dir/build.make CMakeFiles/cmTC_ef4ed.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x']
+        ignore line: [Building C object CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/rami/emsdk/upstream/emscripten/emcc   -v -MD -MT CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [ /home/rami/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/rami/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o.d -oCMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [clang version 21.0.0git (https:/github.com/llvm/llvm-project 6dc41a639334b913e762f65410fcd14a722b137f)]
         ignore line: [Target: wasm32-unknown-emscripten]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /home/rami/emsdk/upstream/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "/home/rami/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2 -v -fcoverage-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-jXZOb2 -resource-dir /home/rami/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -sys-header-deps -D EMSCRIPTEN -isysroot /home/rami/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/rami/emsdk/upstream/lib/clang/21/include -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fignore-exceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/home/rami/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x -v -fcoverage-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oRlB7x -resource-dir /home/rami/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -sys-header-deps -D EMSCRIPTEN -isysroot /home/rami/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/rami/emsdk/upstream/lib/clang/21/include -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fignore-exceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-unknown-linux-gnu]
         ignore line: [ignoring nonexistent directory "/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"]
         ignore line: [#include "..." search starts here:]
@@ -171,15 +171,15 @@ events:
         ignore line: [ /home/rami/emsdk/upstream/lib/clang/21/include]
         ignore line: [ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_a739d.js]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a739d.dir/link.txt --verbose=1]
-        ignore line: [/home/rami/emsdk/upstream/emscripten/emcc  -v @CMakeFiles/cmTC_a739d.dir/objects1.rsp -o cmTC_a739d.js ]
+        ignore line: [Linking C executable cmTC_ef4ed.js]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef4ed.dir/link.txt --verbose=1]
+        ignore line: [/home/rami/emsdk/upstream/emscripten/emcc  -v @CMakeFiles/cmTC_ef4ed.dir/objects1.rsp -o cmTC_ef4ed.js ]
         ignore line: [ /home/rami/emsdk/upstream/bin/clang --version]
-        link line: [ /home/rami/emsdk/upstream/bin/wasm-ld -o cmTC_a739d.wasm CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o -L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/rami/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmpvug48tj7libemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1]
+        link line: [ /home/rami/emsdk/upstream/bin/wasm-ld -o cmTC_ef4ed.wasm CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o -L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/rami/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmpxlaz9nutlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1]
           arg [/home/rami/emsdk/upstream/bin/wasm-ld] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a739d.wasm] ==> ignore
-          arg [CMakeFiles/cmTC_a739d.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [cmTC_ef4ed.wasm] ==> ignore
+          arg [CMakeFiles/cmTC_ef4ed.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> dir [/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
           arg [-L/home/rami/emsdk/upstream/emscripten/src/lib] ==> dir [/home/rami/emsdk/upstream/emscripten/src/lib]
           arg [-lGL-getprocaddr] ==> lib [GL-getprocaddr]
@@ -199,7 +199,7 @@ events:
           arg [-enable-emscripten-sjlj] ==> ignore
           arg [-mllvm] ==> ignore
           arg [-disable-lsr] ==> ignore
-          arg [/tmp/tmpvug48tj7libemscripten_js_symbols.so] ==> ignore
+          arg [/tmp/tmpxlaz9nutlibemscripten_js_symbols.so] ==> ignore
           arg [--strip-debug] ==> ignore
           arg [--export=emscripten_stack_get_end] ==> ignore
           arg [--export=emscripten_stack_get_free] ==> ignore
@@ -242,8 +242,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h"
-      binary: "/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h"
+      source: "/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT"
+      binary: "/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/rami/emsdk/upstream/emscripten/emscan-deps"
       CMAKE_CXX_FLAGS: ""
@@ -254,20 +254,20 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h'
+        Change Dir: '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_be33b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_be33b.dir/build.make CMakeFiles/cmTC_be33b.dir/build
-        gmake[1]: Entering directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h'
-        Building CXX object CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o
-        /home/rami/emsdk/upstream/emscripten/em++   -v -MD -MT CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
-         "/home/rami/emsdk/upstream/bin/clang++" -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/rami/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o.d -oCMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_305ca/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_305ca.dir/build.make CMakeFiles/cmTC_305ca.dir/build
+        gmake[1]: Entering directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT'
+        Building CXX object CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o
+        /home/rami/emsdk/upstream/emscripten/em++   -v -MD -MT CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+         "/home/rami/emsdk/upstream/bin/clang++" -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/rami/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o.d -oCMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         clang version 21.0.0git (https:/github.com/llvm/llvm-project 6dc41a639334b913e762f65410fcd14a722b137f)
         Target: wasm32-unknown-emscripten
         Thread model: posix
         InstalledDir: /home/rami/emsdk/upstream/bin
          (in-process)
-         "/home/rami/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h -v -fcoverage-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h -resource-dir /home/rami/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D EMSCRIPTEN -isysroot /home/rami/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /home/rami/emsdk/upstream/lib/clang/21/include -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+         "/home/rami/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT -v -fcoverage-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT -resource-dir /home/rami/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D EMSCRIPTEN -isysroot /home/rami/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /home/rami/emsdk/upstream/lib/clang/21/include -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-unknown-linux-gnu
         ignoring nonexistent directory "/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1"
         ignoring nonexistent directory "/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"
@@ -279,14 +279,14 @@ events:
          /home/rami/emsdk/upstream/lib/clang/21/include
          /home/rami/emsdk/upstream/emscripten/cache/sysroot/include
         End of search list.
-        Linking CXX executable cmTC_be33b.js
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be33b.dir/link.txt --verbose=1
-        /home/rami/emsdk/upstream/emscripten/em++  -v @CMakeFiles/cmTC_be33b.dir/objects1.rsp -o cmTC_be33b.js 
+        Linking CXX executable cmTC_305ca.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_305ca.dir/link.txt --verbose=1
+        /home/rami/emsdk/upstream/emscripten/em++  -v @CMakeFiles/cmTC_305ca.dir/objects1.rsp -o cmTC_305ca.js 
          /home/rami/emsdk/upstream/bin/clang --version
-         /home/rami/emsdk/upstream/bin/wasm-ld -o cmTC_be33b.wasm CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/rami/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmp9kj1jmqxlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1
-         /home/rami/emsdk/upstream/bin/llvm-objcopy cmTC_be33b.wasm cmTC_be33b.wasm --remove-section=.debug* --remove-section=producers --remove-section=name
-         /home/rami/emsdk/node/20.18.0_64bit/bin/node /home/rami/emsdk/upstream/emscripten/src/compiler.mjs /tmp/tmpqmh8negr.json
-        gmake[1]: Leaving directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h'
+         /home/rami/emsdk/upstream/bin/wasm-ld -o cmTC_305ca.wasm CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/rami/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmp7twqmqc8libemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1
+         /home/rami/emsdk/upstream/bin/llvm-objcopy cmTC_305ca.wasm cmTC_305ca.wasm --remove-section=.debug* --remove-section=producers --remove-section=name
+         /home/rami/emsdk/node/20.18.0_64bit/bin/node /home/rami/emsdk/upstream/emscripten/src/compiler.mjs /tmp/tmpv4nbuima.json
+        gmake[1]: Leaving directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT'
         
       exitCode: 0
   -
@@ -322,20 +322,20 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h']
+        ignore line: [Change Dir: '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_be33b/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_be33b.dir/build.make CMakeFiles/cmTC_be33b.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h']
-        ignore line: [Building CXX object CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/home/rami/emsdk/upstream/emscripten/em++   -v -MD -MT CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [ "/home/rami/emsdk/upstream/bin/clang++" -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/rami/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o.d -oCMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_305ca/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_305ca.dir/build.make CMakeFiles/cmTC_305ca.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT']
+        ignore line: [Building CXX object CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/rami/emsdk/upstream/emscripten/em++   -v -MD -MT CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/home/rami/emsdk/upstream/bin/clang++" -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/home/rami/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o.d -oCMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 21.0.0git (https:/github.com/llvm/llvm-project 6dc41a639334b913e762f65410fcd14a722b137f)]
         ignore line: [Target: wasm32-unknown-emscripten]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /home/rami/emsdk/upstream/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "/home/rami/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h -v -fcoverage-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sxdF0h -resource-dir /home/rami/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D EMSCRIPTEN -isysroot /home/rami/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /home/rami/emsdk/upstream/lib/clang/21/include -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/home/rami/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT -v -fcoverage-compilation-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles/CMakeScratch/TryCompile-oXK7TT -resource-dir /home/rami/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D EMSCRIPTEN -isysroot /home/rami/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /home/rami/emsdk/upstream/lib/clang/21/include -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /home/rami/emsdk/upstream/emscripten/cache/sysroot/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-unknown-linux-gnu]
         ignore line: [ignoring nonexistent directory "/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1"]
         ignore line: [ignoring nonexistent directory "/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"]
@@ -347,15 +347,15 @@ events:
         ignore line: [ /home/rami/emsdk/upstream/lib/clang/21/include]
         ignore line: [ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_be33b.js]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be33b.dir/link.txt --verbose=1]
-        ignore line: [/home/rami/emsdk/upstream/emscripten/em++  -v @CMakeFiles/cmTC_be33b.dir/objects1.rsp -o cmTC_be33b.js ]
+        ignore line: [Linking CXX executable cmTC_305ca.js]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_305ca.dir/link.txt --verbose=1]
+        ignore line: [/home/rami/emsdk/upstream/emscripten/em++  -v @CMakeFiles/cmTC_305ca.dir/objects1.rsp -o cmTC_305ca.js ]
         ignore line: [ /home/rami/emsdk/upstream/bin/clang --version]
-        link line: [ /home/rami/emsdk/upstream/bin/wasm-ld -o cmTC_be33b.wasm CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o -L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/rami/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmp9kj1jmqxlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1]
+        link line: [ /home/rami/emsdk/upstream/bin/wasm-ld -o cmTC_305ca.wasm CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o -L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/home/rami/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmp7twqmqc8libemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1]
           arg [/home/rami/emsdk/upstream/bin/wasm-ld] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_be33b.wasm] ==> ignore
-          arg [CMakeFiles/cmTC_be33b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [cmTC_305ca.wasm] ==> ignore
+          arg [CMakeFiles/cmTC_305ca.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-L/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> dir [/home/rami/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
           arg [-L/home/rami/emsdk/upstream/emscripten/src/lib] ==> dir [/home/rami/emsdk/upstream/emscripten/src/lib]
           arg [-lGL-getprocaddr] ==> lib [GL-getprocaddr]
@@ -375,7 +375,7 @@ events:
           arg [-enable-emscripten-sjlj] ==> ignore
           arg [-mllvm] ==> ignore
           arg [-disable-lsr] ==> ignore
-          arg [/tmp/tmp9kj1jmqxlibemscripten_js_symbols.so] ==> ignore
+          arg [/tmp/tmp7twqmqc8libemscripten_js_symbols.so] ==> ignore
           arg [--strip-debug] ==> ignore
           arg [--export=emscripten_stack_get_end] ==> ignore
           arg [--export=emscripten_stack_get_free] ==> ignore

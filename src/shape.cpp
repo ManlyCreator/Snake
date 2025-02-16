@@ -1,113 +1,90 @@
 #include "shape.h"
 #include "shader.h"
 
-void shapeSetData(Shape *shape) {
+void Shape::setData() {
   // VAO
-  glGenVertexArrays(1, &shape->VAO);
-  glBindVertexArray(shape->VAO);
+  glGenVertexArrays(1, &VAO);
+  glBindVertexArray(VAO);
 
   // VBOs
-  glGenBuffers(3, shape->VBO);
+  glGenBuffers(3, VBO);
 
   // Vertices
-  glBindBuffer(GL_ARRAY_BUFFER, shape->VBO[VERTICES]);
-  glBufferData(GL_ARRAY_BUFFER, shape->numVertices * sizeof(float), shape->vertices, GL_STATIC_DRAW);
+  glBindBuffer(GL_ARRAY_BUFFER, VBO[VERTICES]);
+  glBufferData(GL_ARRAY_BUFFER, numVertices * sizeof(float), vertices, GL_STATIC_DRAW);
   
   // Texture
-  glBindBuffer(GL_ARRAY_BUFFER, shape->VBO[TEXTURE]);
-  glBufferData(GL_ARRAY_BUFFER, shape->numTextureCoords * sizeof(float), shape->textureCoordinates, GL_STATIC_DRAW);
+  glBindBuffer(GL_ARRAY_BUFFER, VBO[TEXTURE]);
+  glBufferData(GL_ARRAY_BUFFER, numTextureCoords * sizeof(float), textureCoordinates, GL_STATIC_DRAW);
 
   // Normals
-  if (shape->numNormals) {
-    glBindBuffer(GL_ARRAY_BUFFER, shape->VBO[NORMALS]);
-    glBufferData(GL_ARRAY_BUFFER, shape->numNormals * sizeof(float), shape->normals, GL_STATIC_DRAW);
+  if (numNormals) {
+    glBindBuffer(GL_ARRAY_BUFFER, VBO[NORMALS]);
+    glBufferData(GL_ARRAY_BUFFER, numNormals * sizeof(float), normals, GL_STATIC_DRAW);
   }
 
   // Indices
-  shape->EBO = 0;
-  if (shape->numIndices) {
-    glGenBuffers(1, &shape->EBO);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, shape->EBO);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, shape->numIndices * sizeof(unsigned), shape->indices, GL_STATIC_DRAW);
+  EBO = 0;
+  if (numIndices) {
+    glGenBuffers(1, &EBO);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, numIndices * sizeof(unsigned), indices, GL_STATIC_DRAW);
   }
 
   // Unbind
   glBindBuffer(GL_ARRAY_BUFFER, 0);
   glBindVertexArray(0);
-
-  // Set Transforms
-  glm_vec3_copy((vec3){0.0f, 0.0f, 0.0f}, shape->position);
-  glm_vec3_copy((vec3){0.0f, 0.0f, 0.0f}, shape->rotation);
-  glm_vec3_copy((vec3){1.0f, 1.0f, 1.0f}, shape->size);
 }
 
-void shapeDraw(Shape shape, mat4 model) {
-  glBindVertexArray(shape.VAO);
+void Shape::draw(glm::mat4 model) {
+  glBindVertexArray(VAO);
 
   // Transform
-  shaderSetMatrix4(*shape.shader, "model", model);
+  shaderSetMatrix4(*shader, "model", model);
 
-  shaderSetVector3f(*shape.shader, "objectColor", shape.color);
+  shaderSetVector3f(*shader, "objectColor", color);
 
   // Vertices
-  glBindBuffer(GL_ARRAY_BUFFER, shape.VBO[VERTICES]);
+  glBindBuffer(GL_ARRAY_BUFFER, VBO[VERTICES]);
   glEnableVertexAttribArray(VERTICES);
   glVertexAttribPointer(VERTICES, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
 
   // Texture
-  glBindBuffer(GL_ARRAY_BUFFER, shape.VBO[TEXTURE]);
+  glBindBuffer(GL_ARRAY_BUFFER, VBO[TEXTURE]);
   glEnableVertexAttribArray(TEXTURE);
   glVertexAttribPointer(TEXTURE, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), (void *)0);
 
-  if (shape.numNormals) {
-    glBindBuffer(GL_ARRAY_BUFFER, shape.VBO[NORMALS]);
+  if (numNormals) {
+    glBindBuffer(GL_ARRAY_BUFFER, VBO[NORMALS]);
     glEnableVertexAttribArray(NORMALS);
     glVertexAttribPointer(NORMALS, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
   }
 
   // Draw
-  if (shape.numIndices) {
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, shape.EBO);
-    glDrawElements(GL_TRIANGLES, shape.numIndices, GL_UNSIGNED_INT, (void*)0);
+  if (numIndices) {
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    glDrawElements(GL_TRIANGLES, numIndices, GL_UNSIGNED_INT, (void*)0);
   } else
-    glDrawArrays(GL_TRIANGLES, 0, shape.numVertices / 3);
-
-  // Set Transform Data
-  glm_vec3_copy((vec3){0.0f, 0.0f, 0.0f}, shape.position);
-  glm_vec3_copy((vec3){0.0f, 0.0f, 0.0f}, shape.rotation);
-  glm_vec3_copy((vec3){1.0f, 1.0f, 1.0f}, shape.size);
+    glDrawArrays(GL_TRIANGLES, 0, numVertices / 3);
 
   // Reset
   glBindBuffer(GL_ARRAY_BUFFER, 0);
-  if (shape.EBO)
+  if (EBO)
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
   glBindVertexArray(0);
 }
 
-void shapeTranslate(Shape shape, float *pos, float *rot, float *size, vec4 *model) {
-  glm_mat4_identity(model);
-  if (pos)
-    glm_translate(model, pos);
-  if (rot) {
-    glm_rotate(model, glm_rad(rot[0]), (vec3){1.0f, 0.0f, 0.0f});
-    glm_rotate(model, glm_rad(rot[1]), (vec3){0.0f, 1.0f, 0.0f});
-    glm_rotate(model, glm_rad(rot[2]), (vec3){0.0f, 0.0f, 1.0f});
-  }
-  if (size)
-    glm_scale(model, size);
-}
-
-void shapeDelete(Shape *shape) {
-  glDeleteBuffers(4, shape->VBO);
-  glDeleteBuffers(1, &shape->EBO);
-  glDeleteVertexArrays(1, &shape->VAO);
-  glDeleteShader(*shape->shader);
-  if (shape->vertices)
-    delete [] shape->vertices;
-  if (shape->textureCoordinates)
-    delete [] shape->textureCoordinates;
-  if (shape->normals)
-    delete [] shape->normals;
-  if (shape->indices)
-    delete [] shape->indices;
+Shape::~Shape() {
+  glDeleteBuffers(4, VBO);
+  glDeleteBuffers(1, &EBO);
+  glDeleteVertexArrays(1, &VAO);
+  glDeleteShader(*shader);
+  if (vertices)
+    delete [] vertices;
+  if (textureCoordinates)
+    delete [] textureCoordinates;
+  if (normals)
+    delete [] normals;
+  if (indices)
+    delete [] indices;
 }

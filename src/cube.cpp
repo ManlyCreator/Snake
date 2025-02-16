@@ -1,9 +1,10 @@
 #include "cube.h"
 #include "shape.h"
 
-Cube cubeInit(vec3 color, Shader *shader) {
-  Cube cube;
-  float vertices[] = {
+Cube::Cube() {}
+
+Cube::Cube(glm::vec3 color, Shader *shader) : Shape() {
+  float tempVertices[] = {
     // Front
     -1.0f, -1.0f, 1.0f,  
      1.0f, -1.0f, 1.0f,  
@@ -52,7 +53,7 @@ Cube cubeInit(vec3 color, Shader *shader) {
      1.0f, -1.0f, -1.0f, 
     -1.0f, -1.0f, -1.0f, 
   };
-  float textureCoords[] = {
+  float tempTextureCoords[] = {
     0.0f, 0.0f,
     1.0f, 0.0f,  
     1.0f, 1.0f,
@@ -95,7 +96,7 @@ Cube cubeInit(vec3 color, Shader *shader) {
     1.0f, 1.0f,
     0.0f, 1.0f,
   };
-  float normals[] = {
+  float tempNormals[] = {
     0.0f,  0.0f, -1.0f,
     0.0f,  0.0f, -1.0f, 
     0.0f,  0.0f, -1.0f, 
@@ -139,20 +140,18 @@ Cube cubeInit(vec3 color, Shader *shader) {
     0.0f,  1.0f,  0.0f
   };
 
-  cube.shader = shader;
+  shader = shader;
 
-  cube.numVertices = sizeof(vertices) / sizeof(vertices[0]);
-  cube.numTextureCoords = sizeof(textureCoords) / sizeof(textureCoords[0]);
-  cube.numNormals = sizeof(normals) / sizeof(normals[0]);
-  cube.numIndices = 0;
+  numVertices = sizeof(tempVertices) / sizeof(tempVertices[0]);
+  numTextureCoords = sizeof(tempTextureCoords) / sizeof(tempTextureCoords[0]);
+  numNormals = sizeof(tempNormals) / sizeof(tempNormals[0]);
+  numIndices = 0;
 
-  cube.vertices = vertices;
-  cube.textureCoordinates = textureCoords;
-  cube.normals = normals;
-  cube.indices = NULL;
-  glm_vec3_copy(color, cube.color);
+  vertices = tempVertices;
+  textureCoordinates = tempTextureCoords;
+  normals = tempNormals;
+  indices = NULL;
+  color = color;
 
-  shapeSetData(&cube);
-
-  return cube;
+  setData();
 }

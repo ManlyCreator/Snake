@@ -3,8 +3,10 @@
 
 #include "shape.h"
 
-typedef Shape Cube;
-
-Cube cubeInit(vec3 color, Shader *shader);
+class Cube: public Shape {
+  public:
+    Cube();
+    Cube(glm::vec3 color, Shader *shader);
+};
 
 #endif

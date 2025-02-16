@@ -6,5 +6,5 @@ CXX_DEFINES = -DPROJECT=\"Snake\"
 
 CXX_INCLUDES = @CMakeFiles/index.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g
+CXX_FLAGS = -std=c++11 -g
 

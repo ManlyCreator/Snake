@@ -182,10 +182,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_core_convertible.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_reference_wrapper.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/underlying_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_final.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_unique_object_representation.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_aggregate.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constant_evaluated.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/special_functions.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/copysign.h \
@@ -263,8 +259,10 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/find_index.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/ignore.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_final.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/lazy.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/maybe_const.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/compare \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/exception \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception.h \
@@ -293,8 +291,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mbstate_t.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/utility \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/rel_ops.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder1st.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder2nd.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h \
@@ -325,14 +321,10 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/dependent_type.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_identity.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/strip_signature.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/boyer_moore_searcher.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/fill_n.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min_element.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/array \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_iter.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_callable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/convert_to_integral.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/distance.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/concepts.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/derived_from.h \
@@ -349,11 +341,23 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/data.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/enable_view.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/size.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/shared_ptr.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocation_guard.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uninitialized_algorithms.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_move_common.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/constexpr_c_functions.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/datasizeof.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_equality_comparable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_pointer_in_range.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_valid_range.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/fill_n.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min_element.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_callable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/convert_to_integral.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/swap_ranges.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/iterator_operations.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/iter_swap.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_iterator_concept.h \
@@ -362,35 +366,14 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iter_swap.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/next.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/prev.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_iter.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_range.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/constexpr_c_functions.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/datasizeof.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_equality_comparable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_pointer_in_range.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_valid_range.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_segment.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/segmented_iterator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/reverse_iterator.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/segmented_iterator.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/subrange.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/subrange.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/dangling.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/view_interface.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/empty.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unbounded_array.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exception_guard.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_bounded_array.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/memory_order.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/array \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/swap_ranges.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/wrap_iter.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/empty.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept \
@@ -405,6 +388,10 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/binary_search.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lower_bound.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/half_positive.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_move_common.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_range.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_segment.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_backward.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_if.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_n.h \
@@ -436,6 +423,7 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/movable_box.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/optional \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/atomic \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/aliases.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic.h \
@@ -443,6 +431,7 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_sync.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/contention_t.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/cxx_atomic_impl.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/memory_order.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/to_gcc_order.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/duration.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ratio \
@@ -488,6 +477,13 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/align.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/inout_ptr.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/shared_ptr.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocation_guard.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uninitialized_algorithms.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unbounded_array.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exception_guard.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_bounded_array.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_specialization.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/out_ptr.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/raw_storage_iterator.h \
@@ -558,10 +554,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/transform.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique_copy.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/clamp.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_n.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sample.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/unordered_map \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/is_transparent.h \
@@ -667,9 +659,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o: \
   /home/rami/emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
   /home/rami/emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdarg \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/default_searcher.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/not_fn.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/perfect_forward.h \
   /usr/local/include/glm/./ext/../detail/_vectorize.hpp \
   /usr/local/include/glm/./ext/vector_bool3_precision.hpp \
   /usr/local/include/glm/./ext/vector_float3.hpp \

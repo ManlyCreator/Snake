@@ -12,7 +12,6 @@
 // External Libraries
 #include "camera.h"
 #include "shader.h"
-#include "shape.h"
 #include "cube.h"
 #include "torus.h"
 
@@ -54,10 +53,10 @@ glm::vec3 torusPositions[] = {
     {-10.3f,  1.0f,  25.5f}  
 };
 
-// TODO: Port all CGLM code to GLM code (starting in main)
+// TODO: Debug HTML error involving destructor
+// TODO: Debug shapes not rendering
 
 int main(void) {
-  glm::vec3 vec(1.0f, 0.0f, 0.0f);
   // GLFW
   glfwInit();
   glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -84,13 +83,13 @@ int main(void) {
     return -1;
   
   // Camera
-  camera = cameraInit((glm::vec3){0.0f, 0.0f, 20.0f}, 0.0f, glm::radians(-90.0f));
+  camera = cameraInit(glm::vec3(0.0f, 0.0f, 20.0f), 0.0f, glm::radians(-90.0f));
 
   // Transformations
   projection = glm::perspective(glm::radians(45.0f), (float)WIDTH / HEIGHT, 0.1f, 200.0f);
 
-  torus = torusInit(50, 50, 2.0f, 1.0f, torusColor, &objectShader);
-  lightSource = cubeInit(lightColor, &lightShader);
+  torus = Torus(50, 50, 2.0f, 1.0f, torusColor, &objectShader);
+  lightSource = Cube(lightColor, &lightShader);
 
   // Callbacks
   glfwSetFramebufferSizeCallback(window, framebufferSizeCallback);
@@ -130,22 +129,21 @@ void mainLoop() {
   shaderSetVector3f(objectShader, "lightColor", lightColor);
   shaderSetVector3f(objectShader, "lightPos", lightPos);
   for (int i = 0; i < 10; i++) {
-    /*glm_mat4_identity(model);*/
     model = glm::mat4(1.0f);
     model = glm::translate(model, torusPositions[i]);
     model = glm::rotate(model, glm::radians(45.0f), (glm::vec3){1.0f, 0.0f, 0.0f});
     model = glm::rotate(model, glm::radians(-10.0f + i * 5.0f), (glm::vec3){0.0f, 0.0f, 1.0f});
     model = glm::scale(model, (glm::vec3){1.0f, 1.0f, 1.0f});
-    shapeDraw(torus, model);
+    torus.draw(model);
   }
 
   // Light Cube Shader
   shaderUse(lightShader);
   shaderSetMatrix4(lightShader, "projection", projection);
   shaderSetMatrix4(lightShader, "view", camera.view);
-  glm_mat4_identity(model);
-  glm_translate(model, lightPos);
-  shapeDraw(lightSource, model);
+  model = glm::mat4(1.0f);
+  model = glm::translate(model, lightPos);
+  lightSource.draw(model);
 
 
   // Poll Events & Swap Buffers
@@ -155,8 +153,8 @@ void mainLoop() {
 
 void framebufferSizeCallback(GLFWwindow *window, int width, int height) {
   glViewport(0, 0, width, height);
-  glm_mat4_identity(projection);
-  glm_perspective(glm_rad(45.0f), (float)width / height, 0.1f, 200.0f, projection);
+  projection = glm::mat4(1.0f);
+  projection = glm::perspective(glm::radians(45.0f), (float)width / height, 0.1f, 200.0f);
 }
 
 void cursorPosCallback(GLFWwindow *window, double x, double y) {
@@ -170,8 +168,6 @@ void cursorPosCallback(GLFWwindow *window, double x, double y) {
 }
 
 void processInput(GLFWwindow *window) {
-  static vec3 newCameraFront;
-
   // Exit
   if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
     glfwSetWindowShouldClose(window, true);

@@ -17,7 +17,9 @@ target_link_options(index PRIVATE
   -s USE_WEBGL2=1 
   --preload-file ${CMAKE_SOURCE_DIR}/shaders@/shaders
   --shell-file ${CMAKE_SOURCE_DIR}/shellFile.html
+  --bind
 )
+set(CMAKE_CXX_FLAGS "-std=c++11")
 set(CMAKE_EXECUTABLE_SUFFIX ".html")
 
 # Compile Libraries
@@ -42,4 +44,4 @@ include_directories(/usr/local/include/ include/)
 target_compile_definitions(index PUBLIC PROJECT="${PROJECT_NAME}")
 
 # Links Libraries
-target_link_libraries(index PRIVATE glfw3 glm GL m ${Dependencies})
+target_link_libraries(index PRIVATE glfw3 GL m ${Dependencies})

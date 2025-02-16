@@ -1,9 +1,10 @@
 #include "torus.h"
 #include "shape.h"
+#include <glm/ext/scalar_constants.hpp>
 
-Torus torusInit(int rings, int stacks, float insideRadius, float ringRadius, vec3 color, Shader *shader) {
-  Torus torus;
+Torus::Torus() {}
 
+Torus::Torus(int rings, int stacks, float insideRadius, float ringRadius, glm::vec3 color, Shader *shader) : Shape() {
   float x, y, z;
   float xz;
   float nx, ny, nz;
@@ -14,15 +15,15 @@ Torus torusInit(int rings, int stacks, float insideRadius, float ringRadius, vec
   float insideAngleStep = 2 * PI / rings;
   float ringAngleStep = 2 * PI / stacks;
 
-  torus.numVertices = 0;
-  torus.numTextureCoords = 0;
-  torus.numNormals = 0;
-  torus.numIndices = 0;
+  numVertices = 0;
+  numTextureCoords = 0;
+  numNormals = 0;
+  numIndices = 0;
 
-  torus.vertices = new float[(rings + 1) * (stacks + 1) * 3 * sizeof(float)];
-  torus.textureCoordinates = new float[(rings + 1) * (stacks + 1) * 2 * sizeof(float)];
-  torus.normals = new float[(rings + 1) * (stacks + 1) * 3 * sizeof(float)];
-  torus.indices = new unsigned[rings * stacks * 6 * sizeof(unsigned)];
+  vertices = new float[(rings + 1) * (stacks + 1) * 3 * sizeof(float)];
+  textureCoordinates = new float[(rings + 1) * (stacks + 1) * 2 * sizeof(float)];
+  normals = new float[(rings + 1) * (stacks + 1) * 3 * sizeof(float)];
+  indices = new unsigned[rings * stacks * 6 * sizeof(unsigned)];
 
   for (int i = 0; i <= rings; i++) {
     insideAngle = i * insideAngleStep;
@@ -40,23 +41,23 @@ Torus torusInit(int rings, int stacks, float insideRadius, float ringRadius, vec
       ny = y * radiusInv; 
       nz = z * radiusInv; 
 
-      torus.normals[torus.numNormals++] = nx; 
-      torus.normals[torus.numNormals++] = ny; 
-      torus.normals[torus.numNormals++] = nz; 
+      normals[numNormals++] = nx; 
+      normals[numNormals++] = ny; 
+      normals[numNormals++] = nz; 
 
       // Vertices
       x += insideRadius * cos(insideAngle);
       z += insideRadius * sin(insideAngle);
 
-      torus.vertices[torus.numVertices++] = x;
-      torus.vertices[torus.numVertices++] = y;
-      torus.vertices[torus.numVertices++] = z;
+      vertices[numVertices++] = x;
+      vertices[numVertices++] = y;
+      vertices[numVertices++] = z;
 
       // Texture Coordinates
       s = (float)i * 2.0f / rings;
       t = (float)j / stacks;
-      torus.textureCoordinates[torus.numTextureCoords++] = s;
-      torus.textureCoordinates[torus.numTextureCoords++] = t;
+      textureCoordinates[numTextureCoords++] = s;
+      textureCoordinates[numTextureCoords++] = t;
     }
   }
 
@@ -64,20 +65,18 @@ Torus torusInit(int rings, int stacks, float insideRadius, float ringRadius, vec
     v1 = i * (stacks + 1); 
     v2 = v1 + stacks + 1;
     for (int j = 0; j < stacks; j++, v1++, v2++) {
-      torus.indices[torus.numIndices++] = v1;
-      torus.indices[torus.numIndices++] = v2;
-      torus.indices[torus.numIndices++] = v1 + 1;
+      indices[numIndices++] = v1;
+      indices[numIndices++] = v2;
+      indices[numIndices++] = v1 + 1;
 
-      torus.indices[torus.numIndices++] = v1 + 1;
-      torus.indices[torus.numIndices++] = v2;
-      torus.indices[torus.numIndices++] = v2 + 1;
+      indices[numIndices++] = v1 + 1;
+      indices[numIndices++] = v2;
+      indices[numIndices++] = v2 + 1;
     }
   }
 
-  shapeSetData(&torus);
+  setData();
 
-  glm_vec3_copy(color, torus.color);
-  torus.shader = shader;
-
-  return torus;
+  color = color;
+  shader = shader;
 }

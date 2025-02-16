@@ -14,7 +14,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/all_of.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/any_of.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/binary_search.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/clamp.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp_ref_type.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h
@@ -35,7 +34,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if_not.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_segment_if.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_n.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_segment.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/generate.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/generate_n.h
@@ -77,7 +75,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partition_point.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pop_heap.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/prev_permutation.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/push_heap.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_copy.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_copy_n.h
@@ -97,7 +94,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/reverse_copy.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate_copy.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sample.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search_n.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/set_difference.h
@@ -220,8 +216,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/bind.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder1st.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder2nd.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/boyer_moore_searcher.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/default_searcher.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/function.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h
@@ -229,9 +223,7 @@ CMakeFiles/Camera.dir/src/camera.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/is_transparent.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fn.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fun_ref.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/not_fn.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/operations.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/perfect_forward.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/ranges_operations.h
@@ -418,12 +410,10 @@ CMakeFiles/Camera.dir/src/camera.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/enable_if.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/extent.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_unique_object_representation.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_virtual_destructor.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/integral_constant.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/invoke.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_abstract.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_aggregate.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_allocator.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_arithmetic.h
@@ -512,7 +502,6 @@ CMakeFiles/Camera.dir/src/camera.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/unwrap_ref.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/void_t.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/auto_cast.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/convert_to_integral.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h

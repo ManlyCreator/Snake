@@ -166,14 +166,8 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_pointer.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/result_of.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/underlying_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_final.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conjunction.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_unique_object_representation.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_aggregate.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_swappable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/pointer_traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conjunction.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocate_at_least.h \
@@ -185,6 +179,8 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_indices.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/integer_sequence.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/dependent_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_final.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_swappable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/piecewise_construct.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uninitialized_algorithms.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h \
@@ -218,6 +214,7 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator_traits.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/pair.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/readable_traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/advance.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/convert_to_integral.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/unreachable.h \
@@ -274,6 +271,7 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/view_interface.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/empty.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unbounded_array.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exception_guard.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/unique_ptr.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h \
@@ -336,8 +334,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mbstate_t.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/utility \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/rel_ops.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/no_destroy.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/private_constructor_tag.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
@@ -409,6 +405,7 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/movable_box.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/optional \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/atomic \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/aliases.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic.h \
@@ -530,10 +527,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/transform.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique_copy.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/clamp.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_n.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sample.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/error_category.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/error_code.h \
@@ -596,7 +589,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/function.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/builtin_new_allocator.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/strip_signature.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/boyer_moore_searcher.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/unordered_map \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/is_transparent.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__hash_table \
@@ -638,33 +630,12 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_upper_bound.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/indic_conjunct_break_table.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/width_estimation_table.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/default_searcher.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/not_fn.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/perfect_forward.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stack \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/stack.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/print \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/unistd.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/fstream \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/filesystem \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/copy_options.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/directory_entry.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/file_status.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/file_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/perms.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/file_time_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/file_clock.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/filesystem_error.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/path.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iomanip \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/operations.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/perm_options.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/space_info.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/directory_iterator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/directory_options.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/path_iterator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/recursive_directory_iterator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/u8path.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/sstream \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/strstream \
   /home/rami/CPP_Projects/Snake/include/shader.h \

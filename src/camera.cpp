@@ -8,7 +8,7 @@ void updateVectors(Camera *camera);
 Camera cameraInit(glm::vec3 position, float pitch, float yaw) {
   Camera camera;
 
-  position = camera.position;
+  camera.position = position;
   updateVectors(&camera);
   camera.pitch = pitch;
   camera.yaw = yaw;

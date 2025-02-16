@@ -1,1 +1,1 @@
- -lglfw3 -lglm -lGL -lm libShader.a libShape.a libCube.a libTorus.a libCamera.a 
+ -lglfw3 -lGL -lm libShader.a libShape.a libCube.a libTorus.a libCamera.a 

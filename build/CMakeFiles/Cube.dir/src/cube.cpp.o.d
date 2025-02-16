@@ -18,7 +18,43 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
-  /usr/local/include/cglm/cglm.h /usr/local/include/cglm/common.h \
+  /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/detail/_fixes.hpp \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cmath \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/hypot.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/desugars_to.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp_ref_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assert \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assertion_handler \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__verbose_abort \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max_element.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator_traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/arithmetic.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_floating_point.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/integral_constant.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cv.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_const.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_volatile.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_integral.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_signed.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_arithmetic.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_signed_integer.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unsigned_integer.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/constructible.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/convertible_to.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_convertible.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/destructible.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_destructible.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_destructible.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_function.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_reference.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_all_extents.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/enable_if.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/version \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h \
   /home/rami/emsdk/upstream/lib/clang/21/include/stddef.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
@@ -30,147 +66,46 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/lib/clang/21/include/__stddef_nullptr_t.h \
   /home/rami/emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h \
   /home/rami/emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdlib.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/math.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/abs.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/enable_if.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_integral.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/integral_constant.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cv.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_const.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_volatile.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/copysign.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_arithmetic.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_floating_point.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/promote.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_signed.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/version \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/type_traits \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/functional.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_const.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_cv.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constructible.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_lvalue_reference.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_referenceable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_same.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_pointer.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_void.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_reference.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_rvalue_reference.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_volatile.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/aligned_storage.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conditional.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/nat.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_list.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/aligned_union.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/alignment_of.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/common_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/decay.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_array.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_function.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_extent.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cvref.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/void_t.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/extent.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_virtual_destructor.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_abstract.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_assignable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_base_of.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_class.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_compound.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_fundamental.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_null_pointer.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_const.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constructible.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_convertible.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_destructible.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_reference.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_all_extents.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_empty.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_enum.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_literal_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_member_pointer.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_assignable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_constructible.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_destructible.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_object.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_pod.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_pointer.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_polymorphic.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_scalar.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_standard_layout.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivial.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_assignable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_constructible.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_copyable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_destructible.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_union.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unsigned.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_volatile.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_signed.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/copy_cv.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_unsigned.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/rank.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_pointer.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/result_of.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/invoke.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/invoke.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_core_convertible.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_reference_wrapper.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/forward.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/underlying_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_final.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conjunction.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_unique_object_representation.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_aggregate.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_swappable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/error_functions.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/exponential_functions.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/fdim.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/fma.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/gamma.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/hyperbolic_functions.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/hypot.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/desugars_to.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp_ref_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assert \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assertion_handler \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__verbose_abort \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max_element.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator_traits.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/arithmetic.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_signed_integer.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unsigned_integer.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/constructible.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/convertible_to.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/destructible.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/copyable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/assignable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/common_reference_with.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/same_as.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/common_reference.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/common_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conditional.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/decay.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_pointer.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_void.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_reference.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_array.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_extent.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cvref.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/void_t.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/copy_cv.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/copy_cvref.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_const_lvalue_ref.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/forward.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/movable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/swappable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/class_or_enum.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_class.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_enum.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_union.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/extent.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_assignable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_constructible.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exchange.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/move.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/swap.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_assignable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_swappable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_object.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/equality_comparable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/boolean_testable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/totally_ordered.h \
@@ -179,8 +114,15 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/incrementable_traits.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_primary_template.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_valid_expansion.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_signed.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/nat.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_list.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/readable_traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/initializer_list \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/abs.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/exponential_functions.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/promote.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/roots.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/pair.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/common_comparison_category.h \
@@ -196,13 +138,68 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/integer_sequence.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_types.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_size.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_const.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_volatile.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_like_ext.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conjunction.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_like_no_subrange.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/complex.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_implicitly_default_constructible.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_relocatable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_copyable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/unwrap_ref.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/functional.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/piecewise_construct.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/type_traits \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_const.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_cv.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_volatile.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/aligned_storage.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/aligned_union.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/alignment_of.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_virtual_destructor.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_abstract.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_base_of.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_compound.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_fundamental.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_null_pointer.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_empty.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_literal_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_member_pointer.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_pod.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_pointer.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_polymorphic.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_scalar.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_standard_layout.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivial.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_assignable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_constructible.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_destructible.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unsigned.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_unsigned.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/rank.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_pointer.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/result_of.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/invoke.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/invoke.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_core_convertible.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_reference_wrapper.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/underlying_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constant_evaluated.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/special_functions.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/copysign.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/math.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/error_functions.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/fdim.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/fma.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/gamma.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/hyperbolic_functions.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/inverse_hyperbolic_functions.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/inverse_trigonometric_functions.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/logarithms.h \
@@ -210,110 +207,129 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/modulo.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/remainder.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/rounding_functions.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/traits.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/trigonometric_functions.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdlib.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /usr/local/include/glm/detail/setup.hpp \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
+  /usr/local/include/glm/detail/../simd/platform.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/climits \
+  /home/rami/emsdk/upstream/lib/clang/21/include/limits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cfloat \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/float.h \
   /home/rami/emsdk/upstream/lib/clang/21/include/float.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/float.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdbool.h \
-  /home/rami/emsdk/upstream/lib/clang/21/include/stdbool.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
-  /usr/local/include/cglm/types.h /usr/local/include/cglm/simd/intrin.h \
-  /usr/local/include/cglm/vec2.h /usr/local/include/cglm/util.h \
-  /usr/local/include/cglm/vec2-ext.h /usr/local/include/cglm/vec3.h \
-  /usr/local/include/cglm/vec4.h /usr/local/include/cglm/vec4-ext.h \
-  /usr/local/include/cglm/vec3-ext.h /usr/local/include/cglm/ivec2.h \
-  /usr/local/include/cglm/ivec3.h /usr/local/include/cglm/ivec4.h \
-  /usr/local/include/cglm/mat4.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
-  /usr/local/include/cglm/mat4x2.h /usr/local/include/cglm/mat4x3.h \
-  /usr/local/include/cglm/mat3.h /usr/local/include/cglm/mat3x2.h \
-  /usr/local/include/cglm/mat3x4.h /usr/local/include/cglm/mat2.h \
-  /usr/local/include/cglm/mat2x3.h /usr/local/include/cglm/mat2x4.h \
-  /usr/local/include/cglm/affine.h /usr/local/include/cglm/affine-mat.h \
-  /usr/local/include/cglm/affine-pre.h \
-  /usr/local/include/cglm/affine-post.h /usr/local/include/cglm/cam.h \
-  /usr/local/include/cglm/plane.h \
-  /usr/local/include/cglm/clipspace/persp.h \
-  /usr/local/include/cglm/clipspace/../common.h \
-  /usr/local/include/cglm/clipspace/../plane.h \
-  /usr/local/include/cglm/clipspace/../mat4.h \
-  /usr/local/include/cglm/clipspace/ortho_rh_no.h \
-  /usr/local/include/cglm/clipspace/persp_rh_no.h \
-  /usr/local/include/cglm/clipspace/view_rh_no.h \
-  /usr/local/include/cglm/clipspace/view_rh.h \
-  /usr/local/include/cglm/frustum.h /usr/local/include/cglm/quat.h \
-  /usr/local/include/cglm/euler.h \
-  /usr/local/include/cglm/handed/euler_to_quat_rh.h \
-  /usr/local/include/cglm/handed/../common.h \
-  /usr/local/include/cglm/aabb2d.h /usr/local/include/cglm/box.h \
-  /usr/local/include/cglm/color.h /usr/local/include/cglm/io.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
-  /usr/local/include/cglm/project.h \
-  /usr/local/include/cglm/clipspace/project_no.h \
-  /usr/local/include/cglm/clipspace/../vec3.h \
-  /usr/local/include/cglm/clipspace/../vec4.h \
-  /usr/local/include/cglm/sphere.h /usr/local/include/cglm/ease.h \
-  /usr/local/include/cglm/curve.h /usr/local/include/cglm/bezier.h \
-  /usr/local/include/cglm/ray.h /usr/local/include/cglm/affine2d.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min_element.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_callable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_segment_if.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/segmented_iterator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_iter.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/pointer_traits.h \
+  /usr/local/include/glm/fwd.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/./ext/vector_bool2.hpp \
+  /usr/local/include/glm/./ext/../detail/type_vec2.hpp \
+  /usr/local/include/glm/./ext/../detail/qualifier.hpp \
+  /usr/local/include/glm/./ext/../detail/type_vec2.inl \
+  /usr/local/include/glm/./ext/../detail/./compute_vector_relational.hpp \
+  /usr/local/include/glm/./ext/../detail/./setup.hpp \
+  /usr/local/include/glm/./ext/vector_bool2_precision.hpp \
+  /usr/local/include/glm/./ext/vector_float2.hpp \
+  /usr/local/include/glm/./ext/vector_float2_precision.hpp \
+  /usr/local/include/glm/./ext/vector_double2.hpp \
+  /usr/local/include/glm/./ext/vector_double2_precision.hpp \
+  /usr/local/include/glm/./ext/vector_int2.hpp \
+  /usr/local/include/glm/./ext/vector_int2_sized.hpp \
+  /usr/local/include/glm/./ext/../ext/vector_int2.hpp \
+  /usr/local/include/glm/./ext/../ext/scalar_int_sized.hpp \
+  /usr/local/include/glm/./ext/../ext/../detail/setup.hpp \
+  /usr/local/include/glm/./ext/vector_uint2.hpp \
+  /usr/local/include/glm/./ext/vector_uint2_sized.hpp \
+  /usr/local/include/glm/./ext/../ext/vector_uint2.hpp \
+  /usr/local/include/glm/./ext/../ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/./ext/vector_bool3.hpp \
+  /usr/local/include/glm/./ext/../detail/type_vec3.hpp \
+  /usr/local/include/glm/./ext/../detail/type_vec3.inl \
+  /usr/local/include/glm/./ext/../detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/./ext/../detail/compute_vector_decl.hpp \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/functional \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_function.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_negate.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/bind.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/weak_result_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_function.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/tuple \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_arg_t.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/find_index.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/ignore.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_final.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/lazy.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/maybe_const.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/compare \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/exception \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception_ptr.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/operations.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/addressof.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/countr.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/rotate.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/invert_if.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/constexpr_c_functions.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/construct_at.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/access.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/voidify.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/new \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdlib \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/datasizeof.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constant_evaluated.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_equality_comparable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_pointer_in_range.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_valid_range.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wctype.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/wchar.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove_if.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__debug_utils/sanitizers.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/enable_insertable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/typeinfo \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/nested_exception.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/terminate.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/fstream.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/memory.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/memory_resource.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ios.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/istream.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ostream.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/sstream.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/streambuf.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__std_mbstate_t.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mbstate_t.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/utility \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/rel_ops.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder1st.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder2nd.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_function.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstring \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/memory.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/memory_resource.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ios/fpos.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ios.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/bounded_iter.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fn.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fun_ref.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/operations.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/reference_wrapper.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_negate.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/function.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocate_at_least.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/pointer_traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_destructor.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/builtin_new_allocator.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/unique_ptr.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_three_way.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_three_way_result.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/auto_ptr.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/compressed_pair.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/dependent_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_identity.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/strip_signature.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/array \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_iter.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/distance.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/concepts.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/derived_from.h \
@@ -330,80 +346,42 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/data.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/enable_view.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/size.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/reverse_iterator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_three_way_result.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/advance.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/constexpr_c_functions.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/datasizeof.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_equality_comparable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_pointer_in_range.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_valid_range.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/fill_n.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min_element.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_callable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/convert_to_integral.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/swap_ranges.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/iterator_operations.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/iter_swap.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_iterator_concept.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/advance.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/unreachable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iter_swap.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/next.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/prev.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/reverse_iterator.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/segmented_iterator.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/subrange.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/subrange.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/dangling.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/view_interface.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/empty.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/wrap_iter.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocate_at_least.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_traits.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/compressed_pair.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/dependent_type.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/swap_allocator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory_resource/polymorphic_allocator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory_resource/memory_resource.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exception_guard.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/tuple \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_arg_t.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/find_index.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/ignore.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/lazy.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/maybe_const.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/compare \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cmath \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/special_functions.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/exception \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception_ptr.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/operations.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/typeinfo \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/nested_exception.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/terminate.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/fstream.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/istream.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ostream.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/sstream.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/streambuf.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__std_mbstate_t.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mbstate_t.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/utility \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/rel_ops.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/container_compatible_range.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/from_range.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/char_traits.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/fill_n.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_end.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/iterator_operations.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/iter_swap.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_iterator_concept.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_first_of.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdio \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/extern_template_lists.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_allocator.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/climits \
-  /home/rami/emsdk/upstream/lib/clang/21/include/limits.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/empty.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string_view.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_identity.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/data.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/empty.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/reverse_access.h \
@@ -423,16 +401,34 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_if.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_n.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/count.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/invert_if.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/popcount.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/rotate.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/count_if.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal_range.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/upper_bound.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/fill.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_segment_if.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/countr.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wctype.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/wchar.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_end.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_first_of.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if_not.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/movable_box.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/optional \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/atomic \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/aliases.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic.h \
@@ -458,12 +454,11 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/errno.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/errno.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/pthread.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/sched.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/check_memory_order.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/is_always_lock_free.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/operations.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_function.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_lock_free.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_flag.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_init.h \
@@ -486,18 +481,13 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__variant/monostate.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/align.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/auto_ptr.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/inout_ptr.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/shared_ptr.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_three_way.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/reference_wrapper.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/weak_result_type.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocation_guard.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_destructor.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uninitialized_algorithms.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unbounded_array.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/unique_ptr.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exception_guard.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_bounded_array.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_specialization.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/out_ptr.h \
@@ -509,7 +499,6 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/inplace_merge.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move_backward.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/swap_ranges.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/destruct_n.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_heap.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_heap_until.h \
@@ -517,7 +506,6 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_permutation.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_sorted.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_sorted_until.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/make_heap.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sift_down.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/merge.h \
@@ -547,8 +535,10 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partition_copy.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partition_point.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/prev_permutation.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove_copy.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove_copy_if.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove_if.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/replace.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/replace_copy.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/replace_copy_if.h \
@@ -569,8 +559,258 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/transform.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique_copy.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/clamp.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_n.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sample.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/unordered_map \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/is_transparent.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__hash_table \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/swap_allocator.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/can_extract_key.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_const_ref.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/erase_if_container.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory_resource/polymorphic_allocator.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory_resource/memory_resource.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__node_handle \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/container_compatible_range.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/from_range.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_allocator.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/vector \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bit_reference \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__debug_utils/sanitizers.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/enable_insertable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/format.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter_bool.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/concepts.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_parse_context.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_error.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string_view.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/bounded_iter.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/char_traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdio \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter_integral.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/to_chars_integral.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/tables.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/to_chars_base_10.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/to_chars_result.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/errc.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cerrno \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/traits.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter_output.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_copy.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/in_out_result.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_fill_n.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_transform.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/in_in_out_result.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/projected.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/buffer.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_copy_n.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/unreachable_sentinel.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_to_n_result.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/ranges_construct_at.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/concepts.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/parser_std_format_spec.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_arg.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_string.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/unicode.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/extended_grapheme_cluster_table.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_upper_bound.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/indic_conjunct_break_table.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/width_estimation_table.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ios/fpos.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/extern_template_lists.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__locale \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__locale_dir/locale_base_api.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/xlocale.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/locale.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/locale.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/once_flag.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/no_destroy.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/private_constructor_tag.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/clocale \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/vector.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/temp_value.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__split_buffer \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/locale \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ios \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/error_category.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/error_code.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/error_condition.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/system_error.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/mutex \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__condition_variable/condition_variable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/mutex.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/unique_lock.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/tag_types.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/lock_guard.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__thread/id.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/system_error \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/streambuf \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_fallbacks.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__locale_dir/locale_base_api/locale_guard.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /home/rami/emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /home/rami/emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /home/rami/emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /home/rami/emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /home/rami/emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /home/rami/emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /home/rami/emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdarg \
+  /usr/local/include/glm/./ext/../detail/_vectorize.hpp \
+  /usr/local/include/glm/./ext/vector_bool3_precision.hpp \
+  /usr/local/include/glm/./ext/vector_float3.hpp \
+  /usr/local/include/glm/./ext/vector_float3_precision.hpp \
+  /usr/local/include/glm/./ext/vector_double3.hpp \
+  /usr/local/include/glm/./ext/vector_double3_precision.hpp \
+  /usr/local/include/glm/./ext/vector_int3.hpp \
+  /usr/local/include/glm/./ext/vector_int3_sized.hpp \
+  /usr/local/include/glm/./ext/../ext/vector_int3.hpp \
+  /usr/local/include/glm/./ext/vector_uint3.hpp \
+  /usr/local/include/glm/./ext/vector_uint3_sized.hpp \
+  /usr/local/include/glm/./ext/../ext/vector_uint3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/./ext/vector_bool4.hpp \
+  /usr/local/include/glm/./ext/../detail/type_vec4.hpp \
+  /usr/local/include/glm/./ext/../detail/type_vec4.inl \
+  /usr/local/include/glm/./ext/vector_bool4_precision.hpp \
+  /usr/local/include/glm/./ext/vector_float4.hpp \
+  /usr/local/include/glm/./ext/vector_float4_precision.hpp \
+  /usr/local/include/glm/./ext/vector_double4.hpp \
+  /usr/local/include/glm/./ext/vector_double4_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/setup.hpp \
+  /usr/local/include/glm/./ext/vector_int4.hpp \
+  /usr/local/include/glm/./ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/./ext/../ext/vector_int4.hpp \
+  /usr/local/include/glm/./ext/vector_uint4.hpp \
+  /usr/local/include/glm/./ext/vector_uint4_sized.hpp \
+  /usr/local/include/glm/./ext/../ext/vector_uint4.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/./ext/matrix_double2x2.hpp \
+  /usr/local/include/glm/./ext/../detail/type_mat2x2.hpp \
+  /usr/local/include/glm/./ext/../detail/type_mat2x2.inl \
+  /usr/local/include/glm/./ext/../detail/../matrix.hpp \
+  /usr/local/include/glm/./ext/../detail/../detail/qualifier.hpp \
+  /usr/local/include/glm/./ext/../detail/../detail/setup.hpp \
+  /usr/local/include/glm/./ext/../detail/../vec2.hpp \
+  /usr/local/include/glm/./ext/../detail/../vec3.hpp \
+  /usr/local/include/glm/./ext/../detail/../vec4.hpp \
+  /usr/local/include/glm/./ext/../detail/../mat2x2.hpp \
+  /usr/local/include/glm/./ext/../detail/../mat2x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double2x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat2x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_vec2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_vec3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat2x3.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double2x3_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float2x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float2x3_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/../mat2x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double2x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat2x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_vec4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat2x4.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double2x4_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float2x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float2x4_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/../mat3x2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double3x2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat3x2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat3x2.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double3x2_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float3x2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float3x2_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/../mat3x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double3x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat3x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat3x3.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../matrix.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../common.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/qualifier.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/_fixes.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/func_common.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../vector_relational.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/qualifier.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/setup.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/func_vector_relational.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/compute_common.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/setup.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/type_vec1.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/type_vec1.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/./compute_vector_relational.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/type_vec2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/type_vec3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/type_vec4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/_vectorize.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double3x3_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float3x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float3x3_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/../mat3x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double3x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat3x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat3x4.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double3x4_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float3x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float3x4_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/../mat4x2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double4x2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat4x2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat4x2.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double4x2_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float4x2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float4x2_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat2x2.hpp \
+  /usr/local/include/glm/./ext/../detail/../mat4x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double4x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat4x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat4x3.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double4x3_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float4x3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float4x3_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/../mat4x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double4x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat4x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/type_mat4x4.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../geometric.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/func_geometric.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../exponential.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/type_vec1.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/type_vec2.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/type_vec3.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/type_vec4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/func_exponential.inl \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/../vector_relational.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../detail/_vectorize.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/../detail/../detail/../common.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_double4x4_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float4x4.hpp \
+  /usr/local/include/glm/./ext/../detail/.././ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/./ext/../detail/../detail/func_matrix.inl \
+  /usr/local/include/glm/./ext/../detail/../detail/../geometric.hpp \
+  /usr/local/include/glm/./ext/matrix_double2x2_precision.hpp \
+  /usr/local/include/glm/./ext/matrix_float2x2.hpp \
+  /usr/local/include/glm/./ext/matrix_float2x2_precision.hpp \
+  /usr/local/include/glm/mat2x3.hpp /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/detail/func_trigonometric.inl \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/common.hpp /usr/local/include/glm/packing.hpp \
+  /usr/local/include/glm/detail/func_packing.inl \
+  /usr/local/include/glm/detail/../common.hpp \
+  /usr/local/include/glm/detail/type_half.hpp \
+  /usr/local/include/glm/detail/type_half.inl \
+  /usr/local/include/glm/geometric.hpp /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/integer.hpp \
+  /usr/local/include/glm/detail/func_integer.inl

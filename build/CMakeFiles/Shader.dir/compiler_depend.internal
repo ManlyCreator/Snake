@@ -16,7 +16,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/all_of.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/any_of.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/binary_search.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/clamp.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp_ref_type.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h
@@ -37,7 +36,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if_not.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_segment_if.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_n.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_segment.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/generate.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/generate_n.h
@@ -79,7 +77,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partition_point.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pop_heap.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/prev_permutation.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/push_heap.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_copy.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_copy_n.h
@@ -99,7 +96,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/reverse_copy.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate_copy.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sample.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search_n.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/set_difference.h
@@ -153,7 +149,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/traits.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/convert_to_timespec.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/duration.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/file_clock.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/high_resolution_clock.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/steady_clock.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/system_clock.h
@@ -201,22 +196,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/nested_exception.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/operations.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/terminate.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/copy_options.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/directory_entry.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/directory_iterator.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/directory_options.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/file_status.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/file_time_type.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/file_type.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/filesystem_error.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/operations.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/path.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/path_iterator.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/perm_options.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/perms.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/recursive_directory_iterator.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/space_info.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__filesystem/u8path.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/buffer.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/concepts.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/enable_insertable.h
@@ -239,8 +218,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/bind.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder1st.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder2nd.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/boyer_moore_searcher.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/default_searcher.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/function.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h
@@ -248,9 +225,7 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/is_transparent.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fn.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fun_ref.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/not_fn.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/operations.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/perfect_forward.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/ranges_operations.h
@@ -441,12 +416,10 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/enable_if.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/extent.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_unique_object_representation.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_virtual_destructor.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/integral_constant.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/invoke.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_abstract.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_aggregate.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_allocator.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_arithmetic.h
@@ -536,7 +509,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/unwrap_ref.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/void_t.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/auto_cast.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/convert_to_integral.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h
@@ -564,8 +536,10 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/atomic
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bitset
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cctype
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cerrno
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cfloat
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/climits
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/clocale
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cmath
@@ -590,7 +564,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/fstream
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/functional
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/initializer_list
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iomanip
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ios
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iostream
@@ -610,7 +583,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ratio
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/sstream
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stack
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdbool.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h
@@ -648,7 +620,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/pthread.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/sched.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h
- /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h
@@ -677,64 +648,196 @@ CMakeFiles/Shader.dir/src/shader.cpp.o
  /home/rami/emsdk/upstream/lib/clang/21/include/float.h
  /home/rami/emsdk/upstream/lib/clang/21/include/limits.h
  /home/rami/emsdk/upstream/lib/clang/21/include/stdarg.h
- /home/rami/emsdk/upstream/lib/clang/21/include/stdbool.h
  /home/rami/emsdk/upstream/lib/clang/21/include/stddef.h
  /home/rami/emsdk/upstream/lib/clang/21/include/stdint.h
  /usr/local/include/KHR/khrplatform.h
- /usr/local/include/cglm/aabb2d.h
- /usr/local/include/cglm/affine-mat.h
- /usr/local/include/cglm/affine-post.h
- /usr/local/include/cglm/affine-pre.h
- /usr/local/include/cglm/affine.h
- /usr/local/include/cglm/affine2d.h
- /usr/local/include/cglm/bezier.h
- /usr/local/include/cglm/box.h
- /usr/local/include/cglm/cam.h
- /usr/local/include/cglm/cglm.h
- /usr/local/include/cglm/common.h
- /usr/local/include/cglm/mat4.h
- /usr/local/include/cglm/plane.h
- /usr/local/include/cglm/vec3.h
- /usr/local/include/cglm/vec4.h
- /usr/local/include/cglm/clipspace/ortho_rh_no.h
- /usr/local/include/cglm/clipspace/persp.h
- /usr/local/include/cglm/clipspace/persp_rh_no.h
- /usr/local/include/cglm/clipspace/project_no.h
- /usr/local/include/cglm/clipspace/view_rh.h
- /usr/local/include/cglm/clipspace/view_rh_no.h
- /usr/local/include/cglm/color.h
- /usr/local/include/cglm/common.h
- /usr/local/include/cglm/curve.h
- /usr/local/include/cglm/ease.h
- /usr/local/include/cglm/euler.h
- /usr/local/include/cglm/frustum.h
- /usr/local/include/cglm/common.h
- /usr/local/include/cglm/handed/euler_to_quat_rh.h
- /usr/local/include/cglm/io.h
- /usr/local/include/cglm/ivec2.h
- /usr/local/include/cglm/ivec3.h
- /usr/local/include/cglm/ivec4.h
- /usr/local/include/cglm/mat2.h
- /usr/local/include/cglm/mat2x3.h
- /usr/local/include/cglm/mat2x4.h
- /usr/local/include/cglm/mat3.h
- /usr/local/include/cglm/mat3x2.h
- /usr/local/include/cglm/mat3x4.h
- /usr/local/include/cglm/mat4.h
- /usr/local/include/cglm/mat4x2.h
- /usr/local/include/cglm/mat4x3.h
- /usr/local/include/cglm/plane.h
- /usr/local/include/cglm/project.h
- /usr/local/include/cglm/quat.h
- /usr/local/include/cglm/ray.h
- /usr/local/include/cglm/simd/intrin.h
- /usr/local/include/cglm/sphere.h
- /usr/local/include/cglm/types.h
- /usr/local/include/cglm/util.h
- /usr/local/include/cglm/vec2-ext.h
- /usr/local/include/cglm/vec2.h
- /usr/local/include/cglm/vec3-ext.h
- /usr/local/include/cglm/vec3.h
- /usr/local/include/cglm/vec4-ext.h
- /usr/local/include/cglm/vec4.h
+ /usr/local/include/glm/common.hpp
+ /usr/local/include/glm/common.hpp
+ /usr/local/include/glm/vector_relational.hpp
+ /usr/local/include/glm/detail/_vectorize.hpp
+ /usr/local/include/glm/detail/func_exponential.inl
+ /usr/local/include/glm/detail/func_vector_relational.inl
+ /usr/local/include/glm/detail/qualifier.hpp
+ /usr/local/include/glm/detail/setup.hpp
+ /usr/local/include/glm/detail/type_vec1.hpp
+ /usr/local/include/glm/detail/type_vec2.hpp
+ /usr/local/include/glm/detail/type_vec3.hpp
+ /usr/local/include/glm/detail/type_vec4.hpp
+ /usr/local/include/glm/exponential.hpp
+ /usr/local/include/glm/vector_relational.hpp
+ /usr/local/include/glm/detail/compute_vector_relational.hpp
+ /usr/local/include/glm/detail/_fixes.hpp
+ /usr/local/include/glm/detail/_vectorize.hpp
+ /usr/local/include/glm/detail/compute_common.hpp
+ /usr/local/include/glm/detail/func_common.inl
+ /usr/local/include/glm/detail/func_geometric.inl
+ /usr/local/include/glm/detail/qualifier.hpp
+ /usr/local/include/glm/detail/setup.hpp
+ /usr/local/include/glm/detail/type_vec1.hpp
+ /usr/local/include/glm/detail/type_vec1.inl
+ /usr/local/include/glm/detail/type_vec2.hpp
+ /usr/local/include/glm/detail/type_vec3.hpp
+ /usr/local/include/glm/detail/type_vec4.hpp
+ /usr/local/include/glm/geometric.hpp
+ /usr/local/include/glm/matrix.hpp
+ /usr/local/include/glm/detail/type_mat2x2.hpp
+ /usr/local/include/glm/detail/type_mat2x3.hpp
+ /usr/local/include/glm/detail/type_mat2x3.inl
+ /usr/local/include/glm/detail/type_mat2x4.hpp
+ /usr/local/include/glm/detail/type_mat2x4.inl
+ /usr/local/include/glm/detail/type_mat3x2.hpp
+ /usr/local/include/glm/detail/type_mat3x2.inl
+ /usr/local/include/glm/detail/type_mat3x3.hpp
+ /usr/local/include/glm/detail/type_mat3x3.inl
+ /usr/local/include/glm/detail/type_mat3x4.hpp
+ /usr/local/include/glm/detail/type_mat3x4.inl
+ /usr/local/include/glm/detail/type_mat4x2.hpp
+ /usr/local/include/glm/detail/type_mat4x2.inl
+ /usr/local/include/glm/detail/type_mat4x3.hpp
+ /usr/local/include/glm/detail/type_mat4x3.inl
+ /usr/local/include/glm/detail/type_mat4x4.hpp
+ /usr/local/include/glm/detail/type_mat4x4.inl
+ /usr/local/include/glm/detail/type_vec2.hpp
+ /usr/local/include/glm/detail/type_vec3.hpp
+ /usr/local/include/glm/detail/type_vec4.hpp
+ /usr/local/include/glm/ext/matrix_double2x3.hpp
+ /usr/local/include/glm/ext/matrix_double2x3_precision.hpp
+ /usr/local/include/glm/ext/matrix_double2x4.hpp
+ /usr/local/include/glm/ext/matrix_double2x4_precision.hpp
+ /usr/local/include/glm/ext/matrix_double3x2.hpp
+ /usr/local/include/glm/ext/matrix_double3x2_precision.hpp
+ /usr/local/include/glm/ext/matrix_double3x3.hpp
+ /usr/local/include/glm/ext/matrix_double3x3_precision.hpp
+ /usr/local/include/glm/ext/matrix_double3x4.hpp
+ /usr/local/include/glm/ext/matrix_double3x4_precision.hpp
+ /usr/local/include/glm/ext/matrix_double4x2.hpp
+ /usr/local/include/glm/ext/matrix_double4x2_precision.hpp
+ /usr/local/include/glm/ext/matrix_double4x3.hpp
+ /usr/local/include/glm/ext/matrix_double4x3_precision.hpp
+ /usr/local/include/glm/ext/matrix_double4x4.hpp
+ /usr/local/include/glm/ext/matrix_double4x4_precision.hpp
+ /usr/local/include/glm/ext/matrix_float2x3.hpp
+ /usr/local/include/glm/ext/matrix_float2x3_precision.hpp
+ /usr/local/include/glm/ext/matrix_float2x4.hpp
+ /usr/local/include/glm/ext/matrix_float2x4_precision.hpp
+ /usr/local/include/glm/ext/matrix_float3x2.hpp
+ /usr/local/include/glm/ext/matrix_float3x2_precision.hpp
+ /usr/local/include/glm/ext/matrix_float3x3.hpp
+ /usr/local/include/glm/ext/matrix_float3x3_precision.hpp
+ /usr/local/include/glm/ext/matrix_float3x4.hpp
+ /usr/local/include/glm/ext/matrix_float3x4_precision.hpp
+ /usr/local/include/glm/ext/matrix_float4x2.hpp
+ /usr/local/include/glm/ext/matrix_float4x2_precision.hpp
+ /usr/local/include/glm/ext/matrix_float4x3.hpp
+ /usr/local/include/glm/ext/matrix_float4x3_precision.hpp
+ /usr/local/include/glm/ext/matrix_float4x4.hpp
+ /usr/local/include/glm/ext/matrix_float4x4_precision.hpp
+ /usr/local/include/glm/geometric.hpp
+ /usr/local/include/glm/detail/func_matrix.inl
+ /usr/local/include/glm/detail/qualifier.hpp
+ /usr/local/include/glm/detail/setup.hpp
+ /usr/local/include/glm/mat2x2.hpp
+ /usr/local/include/glm/mat2x3.hpp
+ /usr/local/include/glm/mat2x4.hpp
+ /usr/local/include/glm/mat3x2.hpp
+ /usr/local/include/glm/mat3x3.hpp
+ /usr/local/include/glm/mat3x4.hpp
+ /usr/local/include/glm/mat4x2.hpp
+ /usr/local/include/glm/mat4x3.hpp
+ /usr/local/include/glm/mat4x4.hpp
+ /usr/local/include/glm/matrix.hpp
+ /usr/local/include/glm/vec2.hpp
+ /usr/local/include/glm/vec3.hpp
+ /usr/local/include/glm/vec4.hpp
+ /usr/local/include/glm/detail/compute_vector_relational.hpp
+ /usr/local/include/glm/detail/setup.hpp
+ /usr/local/include/glm/detail/_vectorize.hpp
+ /usr/local/include/glm/detail/compute_vector_decl.hpp
+ /usr/local/include/glm/detail/compute_vector_relational.hpp
+ /usr/local/include/glm/detail/qualifier.hpp
+ /usr/local/include/glm/detail/setup.hpp
+ /usr/local/include/glm/detail/type_mat2x2.hpp
+ /usr/local/include/glm/detail/type_mat2x2.inl
+ /usr/local/include/glm/detail/type_vec2.hpp
+ /usr/local/include/glm/detail/type_vec2.inl
+ /usr/local/include/glm/detail/type_vec3.hpp
+ /usr/local/include/glm/detail/type_vec3.inl
+ /usr/local/include/glm/detail/type_vec4.hpp
+ /usr/local/include/glm/detail/type_vec4.inl
+ /usr/local/include/glm/detail/setup.hpp
+ /usr/local/include/glm/ext/scalar_int_sized.hpp
+ /usr/local/include/glm/ext/scalar_uint_sized.hpp
+ /usr/local/include/glm/ext/vector_int2.hpp
+ /usr/local/include/glm/ext/vector_int3.hpp
+ /usr/local/include/glm/ext/vector_int4.hpp
+ /usr/local/include/glm/ext/vector_uint2.hpp
+ /usr/local/include/glm/ext/vector_uint3.hpp
+ /usr/local/include/glm/ext/vector_uint4.hpp
+ /usr/local/include/glm/ext/matrix_double2x2.hpp
+ /usr/local/include/glm/ext/matrix_double2x2_precision.hpp
+ /usr/local/include/glm/ext/matrix_float2x2.hpp
+ /usr/local/include/glm/ext/matrix_float2x2_precision.hpp
+ /usr/local/include/glm/ext/vector_bool2.hpp
+ /usr/local/include/glm/ext/vector_bool2_precision.hpp
+ /usr/local/include/glm/ext/vector_bool3.hpp
+ /usr/local/include/glm/ext/vector_bool3_precision.hpp
+ /usr/local/include/glm/ext/vector_bool4.hpp
+ /usr/local/include/glm/ext/vector_bool4_precision.hpp
+ /usr/local/include/glm/ext/vector_double2.hpp
+ /usr/local/include/glm/ext/vector_double2_precision.hpp
+ /usr/local/include/glm/ext/vector_double3.hpp
+ /usr/local/include/glm/ext/vector_double3_precision.hpp
+ /usr/local/include/glm/ext/vector_double4.hpp
+ /usr/local/include/glm/ext/vector_double4_precision.hpp
+ /usr/local/include/glm/ext/vector_float2.hpp
+ /usr/local/include/glm/ext/vector_float2_precision.hpp
+ /usr/local/include/glm/ext/vector_float3.hpp
+ /usr/local/include/glm/ext/vector_float3_precision.hpp
+ /usr/local/include/glm/ext/vector_float4.hpp
+ /usr/local/include/glm/ext/vector_float4_precision.hpp
+ /usr/local/include/glm/ext/vector_int2.hpp
+ /usr/local/include/glm/ext/vector_int2_sized.hpp
+ /usr/local/include/glm/ext/vector_int3.hpp
+ /usr/local/include/glm/ext/vector_int3_sized.hpp
+ /usr/local/include/glm/ext/vector_int4.hpp
+ /usr/local/include/glm/ext/vector_int4_sized.hpp
+ /usr/local/include/glm/ext/vector_uint2.hpp
+ /usr/local/include/glm/ext/vector_uint2_sized.hpp
+ /usr/local/include/glm/ext/vector_uint3.hpp
+ /usr/local/include/glm/ext/vector_uint3_sized.hpp
+ /usr/local/include/glm/ext/vector_uint4.hpp
+ /usr/local/include/glm/ext/vector_uint4_sized.hpp
+ /usr/local/include/glm/common.hpp
+ /usr/local/include/glm/common.hpp
+ /usr/local/include/glm/simd/platform.h
+ /usr/local/include/glm/detail/_fixes.hpp
+ /usr/local/include/glm/detail/_vectorize.hpp
+ /usr/local/include/glm/detail/func_integer.inl
+ /usr/local/include/glm/detail/func_packing.inl
+ /usr/local/include/glm/detail/func_trigonometric.inl
+ /usr/local/include/glm/detail/qualifier.hpp
+ /usr/local/include/glm/detail/setup.hpp
+ /usr/local/include/glm/detail/type_half.hpp
+ /usr/local/include/glm/detail/type_half.inl
+ /usr/local/include/glm/exponential.hpp
+ /usr/local/include/glm/fwd.hpp
+ /usr/local/include/glm/geometric.hpp
+ /usr/local/include/glm/glm.hpp
+ /usr/local/include/glm/integer.hpp
+ /usr/local/include/glm/mat2x2.hpp
+ /usr/local/include/glm/mat2x3.hpp
+ /usr/local/include/glm/mat2x4.hpp
+ /usr/local/include/glm/mat3x2.hpp
+ /usr/local/include/glm/mat3x3.hpp
+ /usr/local/include/glm/mat3x4.hpp
+ /usr/local/include/glm/mat4x2.hpp
+ /usr/local/include/glm/mat4x3.hpp
+ /usr/local/include/glm/mat4x4.hpp
+ /usr/local/include/glm/matrix.hpp
+ /usr/local/include/glm/packing.hpp
+ /usr/local/include/glm/trigonometric.hpp
+ /usr/local/include/glm/vec2.hpp
+ /usr/local/include/glm/vec3.hpp
+ /usr/local/include/glm/vec4.hpp
+ /usr/local/include/glm/vector_relational.hpp
 

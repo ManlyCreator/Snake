@@ -3,37 +3,36 @@
 
 #include "shader.h"
 
-#define PI GLM_PI
+#define PI glm::pi<float>()
 
 typedef enum { VERTICES, TEXTURE, NORMALS } VBOAttribs;
 
-typedef struct {
-  /*** OPENGL DATA ***/
-  unsigned VAO;
-  unsigned EBO;
-  unsigned VBO[3];
-  Shader *shader;
-  /*** VERTEX DATA ***/
-  // Scalars
-  long numVertices;
-  long numTextureCoords;
-  long numNormals;
-  long numIndices;
-  // Arrays
-  float *vertices; 
-  float *textureCoordinates;
-  float *normals;
-  unsigned *indices;
-  /*** TRANSFORM DATA ***/
-  vec3 position;
-  vec3 rotation;
-  vec3 size;
-  vec3 color;
-} Shape;
+class Shape {
+  protected:
+    // OpenGL Data
+    unsigned VAO;
+    unsigned EBO;
+    unsigned VBO[3];
+    Shader *shader;
 
-void shapeSetData(Shape *shape);
-void shapeDraw(Shape shape, mat4 model);
-void shapeTranslate(Shape shape, float *pos, float *rot, float *size, vec4 *model);
-void shapeDelete(Shape *shape);
+    // Vertex Data
+    long numVertices;
+    long numTextureCoords;
+    long numNormals;
+    long numIndices;
+
+    float *vertices;
+    float *textureCoordinates;
+    float *normals;
+    unsigned *indices;
+
+    // Functions
+    void setData();
+
+  public:
+    ~Shape();
+    glm::vec3 color;
+    void draw(glm::mat4 model);
+};
 
 #endif

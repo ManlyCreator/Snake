@@ -19,7 +19,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/all_of.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/any_of.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/binary_search.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/clamp.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp_ref_type.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h \
@@ -40,7 +39,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if_not.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_segment_if.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_n.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_segment.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/generate.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/generate_n.h \
@@ -82,7 +80,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partition_point.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pop_heap.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/prev_permutation.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/push_heap.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_copy.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_copy_n.h \
@@ -102,7 +99,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/reverse_copy.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate_copy.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sample.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search_n.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/set_difference.h \
@@ -225,8 +221,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/bind.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder1st.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder2nd.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/boyer_moore_searcher.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/default_searcher.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/function.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h \
@@ -234,9 +228,7 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/is_transparent.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fn.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fun_ref.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/not_fn.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/operations.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/perfect_forward.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/ranges_operations.h \
@@ -427,12 +419,10 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/enable_if.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/extent.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_unique_object_representation.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_virtual_destructor.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/integral_constant.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/invoke.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_abstract.h \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_aggregate.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_allocator.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_arithmetic.h \
@@ -522,7 +512,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/unwrap_ref.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/void_t.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros \
-  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/auto_cast.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/convert_to_integral.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h \
@@ -674,92 +663,26 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/emsdk/upstream/lib/clang/21/include/stdint.h \
   /usr/local/include/GLFW/glfw3.h \
   /usr/local/include/KHR/khrplatform.h \
-  /usr/local/include/cglm/aabb2d.h \
-  /usr/local/include/cglm/affine-mat.h \
-  /usr/local/include/cglm/affine-post.h \
-  /usr/local/include/cglm/affine-pre.h \
-  /usr/local/include/cglm/affine.h \
-  /usr/local/include/cglm/affine2d.h \
-  /usr/local/include/cglm/bezier.h \
-  /usr/local/include/cglm/box.h \
-  /usr/local/include/cglm/cam.h \
-  /usr/local/include/cglm/cglm.h \
-  /usr/local/include/cglm/common.h \
-  /usr/local/include/cglm/mat4.h \
-  /usr/local/include/cglm/plane.h \
-  /usr/local/include/cglm/vec3.h \
-  /usr/local/include/cglm/vec4.h \
-  /usr/local/include/cglm/clipspace/ortho_rh_no.h \
-  /usr/local/include/cglm/clipspace/persp.h \
-  /usr/local/include/cglm/clipspace/persp_rh_no.h \
-  /usr/local/include/cglm/clipspace/project_no.h \
-  /usr/local/include/cglm/clipspace/view_rh.h \
-  /usr/local/include/cglm/clipspace/view_rh_no.h \
-  /usr/local/include/cglm/color.h \
-  /usr/local/include/cglm/common.h \
-  /usr/local/include/cglm/curve.h \
-  /usr/local/include/cglm/ease.h \
-  /usr/local/include/cglm/euler.h \
-  /usr/local/include/cglm/frustum.h \
-  /usr/local/include/cglm/common.h \
-  /usr/local/include/cglm/handed/euler_to_quat_rh.h \
-  /usr/local/include/cglm/io.h \
-  /usr/local/include/cglm/ivec2.h \
-  /usr/local/include/cglm/ivec3.h \
-  /usr/local/include/cglm/ivec4.h \
-  /usr/local/include/cglm/mat2.h \
-  /usr/local/include/cglm/mat2x3.h \
-  /usr/local/include/cglm/mat2x4.h \
-  /usr/local/include/cglm/mat3.h \
-  /usr/local/include/cglm/mat3x2.h \
-  /usr/local/include/cglm/mat3x4.h \
-  /usr/local/include/cglm/mat4.h \
-  /usr/local/include/cglm/mat4x2.h \
-  /usr/local/include/cglm/mat4x3.h \
-  /usr/local/include/cglm/plane.h \
-  /usr/local/include/cglm/project.h \
-  /usr/local/include/cglm/quat.h \
-  /usr/local/include/cglm/ray.h \
-  /usr/local/include/cglm/simd/intrin.h \
-  /usr/local/include/cglm/sphere.h \
-  /usr/local/include/cglm/types.h \
-  /usr/local/include/cglm/util.h \
-  /usr/local/include/cglm/vec2-ext.h \
-  /usr/local/include/cglm/vec2.h \
-  /usr/local/include/cglm/vec3-ext.h \
-  /usr/local/include/cglm/vec3.h \
-  /usr/local/include/cglm/vec4-ext.h \
-  /usr/local/include/cglm/vec4.h \
+  /usr/local/include/glm/ext/vector_float2.hpp \
+  /usr/local/include/glm/ext/vector_float4.hpp \
+  /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/common.hpp \
-  /usr/local/include/glm/vector_relational.hpp \
-  /usr/local/include/glm/detail/_vectorize.hpp \
-  /usr/local/include/glm/detail/func_exponential.inl \
-  /usr/local/include/glm/detail/func_vector_relational.inl \
-  /usr/local/include/glm/detail/qualifier.hpp \
-  /usr/local/include/glm/detail/setup.hpp \
-  /usr/local/include/glm/detail/type_vec1.hpp \
-  /usr/local/include/glm/detail/type_vec2.hpp \
-  /usr/local/include/glm/detail/type_vec3.hpp \
-  /usr/local/include/glm/detail/type_vec4.hpp \
-  /usr/local/include/glm/exponential.hpp \
-  /usr/local/include/glm/vector_relational.hpp \
-  /usr/local/include/glm/detail/compute_vector_relational.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/detail/_vectorize.hpp \
-  /usr/local/include/glm/detail/compute_common.hpp \
-  /usr/local/include/glm/detail/func_common.inl \
-  /usr/local/include/glm/detail/func_geometric.inl \
+  /usr/local/include/glm/detail/func_integer.inl \
+  /usr/local/include/glm/detail/func_packing.inl \
   /usr/local/include/glm/detail/qualifier.hpp \
   /usr/local/include/glm/detail/setup.hpp \
-  /usr/local/include/glm/detail/type_vec1.hpp \
-  /usr/local/include/glm/detail/type_vec1.inl \
-  /usr/local/include/glm/detail/type_vec2.hpp \
-  /usr/local/include/glm/detail/type_vec3.hpp \
-  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/detail/type_half.hpp \
+  /usr/local/include/glm/detail/type_half.inl \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
   /usr/local/include/glm/detail/type_mat2x2.hpp \
+  /usr/local/include/glm/detail/type_mat2x2.inl \
   /usr/local/include/glm/detail/type_mat2x3.hpp \
   /usr/local/include/glm/detail/type_mat2x3.inl \
   /usr/local/include/glm/detail/type_mat2x4.hpp \
@@ -779,6 +702,17 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /usr/local/include/glm/detail/type_vec2.hpp \
   /usr/local/include/glm/detail/type_vec3.hpp \
   /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/ext/scalar_int_sized.hpp \
+  /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int2.hpp \
+  /usr/local/include/glm/ext/vector_int3.hpp \
+  /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_uint2.hpp \
+  /usr/local/include/glm/ext/vector_uint3.hpp \
+  /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/ext/matrix_double2x2.hpp \
+  /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/local/include/glm/ext/matrix_double2x3.hpp \
   /usr/local/include/glm/ext/matrix_double2x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_double2x4.hpp \
@@ -795,6 +729,8 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /usr/local/include/glm/ext/matrix_double4x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_double4x4.hpp \
   /usr/local/include/glm/ext/matrix_double4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_float2x2.hpp \
+  /usr/local/include/glm/ext/matrix_float2x2_precision.hpp \
   /usr/local/include/glm/ext/matrix_float2x3.hpp \
   /usr/local/include/glm/ext/matrix_float2x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_float2x4.hpp \
@@ -811,51 +747,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_float4x4.hpp \
   /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
-  /usr/local/include/glm/geometric.hpp \
-  /usr/local/include/glm/detail/func_matrix.inl \
-  /usr/local/include/glm/detail/qualifier.hpp \
-  /usr/local/include/glm/detail/setup.hpp \
-  /usr/local/include/glm/mat2x2.hpp \
-  /usr/local/include/glm/mat2x3.hpp \
-  /usr/local/include/glm/mat2x4.hpp \
-  /usr/local/include/glm/mat3x2.hpp \
-  /usr/local/include/glm/mat3x3.hpp \
-  /usr/local/include/glm/mat3x4.hpp \
-  /usr/local/include/glm/mat4x2.hpp \
-  /usr/local/include/glm/mat4x3.hpp \
-  /usr/local/include/glm/mat4x4.hpp \
-  /usr/local/include/glm/matrix.hpp \
-  /usr/local/include/glm/vec2.hpp \
-  /usr/local/include/glm/vec3.hpp \
-  /usr/local/include/glm/vec4.hpp \
-  /usr/local/include/glm/detail/compute_vector_relational.hpp \
-  /usr/local/include/glm/detail/setup.hpp \
-  /usr/local/include/glm/detail/_vectorize.hpp \
-  /usr/local/include/glm/detail/compute_vector_decl.hpp \
-  /usr/local/include/glm/detail/compute_vector_relational.hpp \
-  /usr/local/include/glm/detail/qualifier.hpp \
-  /usr/local/include/glm/detail/setup.hpp \
-  /usr/local/include/glm/detail/type_mat2x2.hpp \
-  /usr/local/include/glm/detail/type_mat2x2.inl \
-  /usr/local/include/glm/detail/type_vec2.hpp \
-  /usr/local/include/glm/detail/type_vec2.inl \
-  /usr/local/include/glm/detail/type_vec3.hpp \
-  /usr/local/include/glm/detail/type_vec3.inl \
-  /usr/local/include/glm/detail/type_vec4.hpp \
-  /usr/local/include/glm/detail/type_vec4.inl \
-  /usr/local/include/glm/detail/setup.hpp \
-  /usr/local/include/glm/ext/scalar_int_sized.hpp \
-  /usr/local/include/glm/ext/scalar_uint_sized.hpp \
-  /usr/local/include/glm/ext/vector_int2.hpp \
-  /usr/local/include/glm/ext/vector_int3.hpp \
-  /usr/local/include/glm/ext/vector_int4.hpp \
-  /usr/local/include/glm/ext/vector_uint2.hpp \
-  /usr/local/include/glm/ext/vector_uint3.hpp \
-  /usr/local/include/glm/ext/vector_uint4.hpp \
-  /usr/local/include/glm/ext/matrix_double2x2.hpp \
-  /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
-  /usr/local/include/glm/ext/matrix_float2x2.hpp \
-  /usr/local/include/glm/ext/matrix_float2x2_precision.hpp \
   /usr/local/include/glm/ext/vector_bool2.hpp \
   /usr/local/include/glm/ext/vector_bool2_precision.hpp \
   /usr/local/include/glm/ext/vector_bool3.hpp \
@@ -887,18 +778,65 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /usr/local/include/glm/ext/vector_uint4.hpp \
   /usr/local/include/glm/ext/vector_uint4_sized.hpp \
   /usr/local/include/glm/common.hpp \
-  /usr/local/include/glm/common.hpp \
-  /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/detail/func_vector_relational.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/detail/_vectorize.hpp \
-  /usr/local/include/glm/detail/func_integer.inl \
-  /usr/local/include/glm/detail/func_packing.inl \
+  /usr/local/include/glm/detail/compute_common.hpp \
+  /usr/local/include/glm/detail/compute_vector_decl.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/func_common.inl \
+  /usr/local/include/glm/detail/func_exponential.inl \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
+  /usr/local/include/glm/detail/type_vec1.inl \
+  /usr/local/include/glm/detail/type_vec2.hpp \
+  /usr/local/include/glm/detail/type_vec2.inl \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/detail/type_vec4.inl \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/detail/_vectorize.hpp \
+  /usr/local/include/glm/detail/compute_vector_decl.hpp \
+  /usr/local/include/glm/detail/compute_vector_relational.hpp \
+  /usr/local/include/glm/detail/func_geometric.inl \
+  /usr/local/include/glm/detail/func_matrix.inl \
   /usr/local/include/glm/detail/func_trigonometric.inl \
   /usr/local/include/glm/detail/qualifier.hpp \
   /usr/local/include/glm/detail/setup.hpp \
-  /usr/local/include/glm/detail/type_half.hpp \
-  /usr/local/include/glm/detail/type_half.inl \
-  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec3.inl \
+  /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/matrix_transform.inl \
   /usr/local/include/glm/fwd.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/glm.hpp \
@@ -925,15 +863,35 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /usr/local/include/glm/fwd.hpp:
 
-/usr/local/include/glm/detail/type_half.hpp:
+/usr/local/include/glm/ext/matrix_clip_space.inl:
+
+/usr/local/include/glm/ext/matrix_clip_space.hpp:
+
+/usr/local/include/glm/vec4.hpp:
+
+/usr/local/include/glm/gtc/constants.inl:
+
+/usr/local/include/glm/ext/scalar_constants.hpp:
 
 /usr/local/include/glm/simd/platform.h:
+
+/usr/local/include/glm/detail/type_vec3.inl:
+
+/usr/local/include/glm/detail/func_matrix.inl:
+
+/usr/local/include/glm/detail/func_geometric.inl:
+
+/usr/local/include/glm/detail/type_vec1.hpp:
+
+/usr/local/include/glm/detail/compute_vector_decl.hpp:
+
+/usr/local/include/glm/vector_relational.hpp:
+
+/usr/local/include/glm/detail/func_vector_relational.inl:
 
 /usr/local/include/glm/ext/vector_uint3_sized.hpp:
 
 /usr/local/include/glm/ext/vector_uint2_sized.hpp:
-
-/usr/local/include/glm/ext/vector_float2.hpp:
 
 /usr/local/include/glm/ext/vector_double4_precision.hpp:
 
@@ -949,22 +907,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /usr/local/include/glm/ext/vector_bool2_precision.hpp:
 
-/usr/local/include/glm/ext/matrix_float2x2.hpp:
-
-/usr/local/include/glm/ext/vector_uint4.hpp:
-
-/usr/local/include/glm/ext/vector_int3.hpp:
-
-/usr/local/include/glm/ext/scalar_uint_sized.hpp:
-
-/usr/local/include/glm/detail/type_vec3.inl:
-
-/usr/local/include/glm/detail/compute_vector_decl.hpp:
-
-/usr/local/include/glm/vec4.hpp:
-
-/usr/local/include/glm/detail/func_matrix.inl:
-
 /usr/local/include/glm/ext/matrix_float4x4_precision.hpp:
 
 /usr/local/include/glm/ext/matrix_float4x4.hpp:
@@ -973,10 +915,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /usr/local/include/glm/ext/matrix_float4x3.hpp:
 
-/usr/local/include/glm/ext/matrix_float2x2_precision.hpp:
-
-/usr/local/include/glm/ext/matrix_float3x4.hpp:
-
 /usr/local/include/glm/ext/matrix_float3x3_precision.hpp:
 
 /usr/local/include/glm/ext/matrix_float3x2_precision.hpp:
@@ -984,6 +922,12 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /usr/local/include/glm/ext/matrix_float3x2.hpp:
 
 /usr/local/include/glm/ext/matrix_float2x3.hpp:
+
+/usr/local/include/glm/ext/matrix_float3x4.hpp:
+
+/usr/local/include/glm/ext/matrix_float2x2_precision.hpp:
+
+/usr/local/include/glm/ext/matrix_float2x2.hpp:
 
 /usr/local/include/glm/ext/matrix_double4x4_precision.hpp:
 
@@ -996,6 +940,20 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /usr/local/include/glm/ext/matrix_double2x4_precision.hpp:
 
 /usr/local/include/glm/ext/matrix_double2x3.hpp:
+
+/usr/local/include/glm/ext/vector_uint4.hpp:
+
+/usr/local/include/glm/ext/vector_uint3.hpp:
+
+/usr/local/include/glm/ext/vector_int3.hpp:
+
+/usr/local/include/glm/ext/scalar_uint_sized.hpp:
+
+/usr/local/include/glm/ext/matrix_double2x4.hpp:
+
+/usr/local/include/glm/detail/type_vec3.hpp:
+
+/usr/local/include/glm/detail/type_vec2.hpp:
 
 /usr/local/include/glm/ext/matrix_double2x2.hpp:
 
@@ -1019,91 +977,19 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /usr/local/include/glm/matrix.hpp:
 
-/usr/local/include/glm/detail/func_geometric.inl:
-
-/usr/local/include/glm/ext/matrix_float3x3.hpp:
-
-/usr/local/include/glm/detail/_fixes.hpp:
-
-/usr/local/include/glm/ext/matrix_double2x4.hpp:
-
-/usr/local/include/glm/detail/type_vec3.hpp:
-
-/usr/local/include/glm/detail/type_vec2.hpp:
-
-/usr/local/include/glm/detail/type_vec1.hpp:
+/usr/local/include/glm/detail/type_half.hpp:
 
 /usr/local/include/glm/detail/qualifier.hpp:
-
-/usr/local/include/glm/detail/func_vector_relational.inl:
 
 /usr/local/include/glm/trigonometric.hpp:
 
 /usr/local/include/glm/detail/_vectorize.hpp:
 
-/usr/local/include/glm/vector_relational.hpp:
+/usr/local/include/glm/ext/matrix_float3x3.hpp:
 
-/usr/local/include/cglm/vec3-ext.h:
+/usr/local/include/glm/detail/_fixes.hpp:
 
-/usr/local/include/cglm/vec2.h:
-
-/usr/local/include/glm/ext/vector_uint3.hpp:
-
-/usr/local/include/cglm/vec2-ext.h:
-
-/usr/local/include/cglm/util.h:
-
-/usr/local/include/cglm/simd/intrin.h:
-
-/usr/local/include/cglm/ray.h:
-
-/usr/local/include/cglm/quat.h:
-
-/usr/local/include/cglm/project.h:
-
-/usr/local/include/cglm/mat4x3.h:
-
-/usr/local/include/cglm/mat2x4.h:
-
-/usr/local/include/cglm/ivec3.h:
-
-/usr/local/include/cglm/ivec2.h:
-
-/usr/local/include/cglm/io.h:
-
-/usr/local/include/cglm/handed/euler_to_quat_rh.h:
-
-/usr/local/include/cglm/euler.h:
-
-/usr/local/include/cglm/ease.h:
-
-/usr/local/include/cglm/clipspace/view_rh_no.h:
-
-/usr/local/include/cglm/clipspace/view_rh.h:
-
-/usr/local/include/cglm/clipspace/project_no.h:
-
-/usr/local/include/cglm/clipspace/persp_rh_no.h:
-
-/usr/local/include/cglm/vec4.h:
-
-/usr/local/include/cglm/mat4.h:
-
-/usr/local/include/cglm/common.h:
-
-/usr/local/include/cglm/cglm.h:
-
-/usr/local/include/cglm/box.h:
-
-/usr/local/include/cglm/affine.h:
-
-/usr/local/include/cglm/affine-pre.h:
-
-/usr/local/include/cglm/affine-post.h:
-
-/usr/local/include/cglm/affine-mat.h:
-
-/usr/local/include/cglm/aabb2d.h:
+/usr/local/include/glm/ext/vector_float2.hpp:
 
 /home/rami/emsdk/upstream/lib/clang/21/include/stdint.h:
 
@@ -1161,8 +1047,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
 
-/usr/local/include/cglm/cam.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/errno.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_types.h:
@@ -1177,13 +1061,13 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/wchar.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/version:
-
-/usr/local/include/cglm/mat3.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/vector:
 
@@ -1205,8 +1089,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h:
 
-/usr/local/include/cglm/vec3.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdbool.h:
@@ -1214,8 +1096,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stack:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ratio:
-
-/usr/local/include/cglm/mat4x2.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/print:
 
@@ -1261,17 +1141,13 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cmath:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/vector.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bitset:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ostream:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/subrange.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__verbose_abort:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__variant/monostate.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/invoke.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string:
 
@@ -1289,17 +1165,25 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator.h:
 
+/usr/local/include/glm/detail/type_vec1.inl:
+
 /usr/local/include/glm/detail/type_mat3x2.hpp:
 
 /usr/local/include/glm/detail/type_mat2x3.hpp:
-
-/usr/local/include/glm/detail/type_vec1.inl:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/weak_result_type.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/ranges_operations.h:
+
+/usr/local/include/glm/ext/vector_float2_precision.hpp:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_same.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/unwrap_ref.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fun_ref.h:
 
 /usr/local/include/glm/detail/compute_vector_relational.hpp:
 
@@ -1308,16 +1192,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/is_always_lock_free.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/boyer_moore_searcher.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/minmax_element.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_function.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_volatile.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
 /usr/local/include/glm/ext/matrix_float2x4_precision.hpp:
 
@@ -1345,10 +1219,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/enable_insertable.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/array:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/concepts.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/integer_sequence.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/erase_if_container.h:
@@ -1374,8 +1244,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /usr/local/include/glm/ext/vector_uint2.hpp:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__debug_utils/sanitizers.h:
-
-/usr/local/include/cglm/vec4-ext.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/sstream.h:
 
@@ -1407,8 +1275,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/default_sentinel.h:
 
-/usr/local/include/cglm/types.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conjunction.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef:
@@ -1428,6 +1294,8 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_const.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/synth_three_way.h:
+
+/usr/local/include/glm/ext/matrix_transform.inl:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/math.h:
 
@@ -1525,6 +1393,12 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/memory_order.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__variant/monostate.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__std_mbstate_t.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/platform.h:
 
 /usr/local/include/glm/integer.hpp:
@@ -1537,37 +1411,15 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/forward.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ios.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/time.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/unreachable_sentinel.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_lock_free.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/relation.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/complex.h:
-
-/usr/local/include/glm/ext/vector_int4.hpp:
-
-/usr/local/include/glm/ext/matrix_float4x2.hpp:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/language.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_init.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_valid_range.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_cv.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/generate_n.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move_backward.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cv.h:
 
@@ -1575,15 +1427,19 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/segmented_iterator.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdio:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter_integral.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/function.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/to_chars_result.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__thread/poll_with_backoff.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/popcount.h:
-
-/usr/local/include/cglm/bezier.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/default_searcher.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_segment.h:
 
@@ -1592,6 +1448,20 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/array.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/relation.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/complex.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_lock_free.h:
+
+/usr/local/include/glm/ext/matrix_float4x2.hpp:
+
+/usr/local/include/glm/ext/vector_int4.hpp:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
 
 /usr/local/include/glm/ext/matrix_double3x4_precision.hpp:
 
@@ -1621,11 +1491,19 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/special_functions.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_n.h:
+/usr/local/include/glm/ext/vector_double3_precision.hpp:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/make_projected.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/stack.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_partitioned.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_assignable.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception_ptr.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/all_of.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assert:
 
@@ -1641,23 +1519,35 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partition_point.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/not_fn.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/mutex.h:
-
-/usr/local/include/cglm/sphere.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/promise.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/enable_if.h:
 
-/usr/local/include/glm/ext/matrix_double4x3.hpp:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_first_of.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal_range.h:
+/usr/local/include/glm/vec3.hpp:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_equality_comparable.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/error_category.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/make_heap.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ios.h:
 
 /home/rami/CPP_Projects/Snake/main.cpp:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string_view.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/nat.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/transform.h:
 
@@ -1673,31 +1563,7 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_first_of.h:
-
-/usr/local/include/cglm/curve.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h:
-
-/usr/local/include/glm/vec3.hpp:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_equality_comparable.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdio:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter_integral.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/function.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/has_unique_object_representation.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/copyable.h:
-
-/usr/local/include/cglm/mat3x4.h:
-
-/usr/local/include/cglm/affine2d.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/count_if.h:
 
@@ -1706,6 +1572,8 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/builtin_new_allocator.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/noexcept_move_assign_container.h:
+
+/usr/local/include/glm/ext/matrix_transform.hpp:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string.h:
 
@@ -1716,32 +1584,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_backward.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_constructible.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/system_clock.h:
-
-/usr/local/include/glm/detail/type_vec4.inl:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_reference.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_fill_n.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/includes.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_iterator_concept.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/to_gcc_order.h:
-
-/home/rami/CPP_Projects/Snake/include/camera.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/to_chars_result.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__thread/poll_with_backoff.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_to_n_result.h:
 
@@ -1759,21 +1601,29 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/datasizeof.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/system_clock.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move_backward.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/clamp.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_signed.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder1st.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/to_gcc_order.h:
+
+/home/rami/CPP_Projects/Snake/include/camera.h:
 
 /usr/local/include/glm/detail/type_mat4x2.inl:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_if.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__split_buffer:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/make_projected.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/adjacent_find.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_object.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/cxx_atomic_impl.h:
 
@@ -1787,6 +1637,12 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max.h:
 
+/usr/local/include/glm/ext/matrix_double4x3.hpp:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal_range.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lower_bound.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search_n.h:
@@ -1794,14 +1650,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/invoke.h:
-
-/usr/local/include/glm/ext/vector_double3_precision.hpp:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_partitioned.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/stack.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique.h:
 
@@ -1835,23 +1683,9 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/simd_utils.h:
 
-/usr/local/include/cglm/frustum.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partial_sort.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/empty.h:
-
-/usr/local/include/cglm/clipspace/persp.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/adjacent_find.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_object.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception_ptr.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/all_of.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h:
 
 /usr/local/include/glm/detail/type_mat2x2.hpp:
 
@@ -1883,7 +1717,21 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/time.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/unreachable_sentinel.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binder1st.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/minmax_element.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_function.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_volatile.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_permutation.h:
 
@@ -1925,6 +1773,8 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/deque.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/strings.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/fence.h:
@@ -1957,15 +1807,23 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min_element.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/locale.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/strip_signature.h:
+
+/usr/local/include/glm/detail/type_vec4.inl:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_reference.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/includes.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_fill_n.h:
+
 /usr/local/include/glm/mat2x4.hpp:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_upper_bound.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cctype:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__thread/support/pthread.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sort_heap.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/tuple.h:
 
@@ -2008,14 +1866,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__chrono/high_resolution_clock.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/enable_borrowed_range.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/locale.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/strip_signature.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/perfect_forward.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_flag.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate.h:
 
@@ -2067,29 +1917,11 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iter_swap.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_flag.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__std_mbstate_t.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/language.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/nat.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string_view.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ostream:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/subrange.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/vector.h:
-
-/usr/local/include/glm/ext/vector_float2_precision.hpp:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/unwrap_ref.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/mem_fun_ref.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_same.h:
-
-/usr/local/include/cglm/mat2x3.h:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/atomic_init.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unsigned.h:
 
@@ -2118,12 +1950,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/move_sentinel.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/ostreambuf_iterator.h:
-
-/usr/local/include/glm/glm.hpp:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/unreachable.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/prev.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/regular.h:
 
@@ -2157,9 +1983,9 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/wrap_iter.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/shuffle.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/stable_partition.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/shuffle.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_void.h:
 
@@ -2255,8 +2081,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocate_at_least.h:
 
-/usr/local/include/cglm/clipspace/ortho_rh_no.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_destructor.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_element.h:
@@ -2272,10 +2096,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/aliasing_iterator.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_pointer.h:
-
-/usr/local/include/cglm/mat3x2.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sample.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/compressed_pair.h:
 
@@ -2329,8 +2149,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
-/usr/local/include/cglm/color.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/can_extract_key.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/access.h:
@@ -2344,8 +2162,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/tag_types.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/unique_lock.h:
-
-/usr/local/include/cglm/mat2.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype:
 
@@ -2365,9 +2181,11 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/is_valid.h:
 
-/usr/local/include/glm/detail/type_vec2.inl:
-
 /usr/local/include/glm/mat4x4.hpp:
+
+/usr/local/include/glm/ext/scalar_constants.inl:
+
+/usr/local/include/glm/detail/type_vec2.inl:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/log2.h:
 
@@ -2439,6 +2257,8 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_const.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__verbose_abort:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_asm.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__hash_table:
@@ -2465,8 +2285,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/dependent_type.h:
 
-/usr/local/include/cglm/ivec4.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator_traits.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h:
@@ -2482,14 +2300,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/invoke.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_abstract.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__system_error/error_category.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/make_heap.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_aggregate.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_allocator.h:
 
@@ -2565,6 +2375,8 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_null_pointer.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_signed.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_specialization.h:
@@ -2593,11 +2405,27 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_signed.h:
 
+/usr/local/include/glm/gtc/constants.hpp:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_unsigned.h:
+
+/usr/local/include/glm/detail/type_mat2x2.inl:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/extern_template_lists.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_int_distribution.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit:
 
 /usr/local/include/glm/ext/vector_float4.hpp:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_const_ref.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/concepts.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/array:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cvref.h:
 
@@ -2613,18 +2441,6 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/void_t.h:
 
-/usr/local/include/glm/detail/type_mat2x2.inl:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string/extern_template_lists.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_int_distribution.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h:
-
-/usr/local/include/cglm/plane.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/once_flag.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_pointer_in_range.h:
@@ -2634,3 +2450,19 @@ CMakeFiles/index.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/rel_ops.h:
+
+/usr/local/include/glm/glm.hpp:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/prev.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/unreachable.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bitset:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__thread/support/pthread.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sort_heap.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cctype:
