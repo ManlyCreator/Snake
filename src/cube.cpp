@@ -2,6 +2,7 @@
 #include "shape.h"
 #include <algorithm>
 #include <iterator>
+#include <iostream>
 
 Cube::Cube() {
   shader = nullptr;
@@ -11,8 +12,7 @@ Cube::Cube() {
   indices = nullptr;
 }
 
-Cube::Cube(glm::vec3 color, Shader *shader) : Shape() {
-  printf("Constructing Cube\n");
+Cube::Cube(glm::vec3 objColor) : Shape() {
   float tempVertices[] = {
     // Front
     -1.0f, -1.0f, 1.0f,  
@@ -149,8 +149,6 @@ Cube::Cube(glm::vec3 color, Shader *shader) : Shape() {
     0.0f,  1.0f,  0.0f
   };
 
-  shader = shader;
-
   numVertices = sizeof(tempVertices) / sizeof(tempVertices[0]);
   numTextureCoords = sizeof(tempTextureCoords) / sizeof(tempTextureCoords[0]);
   numNormals = sizeof(tempNormals) / sizeof(tempNormals[0]);
@@ -160,12 +158,11 @@ Cube::Cube(glm::vec3 color, Shader *shader) : Shape() {
   textureCoordinates = new float[numTextureCoords * sizeof(float)];
   normals = new float[numNormals * sizeof(float)];
   indices = nullptr;
+  shader = nullptr;
 
   std::copy(std::begin(tempVertices), std::end(tempVertices), vertices);
   std::copy(std::begin(tempTextureCoords), std::end(tempTextureCoords), textureCoordinates);
   std::copy(std::begin(tempNormals), std::end(tempNormals), normals);
 
-  color = color;
-
-  setData();
+  color = objColor;
 }

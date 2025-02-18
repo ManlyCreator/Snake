@@ -1,7 +1,9 @@
 #include "shape.h"
 #include "shader.h"
+#include <iostream>
 
-void Shape::setData() {
+void Shape::setData(Shader *newShader) {
+  shader = newShader;
   // VAO
   glGenVertexArrays(1, &VAO);
   glBindVertexArray(VAO);
@@ -75,27 +77,18 @@ void Shape::draw(glm::mat4 model) {
   glBindVertexArray(0);
 }
 
-/*Shape::~Shape() {*/
-/*  printf("Destructor Called\n");*/
-/*  glDeleteBuffers(4, VBO);*/
-/*  glDeleteBuffers(1, &EBO);*/
-/*  glDeleteVertexArrays(1, &VAO);*/
-/*  if (shader != nullptr)*/
-/*    glDeleteShader(*shader);*/
-/*  if (vertices != nullptr) {*/
-/*    printf("Deleting Vertices\n");*/
-/*    delete [] vertices;*/
-/*  }*/
-/*  if (textureCoordinates != nullptr) {*/
-/*    printf("Deleting Textures\n");*/
-/*    delete [] textureCoordinates;*/
-/*  }*/
-/*  if (normals != nullptr) {*/
-/*    printf("Deleting Normals\n");*/
-/*    delete [] normals;*/
-/*  }*/
-/*  if (indices != nullptr) {*/
-/*    printf("Deleting Indices\n");*/
-/*    delete [] indices;*/
-/*  }*/
-/*}*/
+Shape::~Shape() {
+  glDeleteBuffers(4, VBO);
+  glDeleteBuffers(1, &EBO);
+  glDeleteVertexArrays(1, &VAO);
+  if (shader != nullptr)
+    glDeleteShader(*shader);
+  if (vertices != nullptr)
+    delete [] vertices;
+  if (textureCoordinates != nullptr)
+    delete [] textureCoordinates;
+  if (normals != nullptr)
+    delete [] normals;
+  if (indices != nullptr)
+    delete [] indices;
+}

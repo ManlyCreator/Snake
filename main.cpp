@@ -35,11 +35,9 @@ double timeFactor;
 Shader objectShader, lightShader;
 glm::mat4 view, model;
 GLFWwindow *window;
-Cube lightSource;
-Torus torus;
 glm::vec3 lightPos = {-5.0f, 10.0f, 0.0f};
-glm::vec3 lightColor = {1.0f, 1.0f, 1.0f};
-glm::vec3 torusColor = {1.0f, 0.5f, 0.31f};
+glm::vec3 lightColor(1.0f, 1.0f, 1.0f);
+glm::vec3 torusColor(1.0f, 0.5f, 0.31f);
 glm::vec3 torusPositions[] = {
     { 0.0f,   0.0f,   0.0f}, 
     { 20.0f,  5.0f,  30.0f}, 
@@ -52,8 +50,11 @@ glm::vec3 torusPositions[] = {
     { 10.5f,  0.2f, -10.5f}, 
     {-10.3f,  1.0f,  25.5f}  
 };
+Cube lightSource = Cube(lightColor);
+Torus torus = Torus(50, 50, 2.0f, 1.0f, torusColor);
 
-// TODO: Debug shapes not rendering (most likely caused by Shape setData)
+// TODO: Make sure that exporting to itch works
+// TODO: Render first cube & arena
 
 int main(void) {
   // GLFW
@@ -80,15 +81,14 @@ int main(void) {
     return -1;
   if (!shaderConstruct(&lightShader, "/shaders/lightCubeVertexShader.glsl", "/shaders/lightCubeFragmentShader.glsl"))
     return -1;
+  lightSource.setData(&lightShader);
+  torus.setData(&objectShader);
   
   // Camera
   camera = cameraInit(glm::vec3(0.0f, 0.0f, 20.0f), 0.0f, glm::radians(-90.0f));
 
   // Transformations
   projection = glm::perspective(glm::radians(45.0f), (float)WIDTH / HEIGHT, 0.1f, 200.0f);
-
-  torus = Torus(50, 50, 2.0f, 1.0f, torusColor, &objectShader);
-  lightSource = Cube(lightColor, &lightShader);
 
   // Callbacks
   glfwSetFramebufferSizeCallback(window, framebufferSizeCallback);

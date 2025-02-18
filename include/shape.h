@@ -26,12 +26,12 @@ class Shape {
     float *normals;
     unsigned *indices;
 
-    // Functions
-    void setData();
-
   public:
-    /*~Shape();*/
+    ~Shape();
     glm::vec3 color;
+    // Sets data that has to be loaded after the WebGL context is loaded
+    void setData(Shader *newShader);
+    // Renders the shape
     void draw(glm::mat4 model);
 };
 

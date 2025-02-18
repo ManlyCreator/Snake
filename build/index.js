@@ -31,7 +31,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpwpb7i7ij.js
+// include: /tmp/tmpz5z841zy.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -212,21 +212,21 @@ Module['FS_createPath']("/", "shaders", true, true);
 
   })();
 
-// end include: /tmp/tmpwpb7i7ij.js
-// include: /tmp/tmpjtjd_z3n.js
+// end include: /tmp/tmpz5z841zy.js
+// include: /tmp/tmpbn32dng0.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpjtjd_z3n.js
-// include: /tmp/tmp1fmggpqu.js
+  // end include: /tmp/tmpbn32dng0.js
+// include: /tmp/tmpfavb897x.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmp1fmggpqu.js
+  // end include: /tmp/tmpfavb897x.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -5688,6 +5688,45 @@ async function createWasm() {
       return id;
     };
 
+  var _glDeleteBuffers = (n, buffers) => {
+      for (var i = 0; i < n; i++) {
+        var id = HEAP32[(((buffers)+(i*4))>>2)];
+        var buffer = GL.buffers[id];
+  
+        // From spec: "glDeleteBuffers silently ignores 0's and names that do not
+        // correspond to existing buffer objects."
+        if (!buffer) continue;
+  
+        GLctx.deleteBuffer(buffer);
+        buffer.name = 0;
+        GL.buffers[id] = null;
+  
+        if (id == GLctx.currentPixelPackBufferBinding) GLctx.currentPixelPackBufferBinding = 0;
+        if (id == GLctx.currentPixelUnpackBufferBinding) GLctx.currentPixelUnpackBufferBinding = 0;
+      }
+    };
+
+  var _glDeleteShader = (id) => {
+      if (!id) return;
+      var shader = GL.shaders[id];
+      if (!shader) {
+        // glDeleteShader actually signals an error when deleting a nonexisting
+        // object, unlike some other GL delete functions.
+        GL.recordError(0x501 /* GL_INVALID_VALUE */);
+        return;
+      }
+      GLctx.deleteShader(shader);
+      GL.shaders[id] = null;
+    };
+
+  var _glDeleteVertexArrays = (n, vaos) => {
+      for (var i = 0; i < n; i++) {
+        var id = HEAP32[(((vaos)+(i*4))>>2)];
+        GLctx.deleteVertexArray(GL.vaos[id]);
+        GL.vaos[id] = null;
+      }
+    };
+
   var _glDepthFunc = (x0) => GLctx.depthFunc(x0);
 
   var _glDisable = (x0) => GLctx.disable(x0);
@@ -7892,6 +7931,12 @@ var wasmImports = {
   glCreateProgram: _glCreateProgram,
   /** @export */
   glCreateShader: _glCreateShader,
+  /** @export */
+  glDeleteBuffers: _glDeleteBuffers,
+  /** @export */
+  glDeleteShader: _glDeleteShader,
+  /** @export */
+  glDeleteVertexArrays: _glDeleteVertexArrays,
   /** @export */
   glDepthFunc: _glDepthFunc,
   /** @export */

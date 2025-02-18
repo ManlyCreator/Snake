@@ -237,6 +237,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/array.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/complex.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/deque.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/format.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/fstream.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/functional.h \
@@ -246,7 +247,9 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/memory_resource.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ostream.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/pair.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/queue.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/sstream.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/stack.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/streambuf.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string_view.h \
@@ -350,6 +353,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/tag_types.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/unique_lock.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__node_handle \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ostream/basic_ostream.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/is_valid.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/log2.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_int_distribution.h \
@@ -425,6 +429,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_base_of.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_bounded_array.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_callable.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_char_like_type.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_class.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_compound.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_const.h \
@@ -531,6 +536,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/array \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/atomic \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bitset \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cerrno \
@@ -550,13 +556,17 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/deque \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/errno.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/exception \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/float.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/format \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/functional \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/initializer_list \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ios \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iostream \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/istream \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iterator \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/locale \
@@ -566,7 +576,11 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/mutex \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/new \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/optional \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ostream \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/print \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/queue \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ratio \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stack \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
@@ -610,6 +624,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/time.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/unistd.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
   /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wctype.h \
@@ -982,6 +997,8 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/unistd.h:
+
 /usr/local/include/glm/detail/type_mat2x3.inl:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/time.h:
@@ -1038,7 +1055,11 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stack:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ratio:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/print:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
 
@@ -1053,6 +1074,8 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/locale:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iostream:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd:
 
@@ -1074,9 +1097,19 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstring:
 
+/usr/local/include/glm/ext/matrix_double4x2_precision.hpp:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/compare:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cmath:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/vector.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ostream:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/subrange.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/invoke.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string:
 
@@ -1154,6 +1187,8 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/hypot.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_char_like_type.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_core_convertible.h:
 
 /usr/local/include/glm/detail/type_mat4x2.hpp:
@@ -1179,10 +1214,6 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_lvalue_reference.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter_output.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/same_as.h:
 
 /usr/local/include/glm/detail/compute_common.hpp:
 
@@ -1210,6 +1241,10 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conjunction.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/destructible.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/class_or_enum.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/assignable.h:
@@ -1219,6 +1254,10 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/reference_wrapper.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/arithmetic.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdarg:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_const.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/synth_three_way.h:
 
@@ -1428,6 +1467,8 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /usr/local/include/glm/ext/vector_double3_precision.hpp:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/stack.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_partitioned.h:
 
 /usr/local/include/glm/mat3x3.hpp:
@@ -1447,6 +1488,8 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/enable_if.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/transform.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/queue.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
 
@@ -1578,8 +1621,6 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/invoke.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unique.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/three_way_comparable.h:
@@ -1625,10 +1666,6 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /usr/local/include/glm/ext/vector_int4_sized.hpp:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_assignable.h:
-
-/usr/local/include/glm/ext/matrix_double4x2_precision.hpp:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/compare:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/compat/time.h:
 
@@ -1684,6 +1721,14 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/none_of.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/same_as.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/deque.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/strings.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__atomic/fence.h:
@@ -1699,6 +1744,10 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/atomic:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_move_common.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/concepts:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_arg_t.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove_copy_if.h:
 
@@ -1730,6 +1779,8 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sift_down.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/format:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/swap.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ios:
@@ -1749,6 +1800,8 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/piecewise_construct.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/replace_if.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/queue:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/replace_copy_if.h:
 
@@ -1912,6 +1965,10 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/inverse_hyperbolic_functions.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/clocale:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_primary_template.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/inverse_trigonometric_functions.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/min_max.h:
@@ -1950,9 +2007,13 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mbstate_t.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/istream:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/addressof.h:
 
 /usr/local/include/glm/ext/matrix_double3x2_precision.hpp:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/deque:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_sorted.h:
 
@@ -1987,10 +2048,6 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_heap.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/inout_ptr.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_arg_t.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/concepts:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/out_ptr.h:
 
@@ -2056,6 +2113,10 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/alignment_of.h:
 
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ostream/basic_ostream.h:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/make_tuple_types.h:
+
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/is_valid.h:
@@ -2117,8 +2178,6 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/nth_element.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/ignore.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/make_tuple_types.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/set_union.h:
 
@@ -2302,9 +2361,9 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_identity.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/advance.h:
-
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cerrno:
+
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/advance.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/void_t.h:
 
@@ -2324,7 +2383,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/unreachable.h:
 
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm:
+/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bitset:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert:
 
@@ -2341,17 +2400,3 @@ CMakeFiles/Cube.dir/src/cube.cpp.o: /home/rami/CPP_Projects/Snake/src/cube.cpp \
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_backward.h:
 
 /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/climits:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_primary_template.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/clocale:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cmath:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_const.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdarg:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/destructible.h:
-
-/home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef:

@@ -6,7 +6,7 @@
 class Cube: public Shape {
   public:
     Cube();
-    Cube(glm::vec3 color, Shader *shader);
+    Cube(glm::vec3 color);
 };
 
 #endif

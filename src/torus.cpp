@@ -11,8 +11,7 @@ Torus::Torus() {
   indices = nullptr;
 }
 
-Torus::Torus(int rings, int stacks, float insideRadius, float ringRadius, glm::vec3 color, Shader *shader) : Shape() {
-  printf("Constructing Torus\n");
+Torus::Torus(int rings, int stacks, float insideRadius, float ringRadius, glm::vec3 objColor) : Shape() {
   float x, y, z;
   float xz;
   float nx, ny, nz;
@@ -28,6 +27,8 @@ Torus::Torus(int rings, int stacks, float insideRadius, float ringRadius, glm::v
   numNormals = 0;
   numIndices = 0;
 
+  shader = nullptr;
+  color = objColor;
   vertices = new float[(rings + 1) * (stacks + 1) * 3 * sizeof(float)];
   textureCoordinates = new float[(rings + 1) * (stacks + 1) * 2 * sizeof(float)];
   normals = new float[(rings + 1) * (stacks + 1) * 3 * sizeof(float)];
@@ -82,10 +83,4 @@ Torus::Torus(int rings, int stacks, float insideRadius, float ringRadius, glm::v
       indices[numIndices++] = v2 + 1;
     }
   }
-
-  std::cout << "Indices: " << numIndices << "\n";
-  setData();
-
-  color = color;
-  shader = shader;
 }

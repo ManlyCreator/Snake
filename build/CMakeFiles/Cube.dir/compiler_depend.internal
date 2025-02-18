@@ -238,6 +238,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/array.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/complex.h
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/deque.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/format.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/fstream.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/functional.h
@@ -247,7 +248,9 @@ CMakeFiles/Cube.dir/src/cube.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/memory_resource.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ostream.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/pair.h
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/queue.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/sstream.h
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/stack.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/streambuf.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string_view.h
@@ -351,6 +354,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/tag_types.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex/unique_lock.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__node_handle
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ostream/basic_ostream.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/is_valid.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/log2.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_int_distribution.h
@@ -426,6 +430,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_base_of.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_bounded_array.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_callable.h
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_char_like_type.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_class.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_compound.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_const.h
@@ -532,6 +537,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/array
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/atomic
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bitset
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cctype
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cerrno
@@ -551,13 +557,17 @@ CMakeFiles/Cube.dir/src/cube.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/deque
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/errno.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/exception
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/float.h
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/format
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/functional
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/initializer_list
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ios
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iostream
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/istream
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iterator
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/locale
@@ -567,7 +577,11 @@ CMakeFiles/Cube.dir/src/cube.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/mutex
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/new
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/optional
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ostream
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/print
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/queue
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ratio
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stack
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h
@@ -611,6 +625,7 @@ CMakeFiles/Cube.dir/src/cube.cpp.o
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/string.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/strings.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/time.h
+ /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/unistd.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wchar.h
  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/wctype.h

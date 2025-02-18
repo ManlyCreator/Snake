@@ -29,23 +29,21 @@ int shaderConstruct(Shader *shader, const char *vsPath, const char *fsPath) {
   }
 
   vsSource = readFile(&vsFile);
-  std::cout << "Vertex Source:\n" << vsSource;
   vertexShader = glCreateShader(GL_VERTEX_SHADER);
   glShaderSource(vertexShader, 1, (const char **)&vsSource, NULL);
   glCompileShader(vertexShader);
   if (!shaderCompilationSuccess(vertexShader)) {
-    printf("Failed to compile Vertex Shader\n");
+    std::cerr << "Failed to compile Vertex Shader\n";
     return 0;
   }
 
   // Fragment Shader Compilation
   fsSource = readFile(&fsFile);
-  std::cout << "Fragment Source:\n" << fsSource;
   fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
   glShaderSource(fragmentShader, 1, (const char **)&fsSource, NULL);
   glCompileShader(fragmentShader);
   if (!shaderCompilationSuccess(fragmentShader)) {
-    printf("Failed to compile Fragment Shader\n");
+    std::cerr << "Failed to compile Fragment Shader\n";
     return 0;
   }
 
@@ -87,7 +85,6 @@ void shaderSetMatrix4(Shader shader, const char *uniform, glm::mat4 value) {
 std::string readFile(std::ifstream *file) {
   std::stringstream stream;
   stream << file->rdbuf();
-  std::cout << "Stream: " << stream.str() << "\n";
   return stream.str();
 }
 
@@ -97,7 +94,7 @@ int shaderCompilationSuccess(unsigned shader) {
   glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
   if (!success) {
     glGetShaderInfoLog(shader, 512, NULL, infoLog);
-    printf("*** ERROR COMPILING SHADER ***\n%s\n", infoLog);
+    std::cerr  << "*** ERROR COMPILING SHADER ***\n" << infoLog;
     return 0;
   }
   return 1;
@@ -109,7 +106,7 @@ int programLinkSuccess(unsigned program) {
   glGetProgramiv(program, GL_LINK_STATUS, &success);
   if (!success) {
     glGetProgramInfoLog(program, 512, NULL, infoLog);
-    printf("*** ERROR LINKING PROGRAM ***\n%s", infoLog);
+    std::cerr << "*** ERROR LINKING PROGRAM ***\n" << infoLog;
     return 0;
   }
   return 1;

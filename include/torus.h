@@ -6,7 +6,7 @@
 class Torus: public Shape {
   public:
     Torus();
-    Torus(int rings, int stacks, float insideRadius, float ringRadius, glm::vec3 color, Shader *shader);
+    Torus(int rings, int stacks, float insideRadius, float ringRadius, glm::vec3 objColor);
 };
 
 #endif
