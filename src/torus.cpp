@@ -1,10 +1,18 @@
 #include "torus.h"
 #include "shape.h"
 #include <glm/ext/scalar_constants.hpp>
+#include <iostream>
 
-Torus::Torus() {}
+Torus::Torus() {
+  shader = nullptr;
+  vertices = nullptr;
+  textureCoordinates = nullptr;
+  normals = nullptr;
+  indices = nullptr;
+}
 
 Torus::Torus(int rings, int stacks, float insideRadius, float ringRadius, glm::vec3 color, Shader *shader) : Shape() {
+  printf("Constructing Torus\n");
   float x, y, z;
   float xz;
   float nx, ny, nz;
@@ -75,6 +83,7 @@ Torus::Torus(int rings, int stacks, float insideRadius, float ringRadius, glm::v
     }
   }
 
+  std::cout << "Indices: " << numIndices << "\n";
   setData();
 
   color = color;

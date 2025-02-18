@@ -30,7 +30,7 @@ class Shape {
     void setData();
 
   public:
-    ~Shape();
+    /*~Shape();*/
     glm::vec3 color;
     void draw(glm::mat4 model);
 };

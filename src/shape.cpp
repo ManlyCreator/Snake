@@ -33,6 +33,8 @@ void Shape::setData() {
 
   // Unbind
   glBindBuffer(GL_ARRAY_BUFFER, 0);
+  if (EBO)
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
   glBindVertexArray(0);
 }
 
@@ -41,7 +43,6 @@ void Shape::draw(glm::mat4 model) {
 
   // Transform
   shaderSetMatrix4(*shader, "model", model);
-
   shaderSetVector3f(*shader, "objectColor", color);
 
   // Vertices
@@ -74,17 +75,27 @@ void Shape::draw(glm::mat4 model) {
   glBindVertexArray(0);
 }
 
-Shape::~Shape() {
-  glDeleteBuffers(4, VBO);
-  glDeleteBuffers(1, &EBO);
-  glDeleteVertexArrays(1, &VAO);
-  glDeleteShader(*shader);
-  if (vertices)
-    delete [] vertices;
-  if (textureCoordinates)
-    delete [] textureCoordinates;
-  if (normals)
-    delete [] normals;
-  if (indices)
-    delete [] indices;
-}
+/*Shape::~Shape() {*/
+/*  printf("Destructor Called\n");*/
+/*  glDeleteBuffers(4, VBO);*/
+/*  glDeleteBuffers(1, &EBO);*/
+/*  glDeleteVertexArrays(1, &VAO);*/
+/*  if (shader != nullptr)*/
+/*    glDeleteShader(*shader);*/
+/*  if (vertices != nullptr) {*/
+/*    printf("Deleting Vertices\n");*/
+/*    delete [] vertices;*/
+/*  }*/
+/*  if (textureCoordinates != nullptr) {*/
+/*    printf("Deleting Textures\n");*/
+/*    delete [] textureCoordinates;*/
+/*  }*/
+/*  if (normals != nullptr) {*/
+/*    printf("Deleting Normals\n");*/
+/*    delete [] normals;*/
+/*  }*/
+/*  if (indices != nullptr) {*/
+/*    printf("Deleting Indices\n");*/
+/*    delete [] indices;*/
+/*  }*/
+/*}*/

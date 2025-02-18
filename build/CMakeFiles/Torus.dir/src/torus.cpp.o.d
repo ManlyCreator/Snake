@@ -816,4 +816,19 @@ CMakeFiles/Torus.dir/src/torus.cpp.o: \
   /usr/local/include/glm/detail/func_integer.inl \
   /usr/local/include/glm/ext/scalar_constants.hpp \
   /usr/local/include/glm/ext/../detail/setup.hpp \
-  /usr/local/include/glm/ext/scalar_constants.inl
+  /usr/local/include/glm/ext/scalar_constants.inl \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iostream \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/istream \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__ostream/basic_ostream.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bitset \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_char_like_type.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ostream \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/format \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/queue \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/deque.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/queue.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/deque \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stack \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/stack.h \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/print \
+  /home/rami/emsdk/upstream/emscripten/cache/sysroot/include/unistd.h

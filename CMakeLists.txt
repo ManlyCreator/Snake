@@ -10,6 +10,7 @@ set(CMAKE_BUILD_TYPE Debug)
 
 # Sets Compiler
 set(CMAKE_CXX_COMPILER em++)
+# set(CMAKE_CXX_COMPILER g++)
 
 # Compile Executable
 add_executable(index main.cpp)

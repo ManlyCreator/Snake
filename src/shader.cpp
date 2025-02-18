@@ -29,7 +29,6 @@ int shaderConstruct(Shader *shader, const char *vsPath, const char *fsPath) {
   }
 
   vsSource = readFile(&vsFile);
-  std::cout << "Vertex Shader:\n" << vsFile.rdbuf();
   std::cout << "Vertex Source:\n" << vsSource;
   vertexShader = glCreateShader(GL_VERTEX_SHADER);
   glShaderSource(vertexShader, 1, (const char **)&vsSource, NULL);
@@ -41,6 +40,7 @@ int shaderConstruct(Shader *shader, const char *vsPath, const char *fsPath) {
 
   // Fragment Shader Compilation
   fsSource = readFile(&fsFile);
+  std::cout << "Fragment Source:\n" << fsSource;
   fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
   glShaderSource(fragmentShader, 1, (const char **)&fsSource, NULL);
   glCompileShader(fragmentShader);
@@ -87,6 +87,7 @@ void shaderSetMatrix4(Shader shader, const char *uniform, glm::mat4 value) {
 std::string readFile(std::ifstream *file) {
   std::stringstream stream;
   stream << file->rdbuf();
+  std::cout << "Stream: " << stream.str() << "\n";
   return stream.str();
 }
 

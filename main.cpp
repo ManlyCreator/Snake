@@ -1,4 +1,5 @@
 // Standard C++ Libraries
+#include <glm/glm.hpp>
 #include <glm/ext/matrix_clip_space.hpp>
 #include <glm/ext/matrix_transform.hpp>
 #include <iostream>
@@ -7,7 +8,6 @@
 #include <GLES3/gl3.h>
 #include <GLFW/glfw3.h>
 #include <emscripten.h>
-#include <glm/glm.hpp>
 
 // External Libraries
 #include "camera.h"
@@ -53,8 +53,7 @@ glm::vec3 torusPositions[] = {
     {-10.3f,  1.0f,  25.5f}  
 };
 
-// TODO: Debug HTML error involving destructor
-// TODO: Debug shapes not rendering
+// TODO: Debug shapes not rendering (most likely caused by Shape setData)
 
 int main(void) {
   // GLFW
