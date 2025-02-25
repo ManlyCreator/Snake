@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/rami/CPP_Projects/Snake/build",
+  "command": "g++  -I/home/rami/CPP_Projects/Snake/include -std=c++11 -g -o CMakeFiles/Shader.dir/src/shader.cpp.o -c /home/rami/CPP_Projects/Snake/src/shader.cpp",
+  "file": "/home/rami/CPP_Projects/Snake/src/shader.cpp",
+  "output": "CMakeFiles/Shader.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/home/rami/CPP_Projects/Snake/build",
+  "command": "g++  -I/home/rami/CPP_Projects/Snake/include -std=c++11 -g -o CMakeFiles/Shape.dir/src/shape.cpp.o -c /home/rami/CPP_Projects/Snake/src/shape.cpp",
+  "file": "/home/rami/CPP_Projects/Snake/src/shape.cpp",
+  "output": "CMakeFiles/Shape.dir/src/shape.cpp.o"
+},
+{
+  "directory": "/home/rami/CPP_Projects/Snake/build",
+  "command": "g++  -I/home/rami/CPP_Projects/Snake/include -std=c++11 -g -o CMakeFiles/Cube.dir/src/cube.cpp.o -c /home/rami/CPP_Projects/Snake/src/cube.cpp",
+  "file": "/home/rami/CPP_Projects/Snake/src/cube.cpp",
+  "output": "CMakeFiles/Cube.dir/src/cube.cpp.o"
+},
+{
+  "directory": "/home/rami/CPP_Projects/Snake/build",
+  "command": "g++  -I/home/rami/CPP_Projects/Snake/include -std=c++11 -g -o CMakeFiles/Torus.dir/src/torus.cpp.o -c /home/rami/CPP_Projects/Snake/src/torus.cpp",
+  "file": "/home/rami/CPP_Projects/Snake/src/torus.cpp",
+  "output": "CMakeFiles/Torus.dir/src/torus.cpp.o"
+},
+{
+  "directory": "/home/rami/CPP_Projects/Snake/build",
+  "command": "g++  -I/home/rami/CPP_Projects/Snake/include -std=c++11 -g -o CMakeFiles/Camera.dir/src/camera.cpp.o -c /home/rami/CPP_Projects/Snake/src/camera.cpp",
+  "file": "/home/rami/CPP_Projects/Snake/src/camera.cpp",
+  "output": "CMakeFiles/Camera.dir/src/camera.cpp.o"
+},
+{
+  "directory": "/home/rami/CPP_Projects/Snake/build",
+  "command": "g++ -DPROJECT=\\\"Snake\\\" -I/home/rami/CPP_Projects/Snake/include -std=c++11 -g -o CMakeFiles/Snake.dir/main.cpp.o -c /home/rami/CPP_Projects/Snake/main.cpp",
+  "file": "/home/rami/CPP_Projects/Snake/main.cpp",
+  "output": "CMakeFiles/Snake.dir/main.cpp.o"
+}
+]

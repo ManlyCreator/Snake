@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTorus.a CMakeFiles/Torus.dir/src/torus.cpp.o
+/usr/bin/ranlib libTorus.a

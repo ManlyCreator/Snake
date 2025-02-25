@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Snake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Camera-Debug-b8b2c5ac053d1dcb8661.json",
+					"name" : "Camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Cube::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cube-Debug-fe5987fab0b8c2a1e57a.json",
+					"name" : "Cube",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Shader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Shader-Debug-e3756c008b0de7ae8395.json",
+					"name" : "Shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Shape::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Shape-Debug-34259fbe356de349453e.json",
+					"name" : "Shape",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Snake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Snake-Debug-07cbdba49bbfe9d93b92.json",
+					"name" : "Snake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Torus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Torus-Debug-9194c5cc74cc4e8b2b14.json",
+					"name" : "Torus",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rami/CPP_Projects/Snake/build",
+		"source" : "/home/rami/CPP_Projects/Snake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
