@@ -271,6 +271,7 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
  /home/rami/CPP_Projects/Snake/include/shader.h \
+ /usr/local/include/glad/glad.h /usr/local/include/KHR/khrplatform.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \

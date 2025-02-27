@@ -7,9 +7,7 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
-  /usr/include/c++/13/backward/backward_warning.h \
   /usr/include/c++/13/backward/binders.h \
-  /usr/include/c++/13/backward/strstream \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/basic_ios.h \
@@ -224,6 +222,8 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+  /usr/local/include/KHR/khrplatform.h \
+  /usr/local/include/glad/glad.h \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/detail/_vectorize.hpp \
@@ -390,8 +390,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 
 /usr/local/include/glm/ext/vector_uint4_sized.hpp:
 
-/usr/local/include/glm/ext/vector_uint4.hpp:
-
 /usr/local/include/glm/ext/vector_uint3_sized.hpp:
 
 /usr/local/include/glm/ext/vector_uint2_sized.hpp:
@@ -496,6 +494,12 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 
 /usr/local/include/glm/detail/type_vec1.inl:
 
+/usr/include/c++/13/exception:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/c++/13/bits/basic_string.h:
+
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
@@ -505,8 +509,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/c++/13/exception:
 
 /usr/include/stdlib.h:
 
@@ -574,6 +576,10 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
+/usr/local/include/glm/ext/vector_uint4.hpp:
+
+/usr/local/include/glad/glad.h:
+
 /usr/local/include/glm/detail/func_matrix.inl:
 
 /usr/local/include/glm/ext/vector_bool4.hpp:
@@ -632,8 +638,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 
 /usr/include/c++/13/cstdlib:
 
-/usr/include/c++/13/backward/backward_warning.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/c++/13/bits/utility.h:
@@ -666,8 +670,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 
 /usr/include/c++/13/bits/istream.tcc:
 
-/usr/include/c++/13/backward/strstream:
-
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/cassert:
@@ -694,16 +696,6 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/stdio.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
 /usr/include/c++/13/iosfwd:
 
 /usr/include/c++/13/bits/predefined_ops.h:
@@ -716,9 +708,25 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
+/usr/local/include/glm/mat2x4.hpp:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/usr/local/include/glm/mat2x2.hpp:
+
+/usr/include/stdc-predef.h:
+
+/usr/local/include/glm/detail/func_integer.inl:
+
 /home/rami/CPP_Projects/Snake/include/shader.h:
 
 /usr/local/include/glm/detail/type_mat2x4.inl:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
@@ -760,19 +768,13 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 
 /usr/include/c++/13/bits/locale_facets.tcc:
 
-/usr/local/include/glm/mat2x2.hpp:
+/usr/include/c++/13/bits/ios_base.h:
 
-/usr/include/stdc-predef.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
-/usr/local/include/glm/detail/func_integer.inl:
+/usr/local/include/glm/detail/qualifier.hpp:
 
-/usr/include/c++/13/bits/basic_string.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/local/include/glm/mat2x4.hpp:
-
-/usr/include/c++/13/bits/invoke.h:
+/usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/c++/13/bits/basic_ios.h:
 
@@ -794,13 +796,9 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
-/usr/include/c++/13/bits/ios_base.h:
+/usr/include/stdio.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
-
-/usr/local/include/glm/detail/qualifier.hpp:
-
-/usr/include/c++/13/bits/ostream.tcc:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
 
@@ -1041,6 +1039,8 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: /home/rami/CPP_Projects/Snake/src/shader
 /usr/local/include/glm/packing.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/local/include/KHR/khrplatform.h:
 
 /usr/include/c++/13/ext/alloc_traits.h:
 

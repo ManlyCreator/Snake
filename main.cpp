@@ -16,8 +16,8 @@
 
 #define WIDTH 1000
 #define HEIGHT 1000
+#define SPEED 3.0f
 
-void mainLoop();
 void framebufferSizeCallback(GLFWwindow *window, int width, int height);
 void cursorPosCallback(GLFWwindow *window, double x, double y);
 void processInput(GLFWwindow *window);
@@ -29,38 +29,27 @@ double lastX, lastY;
 double deltaX, deltaY;
 
 Camera camera;
+glm::vec3 snakeColor(0.282f, 0.827f, 1.0f);
+Cube head = Cube(snakeColor);
 int width, height;
 double timeFactor;
-Shader objectShader, lightShader;
-glm::mat4 view, model;
-GLFWwindow *window;
-glm::vec3 lightPos = {-5.0f, 10.0f, 0.0f};
-glm::vec3 lightColor(1.0f, 1.0f, 1.0f);
-glm::vec3 torusColor(1.0f, 0.5f, 0.31f);
-glm::vec3 torusPositions[] = {
-    { 0.0f,   0.0f,   0.0f}, 
-    { 20.0f,  5.0f,  30.0f}, 
-    {-10.5f, -2.2f, -20.5f},  
-    {-30.8f, -2.0f,  30.3f},  
-    { 20.4f, -0.4f, -30.5f},  
-    {-10.7f,  3.0f,  15.5f},  
-    { 10.3f, -2.0f, -20.5f},  
-    { 10.5f,  2.0f,  20.5f}, 
-    { 10.5f,  0.2f, -10.5f}, 
-    {-10.3f,  1.0f,  25.5f}  
-};
-Cube lightSource = Cube(lightColor);
-Torus torus = Torus(50, 50, 2.0f, 1.0f, torusColor);
 
-// TODO: Debug emitted errors
-// TODO: Render first cube & arena
+// TODO: Init camera using only Camera functions
+// TODO: Update Camera to C++ paradigm
+// TODO: Change Snake direction with input
 
 int main(void) {
+  Shader objectShader;
+  glm::mat4 view, model;
+  GLFWwindow *window;
+  glm::vec3 lightPos = {5.0f, 10.0f, 0.0f};
+  glm::vec3 lightColor(1.0f, 1.0f, 1.0f);
+
   // GLFW
   glfwInit();
   glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
-  glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_ES_API);
+  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+  glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
   window = glfwCreateWindow(WIDTH, HEIGHT, PROJECT, NULL, NULL);
 
@@ -84,13 +73,10 @@ int main(void) {
   // Shaders
   if (!shaderConstruct(&objectShader, "../shaders/objectVertexShader.glsl", "../shaders/objectFragmentShader.glsl"))
     return -1;
-  if (!shaderConstruct(&lightShader, "../shaders/lightCubeVertexShader.glsl", "../shaders/lightCubeFragmentShader.glsl"))
-    return -1;
-  lightSource.setData(&lightShader);
-  torus.setData(&objectShader);
+  head.setData(&objectShader);
   
   // Camera
-  camera = cameraInit(glm::vec3(0.0f, 0.0f, 20.0f), 0.0f, glm::radians(-90.0f));
+  camera = cameraInit(glm::vec3(0.0f, 20.0f, 5.0f), 0.0f, 0.0f);
 
   // Transformations
   projection = glm::perspective(glm::radians(45.0f), (float)WIDTH / HEIGHT, 0.1f, 200.0f);
@@ -104,54 +90,43 @@ int main(void) {
   glfwSetCursorPosCallback(window, cursorPosCallback);
 
   // Render Loop
+  while (!glfwWindowShouldClose(window)) {
+    currentTime = glfwGetTime();
+
+    // Input
+    processInput(window);
+
+    // Render Commands
+    glEnable(GL_DEPTH_TEST);
+    glDepthFunc(GL_LESS);
+    glDisable(GL_CULL_FACE);
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    // Object Shader
+    shaderUse(objectShader);
+    shaderSetMatrix4(objectShader, "projection", projection);
+    /*camera.view = glm::mat4(1.0f);*/
+    /*camera.view = glm::lookAt(glm::vec3(0.0f, 10.0f, 10.0f), glm::vec3(0.0f), glm::vec3(0.0f, 1.0f, 0.0f));*/
+    cameraUpdateView(&camera);
+    shaderSetMatrix4(objectShader, "view", camera.view);
+    shaderSetVector3f(objectShader, "lightColor", lightColor);
+    shaderSetVector3f(objectShader, "lightPos", lightPos);
+    
+    // Draw Objects
+    model = glm::mat4(1.0f);
+    model = glm::translate(model, glm::vec3(0.0f, 0.0f, -currentTime * SPEED));
+    head.draw(model);
+
+    // Poll Events & Swap Buffers
+    glfwPollEvents();
+    glfwSwapBuffers(window);
+  }
 
   // Clean-Up
   glfwTerminate();
 
   return 0;
-}
-
-void mainLoop() {
-  currentTime = glfwGetTime();
-
-  // Input
-  processInput(window);
-
-  // Render Commands
-  glEnable(GL_DEPTH_TEST);
-  glDepthFunc(GL_LESS);
-  glDisable(GL_CULL_FACE);
-  glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-  // Object Shader
-  shaderUse(objectShader);
-  shaderSetMatrix4(objectShader, "projection", projection);
-  cameraUpdateView(&camera);
-  shaderSetMatrix4(objectShader, "view", camera.view);
-  shaderSetVector3f(objectShader, "lightColor", lightColor);
-  shaderSetVector3f(objectShader, "lightPos", lightPos);
-  for (int i = 0; i < 10; i++) {
-    model = glm::mat4(1.0f);
-    model = glm::translate(model, torusPositions[i]);
-    model = glm::rotate(model, glm::radians(45.0f), (glm::vec3){1.0f, 0.0f, 0.0f});
-    model = glm::rotate(model, glm::radians(-10.0f + i * 5.0f), (glm::vec3){0.0f, 0.0f, 1.0f});
-    model = glm::scale(model, (glm::vec3){1.0f, 1.0f, 1.0f});
-    torus.draw(model);
-  }
-
-  // Light Cube Shader
-  shaderUse(lightShader);
-  shaderSetMatrix4(lightShader, "projection", projection);
-  shaderSetMatrix4(lightShader, "view", camera.view);
-  model = glm::mat4(1.0f);
-  model = glm::translate(model, lightPos);
-  lightSource.draw(model);
-
-
-  // Poll Events & Swap Buffers
-  glfwPollEvents();
-  glfwSwapBuffers(window);
 }
 
 void framebufferSizeCallback(GLFWwindow *window, int width, int height) {
@@ -176,6 +151,14 @@ void processInput(GLFWwindow *window) {
     glfwSetWindowShouldClose(window, true);
 
   // Camera Controls
+  /*if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)*/
+  /*  cameraProcessKeyboard(&camera, FORWARD);*/
+  /*if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)*/
+  /*  cameraProcessKeyboard(&camera, BACKWARD);*/
+  /*if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)*/
+  /*  cameraProcessKeyboard(&camera, RIGHT);*/
+  /*if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)*/
+  /*  cameraProcessKeyboard(&camera, LEFT);*/
   if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
     cameraProcessKeyboard(&camera, FORWARD);
   if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)

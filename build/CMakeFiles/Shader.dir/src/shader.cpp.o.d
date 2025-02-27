@@ -149,10 +149,8 @@ CMakeFiles/Shader.dir/src/shader.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/sstream \
- /usr/include/c++/13/bits/sstream.tcc \
- /usr/include/c++/13/backward/strstream \
- /usr/include/c++/13/backward/backward_warning.h \
- /usr/local/include/glad/glad.h /usr/local/include/KHR/khrplatform.h \
+ /usr/include/c++/13/bits/sstream.tcc /usr/local/include/glad/glad.h \
+ /usr/local/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \

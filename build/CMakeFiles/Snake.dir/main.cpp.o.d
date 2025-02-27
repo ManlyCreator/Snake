@@ -314,8 +314,7 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
  /usr/include/c++/13/bits/istream.tcc /usr/local/include/glad/glad.h \
  /usr/local/include/KHR/khrplatform.h /usr/local/include/GLFW/glfw3.h \
  /home/rami/CPP_Projects/Snake/include/camera.h \
- /home/rami/CPP_Projects/Snake/include/shader.h /usr/include/GLES3/gl3.h \
- /usr/include/GLES3/gl3platform.h \
+ /home/rami/CPP_Projects/Snake/include/shader.h \
  /home/rami/CPP_Projects/Snake/include/cube.h \
  /home/rami/CPP_Projects/Snake/include/shape.h \
  /home/rami/CPP_Projects/Snake/include/shader.h \

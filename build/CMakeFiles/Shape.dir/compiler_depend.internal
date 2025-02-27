@@ -5,8 +5,6 @@ CMakeFiles/Shape.dir/src/shape.cpp.o
  /home/rami/CPP_Projects/Snake/src/shape.cpp
  /home/rami/CPP_Projects/Snake/include/shader.h
  /home/rami/CPP_Projects/Snake/include/shape.h
- /usr/include/GLES3/gl3.h
- /usr/include/GLES3/gl3platform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -220,6 +218,7 @@ CMakeFiles/Shape.dir/src/shape.cpp.o
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
  /usr/local/include/KHR/khrplatform.h
+ /usr/local/include/glad/glad.h
  /usr/local/include/glm/common.hpp
  /usr/local/include/glm/detail/_fixes.hpp
  /usr/local/include/glm/detail/_vectorize.hpp

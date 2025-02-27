@@ -1,5 +1,6 @@
 #include "shape.h"
 #include "shader.h"
+#include <glad/glad.h>
 #include <iostream>
 
 void Shape::setData(Shader *newShader) {
@@ -9,7 +10,7 @@ void Shape::setData(Shader *newShader) {
   glBindVertexArray(VAO);
 
   // VBOs
-  glGenBuffers(3, VBO);
+  glGenBuffers(VERTEX_BUFFERS, VBO);
 
   // Vertices
   glBindBuffer(GL_ARRAY_BUFFER, VBO[VERTICES]);
@@ -77,8 +78,8 @@ void Shape::draw(glm::mat4 model) {
   glBindVertexArray(0);
 }
 
-Shape::~Shape() {
-  glDeleteBuffers(4, VBO);
+void Shape::free() {
+  glDeleteBuffers(VERTEX_BUFFERS, VBO);
   glDeleteBuffers(1, &EBO);
   glDeleteVertexArrays(1, &VAO);
   if (shader != nullptr)

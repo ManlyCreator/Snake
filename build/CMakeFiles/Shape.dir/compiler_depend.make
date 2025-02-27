@@ -4,8 +4,6 @@
 CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cpp \
   /home/rami/CPP_Projects/Snake/include/shader.h \
   /home/rami/CPP_Projects/Snake/include/shape.h \
-  /usr/include/GLES3/gl3.h \
-  /usr/include/GLES3/gl3platform.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -219,6 +217,7 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
   /usr/local/include/KHR/khrplatform.h \
+  /usr/local/include/glad/glad.h \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/detail/_vectorize.hpp \
@@ -385,8 +384,6 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 
 /usr/local/include/glm/ext/vector_uint4_sized.hpp:
 
-/usr/local/include/glm/ext/vector_uint4.hpp:
-
 /usr/local/include/glm/ext/vector_uint3_sized.hpp:
 
 /usr/local/include/glm/ext/vector_uint2_sized.hpp:
@@ -487,8 +484,6 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 
 /usr/local/include/glm/detail/type_vec4.hpp:
 
-/usr/local/include/glm/detail/type_vec2.inl:
-
 /usr/include/c++/13/exception:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -506,6 +501,8 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/linux/limits.h:
 
@@ -569,11 +566,17 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 
 /usr/include/c++/13/ext/string_conversions.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
 /usr/local/include/glm/detail/func_packing.inl:
 
 /usr/include/c++/13/cctype:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/local/include/glm/ext/vector_uint4.hpp:
+
+/usr/local/include/glad/glad.h:
 
 /usr/local/include/glm/detail/func_matrix.inl:
 
@@ -639,6 +642,12 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 
 /usr/include/c++/13/bits/functexcept.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
@@ -665,6 +674,20 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
+/usr/include/c++/13/type_traits:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/bits/memoryfwd.h:
+
+/usr/local/include/glm/detail/type_mat2x2.inl:
+
 /usr/include/stdio.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
@@ -675,73 +698,27 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
+/usr/include/assert.h:
+
+/usr/local/include/glm/mat2x4.hpp:
+
+/usr/include/c++/13/bits/invoke.h:
+
 /usr/local/include/glm/mat2x2.hpp:
 
 /usr/include/stdc-predef.h:
 
 /usr/local/include/glm/detail/func_integer.inl:
 
-/usr/local/include/glm/mat2x4.hpp:
-
-/usr/include/c++/13/bits/invoke.h:
-
-/usr/include/assert.h:
-
 /home/rami/CPP_Projects/Snake/include/shader.h:
 
 /usr/local/include/glm/detail/type_mat2x4.inl:
-
-/usr/include/c++/13/type_traits:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/local/include/glm/detail/type_mat2x2.inl:
-
-/usr/include/c++/13/bits/localefwd.h:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/GLES3/gl3.h:
-
-/usr/include/GLES3/gl3platform.h:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
 /usr/local/include/glm/ext/matrix_double3x3_precision.hpp:
 
 /usr/include/alloca.h:
-
-/usr/include/wchar.h:
-
-/usr/local/include/glm/ext/vector_double2_precision.hpp:
-
-/usr/local/include/glm/detail/type_mat3x3.inl:
-
-/usr/include/c++/13/tuple:
-
-/usr/include/c++/13/cfloat:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
-/usr/include/c++/13/bits/basic_ios.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/13/iosfwd:
 
@@ -801,6 +778,26 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 
 /usr/include/c++/13/bits/ostream.tcc:
 
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/wchar.h:
+
+/usr/local/include/glm/ext/vector_double2_precision.hpp:
+
+/usr/local/include/glm/detail/type_mat3x3.inl:
+
+/usr/include/c++/13/tuple:
+
+/usr/include/c++/13/cfloat:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
 
 /usr/include/ctype.h:
@@ -852,8 +849,6 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 /usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/move.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -1058,3 +1053,5 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: /home/rami/CPP_Projects/Snake/src/shape.cp
 /usr/local/include/glm/detail/type_mat4x3.inl:
 
 /usr/local/include/glm/detail/type_vec1.inl:
+
+/usr/local/include/glm/detail/type_vec2.inl:

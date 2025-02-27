@@ -118,6 +118,11 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "-lglad",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "-lglfw3",
 				"role" : "libraries"
 			},

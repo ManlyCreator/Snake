@@ -12,7 +12,7 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_COMPILER g++)
 
 # Compile Executable
-add_executable(Snake main.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 set(CMAKE_CXX_FLAGS "-std=c++11")
 
 # Compile Libraries
@@ -37,4 +37,4 @@ include_directories(/usr/local/include/ include/)
 target_compile_definitions(${PROJECT_NAME} PUBLIC PROJECT="${PROJECT_NAME}")
 
 # Links Libraries
-target_link_libraries(${PROJECT_NAME} PRIVATE glfw3 GL m ${Dependencies})
+target_link_libraries(${PROJECT_NAME} PRIVATE glad glfw3 GL m ${Dependencies})
