@@ -315,7 +315,6 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
  /usr/local/include/KHR/khrplatform.h /usr/local/include/GLFW/glfw3.h \
  /home/rami/CPP_Projects/Snake/include/camera.h \
  /home/rami/CPP_Projects/Snake/include/shader.h \
- /home/rami/CPP_Projects/Snake/include/cube.h \
- /home/rami/CPP_Projects/Snake/include/shape.h \
  /home/rami/CPP_Projects/Snake/include/shader.h \
- /home/rami/CPP_Projects/Snake/include/torus.h
+ /home/rami/CPP_Projects/Snake/include/cube.h \
+ /home/rami/CPP_Projects/Snake/include/shape.h

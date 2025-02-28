@@ -67,7 +67,6 @@ all: CMakeFiles/Snake.dir/all
 all: CMakeFiles/Shader.dir/all
 all: CMakeFiles/Shape.dir/all
 all: CMakeFiles/Cube.dir/all
-all: CMakeFiles/Torus.dir/all
 all: CMakeFiles/Camera.dir/all
 .PHONY : all
 
@@ -80,7 +79,6 @@ clean: CMakeFiles/Snake.dir/clean
 clean: CMakeFiles/Shader.dir/clean
 clean: CMakeFiles/Shape.dir/clean
 clean: CMakeFiles/Cube.dir/clean
-clean: CMakeFiles/Torus.dir/clean
 clean: CMakeFiles/Camera.dir/clean
 .PHONY : clean
 
@@ -91,7 +89,6 @@ clean: CMakeFiles/Camera.dir/clean
 CMakeFiles/Snake.dir/all: CMakeFiles/Shader.dir/all
 CMakeFiles/Snake.dir/all: CMakeFiles/Shape.dir/all
 CMakeFiles/Snake.dir/all: CMakeFiles/Cube.dir/all
-CMakeFiles/Snake.dir/all: CMakeFiles/Torus.dir/all
 CMakeFiles/Snake.dir/all: CMakeFiles/Camera.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/build
@@ -100,7 +97,7 @@ CMakeFiles/Snake.dir/all: CMakeFiles/Camera.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Snake.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CPP_Projects/Snake/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CPP_Projects/Snake/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Snake.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CPP_Projects/Snake/build/CMakeFiles 0
 .PHONY : CMakeFiles/Snake.dir/rule
@@ -191,32 +188,6 @@ Cube: CMakeFiles/Cube.dir/rule
 CMakeFiles/Cube.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/clean
 .PHONY : CMakeFiles/Cube.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Torus.dir
-
-# All Build rule for target.
-CMakeFiles/Torus.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Torus.dir/build.make CMakeFiles/Torus.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Torus.dir/build.make CMakeFiles/Torus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles --progress-num=11,12 "Built target Torus"
-.PHONY : CMakeFiles/Torus.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Torus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CPP_Projects/Snake/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Torus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CPP_Projects/Snake/build/CMakeFiles 0
-.PHONY : CMakeFiles/Torus.dir/rule
-
-# Convenience name for target.
-Torus: CMakeFiles/Torus.dir/rule
-.PHONY : Torus
-
-# clean rule for target.
-CMakeFiles/Torus.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Torus.dir/build.make CMakeFiles/Torus.dir/clean
-.PHONY : CMakeFiles/Torus.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Camera.dir

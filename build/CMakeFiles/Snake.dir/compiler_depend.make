@@ -6,7 +6,6 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
   /home/rami/CPP_Projects/Snake/include/cube.h \
   /home/rami/CPP_Projects/Snake/include/shader.h \
   /home/rami/CPP_Projects/Snake/include/shape.h \
-  /home/rami/CPP_Projects/Snake/include/torus.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -560,6 +559,10 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /usr/include/c++/13/istream:
 
+/usr/include/limits.h:
+
+/usr/include/c++/13/initializer_list:
+
 /usr/local/include/glm/mat4x3.hpp:
 
 /usr/include/c++/13/functional:
@@ -611,10 +614,6 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/13/ostream:
-
-/usr/local/include/glm/detail/type_vec1.hpp:
-
-/usr/include/c++/13/cmath:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
@@ -696,26 +695,6 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /usr/include/c++/13/bits/invoke.h:
 
-/usr/include/wchar.h:
-
-/usr/local/include/glm/ext/vector_double2_precision.hpp:
-
-/usr/local/include/glm/detail/type_mat3x3.inl:
-
-/usr/include/c++/13/tuple:
-
-/usr/include/c++/13/cfloat:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
-/usr/include/c++/13/bits/basic_ios.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
 /usr/local/include/glm/detail/type_mat3x3.hpp:
 
 /usr/local/include/glm/ext/matrix_double2x4_precision.hpp:
@@ -766,21 +745,35 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/limits.h:
+/usr/include/c++/13/cmath:
 
-/usr/include/c++/13/initializer_list:
-
-/home/rami/CPP_Projects/Snake/include/torus.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/assert.h:
+/usr/local/include/glm/detail/type_vec1.hpp:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
 /usr/local/include/glm/ext/matrix_double3x3_precision.hpp:
 
 /usr/include/alloca.h:
+
+/usr/include/wchar.h:
+
+/usr/local/include/glm/ext/vector_double2_precision.hpp:
+
+/usr/local/include/glm/detail/type_mat3x3.inl:
+
+/usr/include/c++/13/tuple:
+
+/usr/include/c++/13/cfloat:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/local/include/glm/mat3x4.hpp:
 
@@ -817,6 +810,8 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /usr/include/c++/13/bits/hash_bytes.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/assert.h:
 
 /usr/include/c++/13/bits/ios_base.h:
 
@@ -866,12 +861,6 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/c++/13/bits/stl_algobase.h:
-
-/usr/include/c++/13/bits/stl_construct.h:
-
-/usr/include/c++/13/bits/move.h:
-
 /usr/local/include/glm/ext/scalar_constants.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
@@ -879,6 +868,12 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
+
+/usr/include/c++/13/bits/stl_algobase.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+/usr/include/c++/13/bits/move.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
@@ -973,6 +968,8 @@ CMakeFiles/Snake.dir/main.cpp.o: /home/rami/CPP_Projects/Snake/main.cpp \
 /usr/include/c++/13/ext/atomicity.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 

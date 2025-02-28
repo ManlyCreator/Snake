@@ -1,63 +1,81 @@
 #include "camera.h"
+#include <iostream>
+#include <glad/glad.h>
 #include <glm/geometric.hpp>
 #include <glm/trigonometric.hpp>
 #include <glm/ext/matrix_transform.hpp>
 
-void updateVectors(Camera *camera);
-
-Camera cameraInit(glm::vec3 position, float pitch, float yaw) {
-  Camera camera;
-
-  camera.position = position;
-  updateVectors(&camera);
-  camera.pitch = pitch;
-  camera.yaw = yaw;
-
-  return camera;
+Camera::Camera(glm::vec3 position) {
+  this->position = position;
+  updateVectors(); 
 }
 
-void cameraProcessKeyboard(Camera *camera, CameraDirection direction) {
+Camera::Camera(glm::vec3 position, float pitch, float yaw) {
+  this->position = position;
+
+  updateVectors(); 
+
+  this->pitch = pitch;
+  this->yaw = yaw;
+}
+
+void Camera::attachShader(Shader *shader) {
+  this->shader = shader;
+}
+
+void Camera::processKeyboard(CameraDirection direction) {
   glm::vec3 dir;
   if (direction == FORWARD) {
-    dir = camera->front * CAMERA_SPEED;
-    camera->position += dir;
+    dir = front * CAMERA_SPEED;
+    position += dir;
   }
   if (direction == BACKWARD) {
-    dir = camera->front * CAMERA_SPEED;
-    camera->position -= dir;
+    dir = front * CAMERA_SPEED;
+    position -= dir;
   }
   if (direction == RIGHT) {
-    dir = glm::normalize(glm::cross(camera->front, WORLD_UP)) * CAMERA_SPEED;
-    camera->position += dir;
+    dir = glm::normalize(glm::cross(front, WORLD_UP)) * CAMERA_SPEED;
+    position += dir;
   }
   if (direction == LEFT) {
-    dir = glm::normalize(glm::cross(camera->front, WORLD_UP)) * CAMERA_SPEED;
-    camera->position -= dir;
+    dir = glm::normalize(glm::cross(front, WORLD_UP)) * CAMERA_SPEED;
+    position -= dir;
   }
 }
 
-void cameraProcessMouse(Camera *camera, float deltaX, float deltaY) {
-  camera->pitch = glm::clamp(camera->pitch + (deltaY * CAMERA_SENSITIVITY), glm::radians(-89.9f), glm::radians(89.9f));
-  camera->yaw += deltaX * CAMERA_SENSITIVITY;
-  updateVectors(camera);
+void Camera::processMouse(float deltaX, float deltaY) {
+  pitch = glm::clamp(pitch + (deltaY * CAMERA_SENSITIVITY), glm::radians(-89.9f), glm::radians(89.9f));
+  yaw += deltaX * CAMERA_SENSITIVITY;
+  updateVectors();
 }
 
-void cameraUpdateView(Camera *camera) {
+void Camera::updateView() {
   glm::vec3 lookDir;
   glm::mat4 lookAt(1.0f);
 
-  camera->front.x = cos(camera->yaw) * cos(camera->pitch);
-  camera->front.y = sin(camera->pitch);
-  camera->front.z = sin(camera->yaw) * cos(camera->pitch);
+  front.x = cos(yaw) * cos(pitch);
+  front.y = sin(pitch);
+  front.z = sin(yaw) * cos(pitch);
 
-  lookDir = camera->position + camera->front;
-  camera->view = glm::lookAt(camera->position, lookDir, WORLD_UP);
+  lookDir = position + front;
+  this->lookAt(position, lookDir, WORLD_UP);
 }
 
-void updateVectors(Camera *camera) {
+void Camera::lookAt(glm::vec3 position, glm::vec3 lookPos, glm::vec3 up) {
+  view = glm::lookAt(position, lookPos, up);
+  shader->setMatrix4("view", view);
+}
+
+void Camera::free() {
+  if (shader) {
+    glDeleteProgram(shader->getID());
+  }
+}
+
+void Camera::updateVectors() {
   // Calculate Right Vector
-  camera->right = glm::normalize(glm::cross(camera->front, WORLD_UP));
+  right = glm::normalize(glm::cross(front, WORLD_UP));
 
   // Calculate Up Vector
-  camera->up = glm::normalize(glm::cross(camera->right, camera->front));
+  up = glm::normalize(glm::cross(right, front));
 }

@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libTorus.a"
+			"path" : "libShape.a"
 		}
 	],
 	"backtrace" : 2,
@@ -27,7 +27,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 30,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -39,7 +39,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 34,
+				"line" : 33,
 				"parent" : 0
 			}
 		]
@@ -67,9 +67,9 @@
 			]
 		}
 	],
-	"id" : "Torus::@6890427a1f51a3e7e1df",
-	"name" : "Torus",
-	"nameOnDisk" : "libTorus.a",
+	"id" : "Shape::@6890427a1f51a3e7e1df",
+	"name" : "Shape",
+	"nameOnDisk" : "libShape.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -90,7 +90,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "src/torus.cpp",
+			"path" : "src/shape.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

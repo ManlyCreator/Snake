@@ -4,13 +4,23 @@
 #include <glm/glm.hpp>
 #include <string>
 
-typedef unsigned Shader;
+class Shader {
+  private:
+    unsigned ID;
 
-int shaderConstruct(Shader *shader, const char *vsPath, const char *fsPath);
-void shaderUse(Shader shader);
-void shaderSetInt(Shader shader, const char *uniform, int value);
-void shaderSetFloat(Shader shader, const char *uniform, float value);
-void shaderSetVector3f(Shader shader, const char *uniform, glm::vec3 value);
-void shaderSetMatrix4(Shader shader, const char *uniform, glm::mat4 value);
+    std::string readFile(std::ifstream *file);
+    int shaderCompilationSuccess(unsigned shader);
+    int programLinkSuccess(unsigned program);
+
+  public:
+    Shader(const char *vsPath, const char *fsPath);
+
+    void use();
+    unsigned getID() { return ID; };
+    void setInt(const char *uniform, int value);
+    void setFloat(const char *uniform, float value);
+    void setVector3f(const char *uniform, glm::vec3 value);
+    void setMatrix4(const char *uniform, glm::mat4 value);
+};
 
 #endif

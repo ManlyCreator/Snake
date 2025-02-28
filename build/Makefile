@@ -169,19 +169,6 @@ Cube/fast:
 .PHONY : Cube/fast
 
 #=============================================================================
-# Target rules for targets named Torus
-
-# Build rule for target.
-Torus: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Torus
-.PHONY : Torus
-
-# fast build rule for target.
-Torus/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Torus.dir/build.make CMakeFiles/Torus.dir/build
-.PHONY : Torus/fast
-
-#=============================================================================
 # Target rules for targets named Camera
 
 # Build rule for target.
@@ -314,30 +301,6 @@ src/shape.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Shape.dir/build.make CMakeFiles/Shape.dir/src/shape.cpp.s
 .PHONY : src/shape.cpp.s
 
-src/torus.o: src/torus.cpp.o
-.PHONY : src/torus.o
-
-# target to build an object file
-src/torus.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Torus.dir/build.make CMakeFiles/Torus.dir/src/torus.cpp.o
-.PHONY : src/torus.cpp.o
-
-src/torus.i: src/torus.cpp.i
-.PHONY : src/torus.i
-
-# target to preprocess a source file
-src/torus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Torus.dir/build.make CMakeFiles/Torus.dir/src/torus.cpp.i
-.PHONY : src/torus.cpp.i
-
-src/torus.s: src/torus.cpp.s
-.PHONY : src/torus.s
-
-# target to generate assembly for a file
-src/torus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Torus.dir/build.make CMakeFiles/Torus.dir/src/torus.cpp.s
-.PHONY : src/torus.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -351,7 +314,6 @@ help:
 	@echo "... Shader"
 	@echo "... Shape"
 	@echo "... Snake"
-	@echo "... Torus"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -367,9 +329,6 @@ help:
 	@echo "... src/shape.o"
 	@echo "... src/shape.i"
 	@echo "... src/shape.s"
-	@echo "... src/torus.o"
-	@echo "... src/torus.i"
-	@echo "... src/torus.s"
 .PHONY : help
 
 

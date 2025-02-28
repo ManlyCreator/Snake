@@ -2,7 +2,6 @@
 /home/rami/CPP_Projects/Snake/build/CMakeFiles/Shader.dir
 /home/rami/CPP_Projects/Snake/build/CMakeFiles/Shape.dir
 /home/rami/CPP_Projects/Snake/build/CMakeFiles/Cube.dir
-/home/rami/CPP_Projects/Snake/build/CMakeFiles/Torus.dir
 /home/rami/CPP_Projects/Snake/build/CMakeFiles/Camera.dir
 /home/rami/CPP_Projects/Snake/build/CMakeFiles/edit_cache.dir
 /home/rami/CPP_Projects/Snake/build/CMakeFiles/rebuild_cache.dir

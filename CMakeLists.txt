@@ -27,7 +27,6 @@ endfunction()
 create_library(Shader src/shader.cpp Dependencies)
 create_library(Shape src/shape.cpp Dependencies)
 create_library(Cube src/cube.cpp Dependencies)
-create_library(Torus src/torus.cpp Dependencies)
 create_library(Camera src/camera.cpp Dependencies)
 
 # Include Directory

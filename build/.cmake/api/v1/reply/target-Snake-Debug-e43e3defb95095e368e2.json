@@ -33,19 +33,19 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 40,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 37,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 34,
+				"line" : 33,
 				"parent" : 0
 			}
 		]
@@ -93,10 +93,6 @@
 		{
 			"backtrace" : 2,
 			"id" : "Cube::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "Torus::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 2,
@@ -149,11 +145,6 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "libCube.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "libTorus.a",
 				"role" : "libraries"
 			},
 			{

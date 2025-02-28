@@ -95,7 +95,6 @@ Snake: CMakeFiles/Snake.dir/build.make
 Snake: libShader.a
 Snake: libShape.a
 Snake: libCube.a
-Snake: libTorus.a
 Snake: libCamera.a
 Snake: CMakeFiles/Snake.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rami/CPP_Projects/Snake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Snake"

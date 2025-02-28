@@ -1,1 +1,1 @@
-g++ -std=c++11 -g CMakeFiles/Snake.dir/main.cpp.o -o Snake  -lglad -lglfw3 -lGL -lm libShader.a libShape.a libCube.a libTorus.a libCamera.a 
+g++ -std=c++11 -g CMakeFiles/Snake.dir/main.cpp.o -o Snake  -lglad -lglfw3 -lGL -lm libShader.a libShape.a libCube.a libCamera.a 

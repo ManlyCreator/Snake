@@ -48,6 +48,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Shader.dir/DependInfo.cmake"
   "CMakeFiles/Shape.dir/DependInfo.cmake"
   "CMakeFiles/Cube.dir/DependInfo.cmake"
-  "CMakeFiles/Torus.dir/DependInfo.cmake"
   "CMakeFiles/Camera.dir/DependInfo.cmake"
   )

@@ -5,6 +5,8 @@ CMakeFiles/Shape.dir/src/shape.cpp.o
  /home/rami/CPP_Projects/Snake/src/shape.cpp
  /home/rami/CPP_Projects/Snake/include/shader.h
  /home/rami/CPP_Projects/Snake/include/shape.h
+ /usr/include/GLES3/gl3.h
+ /usr/include/GLES3/gl3platform.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

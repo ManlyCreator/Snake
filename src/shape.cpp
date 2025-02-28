@@ -1,10 +1,12 @@
 #include "shape.h"
 #include "shader.h"
+#include <GLES3/gl3.h>
 #include <glad/glad.h>
 #include <iostream>
 
-void Shape::setData(Shader *newShader) {
-  shader = newShader;
+void Shape::setData(Shader *shader) {
+  this->shader = shader;
+
   // VAO
   glGenVertexArrays(1, &VAO);
   glBindVertexArray(VAO);
@@ -42,11 +44,12 @@ void Shape::setData(Shader *newShader) {
 }
 
 void Shape::draw(glm::mat4 model) {
+  shader->use();
   glBindVertexArray(VAO);
 
   // Transform
-  shaderSetMatrix4(*shader, "model", model);
-  shaderSetVector3f(*shader, "objectColor", color);
+  shader->setMatrix4("model", model);
+  shader->setVector3f("objectColor", color);
 
   // Vertices
   glBindBuffer(GL_ARRAY_BUFFER, VBO[VERTICES]);
@@ -83,7 +86,7 @@ void Shape::free() {
   glDeleteBuffers(1, &EBO);
   glDeleteVertexArrays(1, &VAO);
   if (shader != nullptr)
-    glDeleteShader(*shader);
+    glDeleteProgram(shader->getID());
   if (vertices != nullptr)
     delete [] vertices;
   if (textureCoordinates != nullptr)

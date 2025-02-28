@@ -5,11 +5,7 @@
 #include <glad/glad.h>
 #include "shader.h"
 
-std::string readFile(std::ifstream *file);
-int shaderCompilationSuccess(unsigned shader);
-int programLinkSuccess(unsigned program);
-
-int shaderConstruct(Shader *shader, const char *vsPath, const char *fsPath) {
+Shader::Shader(const char *vsPath, const char *fsPath) {
   unsigned vertexShader, fragmentShader;
   std::string vsSource, fsSource;
   std::ifstream vsFile, fsFile; 
@@ -19,76 +15,70 @@ int shaderConstruct(Shader *shader, const char *vsPath, const char *fsPath) {
   fsFile.open(fsPath);
 
   // Vertex Shader Compilation
-  if (!vsFile.is_open()) {
+  if (vsFile.is_open()) {
+    vsSource = readFile(&vsFile);
+    vertexShader = glCreateShader(GL_VERTEX_SHADER);
+    glShaderSource(vertexShader, 1, (const char **)&vsSource, NULL);
+    glCompileShader(vertexShader);
+    if (!shaderCompilationSuccess(vertexShader))
+      std::cerr << "Failed to compile Vertex Shader\n";
+  } else
     std::perror("Could not open Vertex Shader\n");
-    return 0;
-  }
-  if (!fsFile.is_open()) {
-    std::perror("Could not open Fragment Shader\n");
-    return 0;
-  }
 
-  vsSource = readFile(&vsFile);
-  vertexShader = glCreateShader(GL_VERTEX_SHADER);
-  glShaderSource(vertexShader, 1, (const char **)&vsSource, NULL);
-  glCompileShader(vertexShader);
-  if (!shaderCompilationSuccess(vertexShader)) {
-    std::cerr << "Failed to compile Vertex Shader\n";
-    return 0;
-  }
 
   // Fragment Shader Compilation
-  fsSource = readFile(&fsFile);
-  fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-  glShaderSource(fragmentShader, 1, (const char **)&fsSource, NULL);
-  glCompileShader(fragmentShader);
-  if (!shaderCompilationSuccess(fragmentShader)) {
-    std::cerr << "Failed to compile Fragment Shader\n";
-    return 0;
-  }
+  if (fsFile.is_open()) {
+    fsSource = readFile(&fsFile);
+    fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
+    glShaderSource(fragmentShader, 1, (const char **)&fsSource, NULL);
+    glCompileShader(fragmentShader);
+    if (!shaderCompilationSuccess(fragmentShader))
+      std::cerr << "Failed to compile Fragment Shader\n";
+  } else 
+    std::perror("Could not open Fragment Shader\n");
 
   // Program Linking
-  *shader = glCreateProgram();
-  glAttachShader(*shader, vertexShader);
-  glAttachShader(*shader, fragmentShader);
-  glLinkProgram(*shader);
-  if (!programLinkSuccess(*shader))
-    return 0;
+  ID = glCreateProgram();
+  glAttachShader(ID, vertexShader);
+  glAttachShader(ID, fragmentShader);
+  glLinkProgram(ID);
+  if (!programLinkSuccess(ID))
+    std::cerr << "Failed to link shader program\n";
 
   // Free Memory
+  glDeleteShader(vertexShader);
+  glDeleteShader(fragmentShader);
   vsFile.close();
   fsFile.close();
-
-  return 1;
 }
 
-void shaderUse(Shader shader) {
-  glUseProgram(shader);
+void Shader::use() {
+  glUseProgram(ID);
 }
 
-void shaderSetFloat(Shader shader, const char *uniform, float value) {
-  glUniform1f(glGetUniformLocation(shader, uniform), value);
+void Shader::setFloat(const char *uniform, float value) {
+  glUniform1f(glGetUniformLocation(ID, uniform), value);
 }
 
-void shaderSetInt(Shader shader, const char *uniform, int value) {
-  glUniform1i(glGetUniformLocation(shader, uniform), value);
+void Shader::setInt(const char *uniform, int value) {
+  glUniform1i(glGetUniformLocation(ID, uniform), value);
 }
 
-void shaderSetVector3f(Shader shader, const char *uniform, glm::vec3 value) {
-  glUniform3f(glGetUniformLocation(shader, uniform), value.x, value.y, value.z);
+void Shader::setVector3f(const char *uniform, glm::vec3 value) {
+  glUniform3f(glGetUniformLocation(ID, uniform), value.x, value.y, value.z);
 }
 
-void shaderSetMatrix4(Shader shader, const char *uniform, glm::mat4 value) {
-  glUniformMatrix4fv(glGetUniformLocation(shader, uniform), 1, GL_FALSE, &value[0][0]);
+void Shader::setMatrix4(const char *uniform, glm::mat4 value) {
+  glUniformMatrix4fv(glGetUniformLocation(ID, uniform), 1, GL_FALSE, &value[0][0]);
 }
 
-std::string readFile(std::ifstream *file) {
+std::string Shader::readFile(std::ifstream *file) {
   std::stringstream stream;
   stream << file->rdbuf();
   return stream.str();
 }
 
-int shaderCompilationSuccess(unsigned shader) {
+int Shader::shaderCompilationSuccess(unsigned shader) {
   int success;
   char infoLog[512];
   glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
@@ -100,7 +90,7 @@ int shaderCompilationSuccess(unsigned shader) {
   return 1;
 }
 
-int programLinkSuccess(unsigned program) {
+int Shader::programLinkSuccess(unsigned program) {
   int success;
   char infoLog[512];
   glGetProgramiv(program, GL_LINK_STATUS, &success);

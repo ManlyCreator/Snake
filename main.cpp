@@ -12,38 +12,39 @@
 #include "camera.h"
 #include "shader.h"
 #include "cube.h"
-#include "torus.h"
 
 #define WIDTH 1000
 #define HEIGHT 1000
 #define SPEED 3.0f
+#define CUBE_SIZE 2.0f
+#define GRID_SIZE 5
+#define GRID_SPACING 0.5f
 
 void framebufferSizeCallback(GLFWwindow *window, int width, int height);
 void cursorPosCallback(GLFWwindow *window, double x, double y);
 void processInput(GLFWwindow *window);
 
-double currentTime;
-glm::mat4 projection(1.0f);
+int width, height;
 
 double lastX, lastY;
 double deltaX, deltaY;
-
-Camera camera;
-glm::vec3 snakeColor(0.282f, 0.827f, 1.0f);
-Cube head = Cube(snakeColor);
-int width, height;
+double currentTime;
 double timeFactor;
 
-// TODO: Init camera using only Camera functions
-// TODO: Update Camera to C++ paradigm
+glm::vec3 cameraPos(0.0f, 20.0f, 10.0f);
+glm::vec3 snakeColor(0.282f, 0.827f, 1.0f);
+glm::mat4 projection(1.0f);
+
+Camera camera(cameraPos);
+Cube head = Cube(snakeColor);
+Cube grid = Cube(glm::vec3(0.5f, 0.5f, 0.5f));
+
+// TODO: Add spacing between grid cells, possibly by multiplying i & j by GRID_SPACING
 // TODO: Change Snake direction with input
 
 int main(void) {
-  Shader objectShader;
   glm::mat4 view, model;
   GLFWwindow *window;
-  glm::vec3 lightPos = {5.0f, 10.0f, 0.0f};
-  glm::vec3 lightColor(1.0f, 1.0f, 1.0f);
 
   // GLFW
   glfwInit();
@@ -71,13 +72,11 @@ int main(void) {
   glViewport(0, 0, WIDTH, HEIGHT);
 
   // Shaders
-  if (!shaderConstruct(&objectShader, "../shaders/objectVertexShader.glsl", "../shaders/objectFragmentShader.glsl"))
-    return -1;
+  Shader objectShader("../shaders/objectVertexShader.glsl", "../shaders/objectFragmentShader.glsl");
+  camera.attachShader(&objectShader);
+  grid.setData(&objectShader);
   head.setData(&objectShader);
   
-  // Camera
-  camera = cameraInit(glm::vec3(0.0f, 20.0f, 5.0f), 0.0f, 0.0f);
-
   // Transformations
   projection = glm::perspective(glm::radians(45.0f), (float)WIDTH / HEIGHT, 0.1f, 200.0f);
 
@@ -104,18 +103,29 @@ int main(void) {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     // Object Shader
-    shaderUse(objectShader);
-    shaderSetMatrix4(objectShader, "projection", projection);
-    /*camera.view = glm::mat4(1.0f);*/
-    /*camera.view = glm::lookAt(glm::vec3(0.0f, 10.0f, 10.0f), glm::vec3(0.0f), glm::vec3(0.0f, 1.0f, 0.0f));*/
-    cameraUpdateView(&camera);
-    shaderSetMatrix4(objectShader, "view", camera.view);
-    shaderSetVector3f(objectShader, "lightColor", lightColor);
-    shaderSetVector3f(objectShader, "lightPos", lightPos);
+    objectShader.setMatrix4("projection", projection);
+    camera.lookAt(camera.getPosition(), glm::vec3(0.0f), WORLD_UP);
     
-    // Draw Objects
+    // Grid
+    for (int i = -GRID_SIZE / 2; i <= GRID_SIZE / 2; i++) {
+      float currentX = i * CUBE_SIZE;
+      for (int j = -GRID_SIZE / 2; j <= GRID_SIZE / 2; j++) {
+        std::cout << "i = " << i << "\n";
+        std::cout << "j = " << j << "\n";
+        float currentZ = j * CUBE_SIZE;
+        model = glm::mat4(1.0f);
+        model = glm::translate(model, glm::vec3(currentX, 0.0f, currentZ));
+        model = glm::scale(model, glm::vec3(1.0f, 0.5f, 1.0f));
+        grid.draw(model);
+        std::cout << "currentX = " << currentX << "\n";
+        std::cout << "currentZ = " << currentZ << "\n";
+      }
+    }
+
+    // Snake
     model = glm::mat4(1.0f);
-    model = glm::translate(model, glm::vec3(0.0f, 0.0f, -currentTime * SPEED));
+    /*model = glm::translate(model, glm::vec3(0.0f, 0.0f, -currentTime * SPEED));*/
+    model = glm::translate(model, glm::vec3(0.0f, CUBE_SIZE, 0.0f));
     head.draw(model);
 
     // Poll Events & Swap Buffers
@@ -124,6 +134,8 @@ int main(void) {
   }
 
   // Clean-Up
+  head.free();
+  camera.free();
   glfwTerminate();
 
   return 0;
@@ -139,7 +151,7 @@ void cursorPosCallback(GLFWwindow *window, double x, double y) {
   deltaX = x - lastX;
   deltaY = (y - lastY) * -1;
 
-  cameraProcessMouse(&camera, deltaX, deltaY);
+  camera.processMouse(deltaX, deltaY);
 
   lastX = x;
   lastY = y;
@@ -151,20 +163,12 @@ void processInput(GLFWwindow *window) {
     glfwSetWindowShouldClose(window, true);
 
   // Camera Controls
-  /*if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)*/
-  /*  cameraProcessKeyboard(&camera, FORWARD);*/
-  /*if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)*/
-  /*  cameraProcessKeyboard(&camera, BACKWARD);*/
-  /*if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)*/
-  /*  cameraProcessKeyboard(&camera, RIGHT);*/
-  /*if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)*/
-  /*  cameraProcessKeyboard(&camera, LEFT);*/
   if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-    cameraProcessKeyboard(&camera, FORWARD);
+    camera.processKeyboard(FORWARD);
   if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-    cameraProcessKeyboard(&camera, BACKWARD);
+    camera.processKeyboard(BACKWARD);
   if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-    cameraProcessKeyboard(&camera, RIGHT);
+    camera.processKeyboard(RIGHT);
   if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-    cameraProcessKeyboard(&camera, LEFT);
+    camera.processKeyboard(LEFT);
 }

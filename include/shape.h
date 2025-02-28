@@ -29,8 +29,9 @@ class Shape {
 
   public:
     glm::vec3 color;
+
     // Sets data that has to be loaded after the WebGL context is loaded
-    void setData(Shader *newShader);
+    void setData(Shader *shader);
     // Renders the shape
     void draw(glm::mat4 model);
     // Frees all OpenGL data

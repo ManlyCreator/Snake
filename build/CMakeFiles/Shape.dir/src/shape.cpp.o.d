@@ -270,11 +270,11 @@ CMakeFiles/Shape.dir/src/shape.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/rami/CPP_Projects/Snake/include/shader.h \
- /usr/local/include/glad/glad.h /usr/local/include/KHR/khrplatform.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
- /usr/include/c++/13/ios /usr/include/c++/13/exception \
- /usr/include/c++/13/bits/exception_ptr.h \
+ /home/rami/CPP_Projects/Snake/include/shader.h /usr/include/GLES3/gl3.h \
+ /usr/include/GLES3/gl3platform.h /usr/local/include/KHR/khrplatform.h \
+ /usr/local/include/glad/glad.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/ostream /usr/include/c++/13/ios \
+ /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
  /usr/include/c++/13/bits/nested_exception.h \
  /usr/include/c++/13/bits/ios_base.h /usr/include/c++/13/ext/atomicity.h \
